@@ -1,0 +1,627 @@
+{
+  "checks": [
+    {
+      "edition": "BSB",
+      "book": "MAT",
+      "check": "Official TXT versus XLSX (exact verse strings)",
+      "verses": 1071
+    },
+    {
+      "edition": "BSB",
+      "book": "MRK",
+      "check": "Official TXT versus XLSX (exact verse strings)",
+      "verses": 678
+    },
+    {
+      "edition": "BSB",
+      "book": "LUK",
+      "check": "Official TXT versus XLSX (exact verse strings)",
+      "verses": 1151
+    },
+    {
+      "edition": "BSB",
+      "book": "JHN",
+      "check": "Official TXT versus XLSX (exact verse strings)",
+      "verses": 879
+    },
+    {
+      "edition": "ASV",
+      "book": "MAT",
+      "check": "eBible USFM versus USFX (whitespace normalized)",
+      "verses": 1071
+    },
+    {
+      "edition": "ASV",
+      "book": "MRK",
+      "check": "eBible USFM versus USFX (whitespace normalized)",
+      "verses": 678
+    },
+    {
+      "edition": "ASV",
+      "book": "LUK",
+      "check": "eBible USFM versus USFX (whitespace normalized)",
+      "verses": 1151
+    },
+    {
+      "edition": "ASV",
+      "book": "JHN",
+      "check": "eBible USFM versus USFX (whitespace normalized)",
+      "verses": 879
+    },
+    {
+      "edition": "SBLGNT",
+      "book": "MAT",
+      "check": "Official TXT lexical sequence versus XML word nodes",
+      "verses": 1068
+    },
+    {
+      "edition": "SBLGNT",
+      "book": "MRK",
+      "check": "Official TXT lexical sequence versus XML word nodes",
+      "verses": 673
+    },
+    {
+      "edition": "SBLGNT",
+      "book": "LUK",
+      "check": "Official TXT lexical sequence versus XML word nodes",
+      "verses": 1149
+    },
+    {
+      "edition": "SBLGNT",
+      "book": "JHN",
+      "check": "Official TXT lexical sequence versus XML word nodes",
+      "verses": 878
+    }
+  ],
+  "discrepancies": [],
+  "rejectedBsbUsx": {
+    "reason": "Source export differs from official plain text, including extraneous vvv at Luke 9:33. Not used for displayed text or notes.",
+    "differences": [
+      {
+        "edition": "BSB",
+        "book": "MAT",
+        "ref": "1:23",
+        "txt": "“Behold, the virgin will be with child and will give birth to a son, and they will call Him Immanuel” (which means, “God with us”).",
+        "xml": "“Behold, the virgin will be with child and will give birth to a son, and they will call Him Immanuel” ( which means, “God with us”)."
+      },
+      {
+        "edition": "BSB",
+        "book": "MAT",
+        "ref": "4:15",
+        "txt": "“Land of Zebulun and land of Naphtali, the Way of the Sea, beyond the Jordan, Galilee of the Gentiles—",
+        "xml": "“Land of Zebulun and land of Naphtali, the Way of the Sea, beyond the Jordan, Galilee of the Gentiles —"
+      },
+      {
+        "edition": "BSB",
+        "book": "MAT",
+        "ref": "5:48",
+        "txt": "Be perfect, therefore, as your heavenly Father is perfect.",
+        "xml": "Be perfect, therefore, as your heavenly Father is perfect.[’’]"
+      },
+      {
+        "edition": "BSB",
+        "book": "MAT",
+        "ref": "6:34",
+        "txt": "Therefore do not worry about tomorrow, for tomorrow will worry about itself. Today has enough trouble of its own.",
+        "xml": "Therefore do not worry about tomorrow, for tomorrow will worry about itself. Today has enough trouble of its own.[’’]"
+      },
+      {
+        "edition": "BSB",
+        "book": "MAT",
+        "ref": "7:27",
+        "txt": "The rain fell, the torrents raged, and the winds blew and beat against that house, and it fell—and great was its collapse!”",
+        "xml": "The rain fell, the torrents raged, and the winds blew and beat against that house, and it fell— and great was its collapse!”"
+      },
+      {
+        "edition": "BSB",
+        "book": "MAT",
+        "ref": "13:8",
+        "txt": "Still other seed fell on good soil and produced a crop—a hundredfold, sixtyfold, or thirtyfold.",
+        "xml": "Still other seed fell on good soil and produced a crop — a hundredfold, sixtyfold, or thirtyfold."
+      },
+      {
+        "edition": "BSB",
+        "book": "MAT",
+        "ref": "13:23",
+        "txt": "But the seed sown on good soil is the one who hears the word and understands it. He indeed bears fruit and produces a crop—a hundredfold, sixtyfold, or thirtyfold.”",
+        "xml": "But the seed sown on good soil is the one who hears the word and understands it. He indeed bears fruit and produces a crop — a hundredfold, sixtyfold, or thirtyfold.”"
+      },
+      {
+        "edition": "BSB",
+        "book": "MAT",
+        "ref": "17:4",
+        "txt": "Peter said to Jesus, “Lord, it is good for us to be here. If You wish, I will put up three shelters—one for You, one for Moses, and one for Elijah.”",
+        "xml": "Peter said to Jesus, “Lord, it is good for us to be here. If You wish, I will put up three shelters— one for You, one for Moses, and one for Elijah.”"
+      },
+      {
+        "edition": "BSB",
+        "book": "MAT",
+        "ref": "19:30",
+        "txt": "But many who are first will be last, and the last will be first.",
+        "xml": "But many who are first will be last, and the last will be first.[’’]"
+      },
+      {
+        "edition": "BSB",
+        "book": "MAT",
+        "ref": "20:27",
+        "txt": "and whoever wants to be first among you must be your slave—",
+        "xml": "and whoever wants to be first among you must be your slave —"
+      },
+      {
+        "edition": "BSB",
+        "book": "MAT",
+        "ref": "24:51",
+        "txt": "Then he will cut him to pieces and assign him a place with the hypocrites, where there will be weeping and gnashing of teeth.",
+        "xml": "Then he will cut him to pieces and assign him a place with the hypocrites, where there will be weeping and gnashing of teeth.[’’]"
+      },
+      {
+        "edition": "BSB",
+        "book": "MAT",
+        "ref": "25:15",
+        "txt": "To one he gave five talents, to another two talents, and to another one talent—each according to his own ability. And he went on his journey.",
+        "xml": "To one he gave five talents, to another two talents, and to another one talent — each according to his own ability. And he went on his journey."
+      },
+      {
+        "edition": "BSB",
+        "book": "MRK",
+        "ref": "1:24",
+        "txt": "“What do You want with us, Jesus of Nazareth? Have You come to destroy us? I know who You are—the Holy One of God!”",
+        "xml": "“What do You want with us, Jesus of Nazareth? Have You come to destroy us? I know who You are — the Holy One of God!”"
+      },
+      {
+        "edition": "BSB",
+        "book": "MRK",
+        "ref": "2:15",
+        "txt": "While Jesus was dining at Levi’s house, many tax collectors and sinners were eating with Him and His disciples—for there were many who followed Him.",
+        "xml": "While Jesus was dining at Levi’s house, many tax collectors and sinners were eating with Him and His disciples — for there were many who followed Him."
+      },
+      {
+        "edition": "BSB",
+        "book": "MRK",
+        "ref": "3:17",
+        "txt": "James son of Zebedee and his brother John (whom He named Boanerges, meaning “Sons of Thunder”),",
+        "xml": "James son of Zebedee and his brother John ( whom He named Boanerges, meaning “Sons of Thunder”),"
+      },
+      {
+        "edition": "BSB",
+        "book": "MRK",
+        "ref": "4:8",
+        "txt": "Still other seed fell on good soil, where it sprouted, grew up, and produced a crop—one bearing thirtyfold, another sixtyfold, and another a hundredfold.”",
+        "xml": "Still other seed fell on good soil, where it sprouted, grew up, and produced a crop — one bearing thirtyfold, another sixtyfold, and another a hundredfold.”"
+      },
+      {
+        "edition": "BSB",
+        "book": "MRK",
+        "ref": "4:20",
+        "txt": "Still others are like the seeds sown on good soil. They hear the word, receive it, and produce a crop—thirtyfold, sixtyfold, or a hundredfold.”",
+        "xml": "Still others are like the seeds sown on good soil. They hear the word, receive it, and produce a crop — thirtyfold, sixtyfold, or a hundredfold.”"
+      },
+      {
+        "edition": "BSB",
+        "book": "MRK",
+        "ref": "4:28",
+        "txt": "All by itself the earth produces a crop—first the stalk, then the head, then grain that ripens within.",
+        "xml": "All by itself the earth produces a crop— first the stalk, then the head, then grain that ripens within."
+      },
+      {
+        "edition": "BSB",
+        "book": "MRK",
+        "ref": "6:8",
+        "txt": "He instructed them to take nothing but a staff for the journey—no bread, no bag, no money in their belts—",
+        "xml": "He instructed them to take nothing but a staff for the journey — no bread, no bag, no money in their belts —"
+      },
+      {
+        "edition": "BSB",
+        "book": "MRK",
+        "ref": "6:38",
+        "txt": "“Go and see how many loaves you have,” He told them. And after checking, they said, “Five—and two fish.”",
+        "xml": "“Go and see how many loaves you have,” He told them. And after checking, they said, “Five — and two fish.”"
+      },
+      {
+        "edition": "BSB",
+        "book": "MRK",
+        "ref": "6:49",
+        "txt": "but when they saw Him walking on the sea, they cried out, thinking He was a ghost—",
+        "xml": "but when they saw Him walking on the sea, they cried out, thinking He was a ghost —"
+      },
+      {
+        "edition": "BSB",
+        "book": "MRK",
+        "ref": "6:56",
+        "txt": "And wherever He went—villages and towns and countrysides—they laid the sick in the marketplaces and begged Him just to let them touch the fringe of His cloak. And all who touched Him were healed.",
+        "xml": "And wherever He went — villages and towns and countrysides — they laid the sick in the marketplaces and begged Him just to let them touch the fringe of His cloak. And all who touched Him were healed."
+      },
+      {
+        "edition": "BSB",
+        "book": "MRK",
+        "ref": "7:2",
+        "txt": "and they saw some of His disciples eating with hands that were defiled—that is, unwashed.",
+        "xml": "and they saw some of His disciples eating with hands that were defiled— that is, unwashed."
+      },
+      {
+        "edition": "BSB",
+        "book": "MRK",
+        "ref": "7:11",
+        "txt": "But you say that if a man says to his father or mother, ‘Whatever you would have received from me is Corban’ (that is, a gift devoted to God),",
+        "xml": "But you say that if a man says to his father or mother, ‘Whatever you would have received from me is Corban’ (that is, a gift devoted to God ),"
+      },
+      {
+        "edition": "BSB",
+        "book": "MRK",
+        "ref": "9:5",
+        "txt": "Peter said to Jesus, “Rabbi, it is good for us to be here. Let us put up three shelters—one for You, one for Moses, and one for Elijah.”",
+        "xml": "Peter said to Jesus, “Rabbi, it is good for us to be here. Let us put up three shelters— one for You, one for Moses, and one for Elijah.”"
+      },
+      {
+        "edition": "BSB",
+        "book": "MRK",
+        "ref": "10:30",
+        "txt": "will fail to receive a hundredfold in the present age—houses and brothers and sisters and mothers and children and fields, along with persecutions—and in the age to come, eternal life.",
+        "xml": "will fail to receive a hundredfold in the present age — houses and brothers and sisters and mothers and children and fields, along with persecutions — and in the age to come, eternal life."
+      },
+      {
+        "edition": "BSB",
+        "book": "MRK",
+        "ref": "11:30",
+        "txt": "John’s baptism—was it from heaven or from men? Answer Me!”",
+        "xml": "John’s baptism — was it from heaven or from men? Answer Me!”"
+      },
+      {
+        "edition": "BSB",
+        "book": "MRK",
+        "ref": "11:32",
+        "txt": "But if we say, ‘From men’...” they were afraid of the people, for they all held that John truly was a prophet.",
+        "xml": "But if we say, ‘From men’ ...” they were afraid of the people, for they all held that John truly was a prophet."
+      },
+      {
+        "edition": "BSB",
+        "book": "MRK",
+        "ref": "13:35",
+        "txt": "Therefore keep watch, because you do not know when the master of the house will return—whether in the evening, at midnight, when the rooster crows, or in the morning.",
+        "xml": "Therefore keep watch, because you do not know when the master of the house will return — whether in the evening, at midnight, when the rooster crows, or in the morning."
+      },
+      {
+        "edition": "BSB",
+        "book": "MRK",
+        "ref": "14:20",
+        "txt": "He answered, “It is one of the Twelve—the one who is dipping his hand into the bowl with Me.",
+        "xml": "He answered, “It is one of the Twelve — the one who is dipping his hand into the bowl with Me."
+      },
+      {
+        "edition": "BSB",
+        "book": "MRK",
+        "ref": "15:42",
+        "txt": "Now it was already evening. Since it was Preparation Day (that is, the day before the Sabbath),",
+        "xml": "Now it was already evening. Since it was Preparation Day (that is, the day before the Sabbath ),"
+      },
+      {
+        "edition": "BSB",
+        "book": "LUK",
+        "ref": "1:17",
+        "txt": "And he will go on before the Lord in the spirit and power of Elijah, to turn the hearts of the fathers to their children and the disobedient to the wisdom of the righteous—to make ready a people prepared for the Lord.”",
+        "xml": "And he will go on before the Lord in the spirit and power of Elijah, to turn the hearts of the fathers to their children and the disobedient to the wisdom of the righteous — to make ready a people prepared for the Lord.”"
+      },
+      {
+        "edition": "BSB",
+        "book": "LUK",
+        "ref": "2:35",
+        "txt": "so that the thoughts of many hearts will be revealed—and a sword will pierce your soul as well.”",
+        "xml": "so that the thoughts of many hearts will be revealed — and a sword will pierce your soul as well.”"
+      },
+      {
+        "edition": "BSB",
+        "book": "LUK",
+        "ref": "4:27",
+        "txt": "And there were many lepers in Israel in the time of Elisha the prophet. Yet not one of them was cleansed—only Naaman the Syrian.”",
+        "xml": "And there were many lepers in Israel in the time of Elisha the prophet. Yet not one of them was cleansed— only Naaman the Syrian.”"
+      },
+      {
+        "edition": "BSB",
+        "book": "LUK",
+        "ref": "4:34",
+        "txt": "“Ha! What do You want with us, Jesus of Nazareth? Have You come to destroy us? I know who You are—the Holy One of God!”",
+        "xml": "“Ha! What do You want with us, Jesus of Nazareth? Have You come to destroy us? I know who You are — the Holy One of God!”"
+      },
+      {
+        "edition": "BSB",
+        "book": "LUK",
+        "ref": "6:49",
+        "txt": "But the one who hears My words and does not act on them is like a man who built his house on ground without a foundation. The torrent crashed against that house, and immediately it fell—and great was its destruction!”",
+        "xml": "But the one who hears My words and does not act on them is like a man who built his house on ground without a foundation. The torrent crashed against that house, and immediately it fell — and great was its destruction!”"
+      },
+      {
+        "edition": "BSB",
+        "book": "LUK",
+        "ref": "7:39",
+        "txt": "When the Pharisee who had invited Jesus saw this, he said to himself, “If this man were a prophet, He would know who this is and what kind of woman is touching Him—for she is a sinner!”",
+        "xml": "When the Pharisee who had invited Jesus saw this, he said to himself, “If this man were a prophet, He would know who this is and what kind of woman is touching Him — for she is a sinner!”"
+      },
+      {
+        "edition": "BSB",
+        "book": "LUK",
+        "ref": "8:8",
+        "txt": "Still other seed fell on good soil, where it sprang up and produced a crop—a hundredfold.” As Jesus said this, He called out, “He who has ears to hear, let him hear.”",
+        "xml": "Still other seed fell on good soil, where it sprang up and produced a crop — a hundredfold.” As Jesus said this, He called out, “He who has ears to hear, let him hear.”"
+      },
+      {
+        "edition": "BSB",
+        "book": "LUK",
+        "ref": "9:33",
+        "txt": "As Moses and Elijah were leaving, Peter said to Jesus, “Master, it is good for us to be here. Let us put up three shelters—one for You, one for Moses, and one for Elijah.” (He did not know what he was saying.)",
+        "xml": "As Moses and Elijah were leaving, Peter said to Jesus, “Master, it is good for us to be here. Let us put up three shelters— one for You, one for Moses, and one for Elijah.” ( vvv He did not know what he was saying.)"
+      },
+      {
+        "edition": "BSB",
+        "book": "LUK",
+        "ref": "14:26",
+        "txt": "“If anyone comes to Me and does not hate his father and mother and wife and children and brothers and sisters—yes, even his own life—he cannot be My disciple.",
+        "xml": "“If anyone comes to Me and does not hate his father and mother and wife and children and brothers and sisters — yes, even his own life — he cannot be My disciple."
+      },
+      {
+        "edition": "BSB",
+        "book": "LUK",
+        "ref": "17:16",
+        "txt": "He fell facedown at Jesus’ feet in thanksgiving to Him—and he was a Samaritan.",
+        "xml": "He fell facedown at Jesus’ feet in thanksgiving to Him — and he was a Samaritan."
+      },
+      {
+        "edition": "BSB",
+        "book": "LUK",
+        "ref": "18:11",
+        "txt": "The Pharisee stood by himself and prayed, ‘God, I thank You that I am not like other men—swindlers, evildoers, adulterers—or even like this tax collector.",
+        "xml": "The Pharisee stood by himself and prayed, ‘God, I thank You that I am not like other men — swindlers, evildoers, adulterers — or even like this tax collector."
+      },
+      {
+        "edition": "BSB",
+        "book": "LUK",
+        "ref": "18:30",
+        "txt": "will fail to receive many times more in this age—and in the age to come, eternal life.”",
+        "xml": "will fail to receive many times more in this age — and in the age to come, eternal life.”"
+      },
+      {
+        "edition": "BSB",
+        "book": "LUK",
+        "ref": "19:26",
+        "txt": "He replied, ‘I tell you that everyone who has will be given more; but the one who does not have, even what he has will be taken away from him.",
+        "xml": "He replied, ‘ I tell you that everyone who has will be given more; but the one who does not have, even what he has will be taken away from him."
+      },
+      {
+        "edition": "BSB",
+        "book": "LUK",
+        "ref": "19:44",
+        "txt": "They will level you to the ground—you and the children within your walls. They will not leave one stone on another, because you did not recognize the time of your visitation from God.”",
+        "xml": "They will level you to the ground — you and the children within your walls. They will not leave one stone on another, because you did not recognize the time of your visitation from God.”"
+      },
+      {
+        "edition": "BSB",
+        "book": "LUK",
+        "ref": "20:4",
+        "txt": "John’s baptism—was it from heaven, or from men?”",
+        "xml": "John’s baptism — was it from heaven, or from men?”"
+      },
+      {
+        "edition": "BSB",
+        "book": "LUK",
+        "ref": "21:34",
+        "txt": "But watch yourselves, or your hearts will be weighed down by dissipation, drunkenness, and the worries of life—and that day will spring upon you suddenly like a snare.",
+        "xml": "But watch yourselves, or your hearts will be weighed down by dissipation, drunkenness, and the worries of life — and that day will spring upon you suddenly like a snare."
+      },
+      {
+        "edition": "BSB",
+        "book": "LUK",
+        "ref": "24:31",
+        "txt": "Then their eyes were opened and they recognized Jesus—and He disappeared from their sight.",
+        "xml": "Then their eyes were opened and they recognized Jesus — and He disappeared from their sight."
+      },
+      {
+        "edition": "BSB",
+        "book": "LUK",
+        "ref": "24:39",
+        "txt": "Look at My hands and My feet. It is I Myself. Touch Me and see—for a spirit does not have flesh and bones, as you see I have.”",
+        "xml": "Look at My hands and My feet. It is I Myself. Touch Me and see — for a spirit does not have flesh and bones, as you see I have.”"
+      },
+      {
+        "edition": "BSB",
+        "book": "JHN",
+        "ref": "1:12",
+        "txt": "But to all who did receive Him, to those who believed in His name, He gave the right to become children of God—",
+        "xml": "But to all who did receive Him, to those who believed in His name, He gave the right to become children of God —"
+      },
+      {
+        "edition": "BSB",
+        "book": "JHN",
+        "ref": "1:45",
+        "txt": "Philip found Nathanael and told him, “We have found the One Moses wrote about in the Law, the One the prophets foretold—Jesus of Nazareth, the son of Joseph.”",
+        "xml": "Philip found Nathanael and told him, “We have found the One Moses wrote about in the Law, the One the prophets foretold — Jesus of Nazareth, the son of Joseph.”"
+      },
+      {
+        "edition": "BSB",
+        "book": "JHN",
+        "ref": "3:13",
+        "txt": "No one has ascended into heaven except the One who descended from heaven—the Son of Man.",
+        "xml": "No one has ascended into heaven except the One who descended from heaven— the Son of Man."
+      },
+      {
+        "edition": "BSB",
+        "book": "JHN",
+        "ref": "3:26",
+        "txt": "So John’s disciples came to him and said, “Look, Rabbi, the One who was with you beyond the Jordan, the One you testified about—He is baptizing, and everyone is going to Him.”",
+        "xml": "So John’s disciples came to him and said, “Look, Rabbi, the One who was with you beyond the Jordan, the One you testified about — He is baptizing, and everyone is going to Him.”"
+      },
+      {
+        "edition": "BSB",
+        "book": "JHN",
+        "ref": "5:29",
+        "txt": "and come out—those who have done good to the resurrection of life, and those who have done evil to the resurrection of judgment.",
+        "xml": "and come out — those who have done good to the resurrection of life, and those who have done evil to the resurrection of judgment."
+      },
+      {
+        "edition": "BSB",
+        "book": "JHN",
+        "ref": "5:36",
+        "txt": "But I have testimony more substantial than that of John. For the works that the Father has given Me to accomplish—the very works I am doing—testify about Me that the Father has sent Me.",
+        "xml": "But I have testimony more substantial than that of John. For the works that the Father has given Me to accomplish — the very works I am doing — testify about Me that the Father has sent Me."
+      },
+      {
+        "edition": "BSB",
+        "book": "JHN",
+        "ref": "6:1",
+        "txt": "After this, Jesus crossed to the other side of the Sea of Galilee (that is, the Sea of Tiberias).",
+        "xml": "After this, Jesus crossed to the other side of the Sea of Galilee ( that is, the Sea of Tiberias )."
+      },
+      {
+        "edition": "BSB",
+        "book": "JHN",
+        "ref": "6:19",
+        "txt": "When they had rowed about three or four miles, they saw Jesus approaching the boat, walking on the sea—and they were terrified.",
+        "xml": "When they had rowed about three or four miles, they saw Jesus approaching the boat, walking on the sea — and they were terrified."
+      },
+      {
+        "edition": "BSB",
+        "book": "JHN",
+        "ref": "6:45",
+        "txt": "It is written in the Prophets: ‘And they will all be taught by God.’ Everyone who has heard the Father and learned from Him comes to Me—",
+        "xml": "It is written in the Prophets: ‘And they will all be taught by God.’ Everyone who has heard the Father and learned from Him comes to Me —"
+      },
+      {
+        "edition": "BSB",
+        "book": "JHN",
+        "ref": "7:10",
+        "txt": "But after His brothers had gone up to the feast, He also went—not publicly, but in secret.",
+        "xml": "But after His brothers had gone up to the feast, He also went — not publicly, but in secret."
+      },
+      {
+        "edition": "BSB",
+        "book": "JHN",
+        "ref": "7:49",
+        "txt": "But this crowd that does not know the law—they are under a curse.”",
+        "xml": "But this crowd that does not know the law— they are under a curse.”"
+      },
+      {
+        "edition": "BSB",
+        "book": "JHN",
+        "ref": "10:35",
+        "txt": "If he called them gods to whom the word of God came—and the Scripture cannot be broken—",
+        "xml": "If he called them gods to whom the word of God came — and the Scripture cannot be broken —"
+      },
+      {
+        "edition": "BSB",
+        "book": "JHN",
+        "ref": "13:32",
+        "txt": "If God is glorified in Him, God will also glorify the Son in Himself—and will glorify Him at once.",
+        "xml": "If God is glorified in Him, God will also glorify the Son in Himself — and will glorify Him at once."
+      },
+      {
+        "edition": "BSB",
+        "book": "JHN",
+        "ref": "13:38",
+        "txt": "“Will you lay down your life for Me?” Jesus replied. “Truly, truly, I tell you, before the rooster crows, you will deny Me three times.",
+        "xml": "“Will you lay down your life for Me?” Jesus replied. “Truly, truly, I tell you, before the rooster crows, you will deny Me three times.[’’]"
+      },
+      {
+        "edition": "BSB",
+        "book": "JHN",
+        "ref": "14:11",
+        "txt": "Believe Me that I am in the Father and the Father is in Me—or at least believe on account of the works themselves.",
+        "xml": "Believe Me that I am in the Father and the Father is in Me — or at least believe on account of the works themselves."
+      },
+      {
+        "edition": "BSB",
+        "book": "JHN",
+        "ref": "14:16",
+        "txt": "And I will ask the Father, and He will give you another Advocate to be with you forever—",
+        "xml": "And I will ask the Father, and He will give you another Advocate to be with you forever —"
+      },
+      {
+        "edition": "BSB",
+        "book": "JHN",
+        "ref": "14:31",
+        "txt": "But I do exactly what the Father has commanded Me, so that the world may know that I love the Father. Get up! Let us go on from here.",
+        "xml": "But I do exactly what the Father has commanded Me, so that the world may know that I love the Father. Get up! Let us go on from here.[’’]"
+      },
+      {
+        "edition": "BSB",
+        "book": "JHN",
+        "ref": "15:16",
+        "txt": "You did not choose Me, but I chose you. And I appointed you to go and bear fruit—fruit that will remain—so that whatever you ask the Father in My name, He will give you.",
+        "xml": "You did not choose Me, but I chose you. And I appointed you to go and bear fruit — fruit that will remain — so that whatever you ask the Father in My name, He will give you."
+      },
+      {
+        "edition": "BSB",
+        "book": "JHN",
+        "ref": "15:26",
+        "txt": "When the Advocate comes, whom I will send to you from the Father—the Spirit of truth who proceeds from the Father—He will testify about Me.",
+        "xml": "When the Advocate comes, whom I will send to you from the Father — the Spirit of truth who proceeds from the Father — He will testify about Me."
+      },
+      {
+        "edition": "BSB",
+        "book": "JHN",
+        "ref": "15:27",
+        "txt": "And you also must testify, because you have been with Me from the beginning.",
+        "xml": "And you also must testify, because you have been with Me from the beginning.[’’]"
+      },
+      {
+        "edition": "BSB",
+        "book": "JHN",
+        "ref": "17:22",
+        "txt": "I have given them the glory You gave Me, so that they may be one as We are one—",
+        "xml": "I have given them the glory You gave Me, so that they may be one as We are one —"
+      },
+      {
+        "edition": "BSB",
+        "book": "JHN",
+        "ref": "17:23",
+        "txt": "I in them and You in Me—that they may be perfectly united, so that the world may know that You sent Me and have loved them just as You have loved Me.",
+        "xml": "I in them and You in Me — that they may be perfectly united, so that the world may know that You sent Me and have loved them just as You have loved Me."
+      },
+      {
+        "edition": "BSB",
+        "book": "JHN",
+        "ref": "18:40",
+        "txt": "“Not this man,” they shouted, “but Barabbas!” (Now Barabbas was an insurrectionist.)",
+        "xml": "“Not this man,” they shouted, “but Barabbas!” ( Now Barabbas was an insurrectionist. )"
+      },
+      {
+        "edition": "BSB",
+        "book": "JHN",
+        "ref": "19:21",
+        "txt": "So the chief priests of the Jews said to Pilate, “Do not write, ‘The King of the Jews,’ but only that He said, ‘I am the King of the Jews.’”",
+        "xml": "So the chief priests of the Jews said to Pilate, “Do not write, ‘The King of the Jews,’ but only that He said, ‘I am the King of the Jews.’ ”"
+      },
+      {
+        "edition": "BSB",
+        "book": "JHN",
+        "ref": "20:16",
+        "txt": "Jesus said to her, “Mary.” She turned and said to Him in Hebrew, “Rabboni!” (which means “Teacher”).",
+        "xml": "Jesus said to her, “Mary.” She turned and said to Him in Hebrew, “Rabboni!” ( which means “Teacher” )."
+      },
+      {
+        "edition": "BSB",
+        "book": "JHN",
+        "ref": "21:7",
+        "txt": "Then the disciple whom Jesus loved said to Peter, “It is the Lord!” As soon as Simon Peter heard that it was the Lord, he put on his outer garment (for he had removed it) and jumped into the sea.",
+        "xml": "Then the disciple whom Jesus loved said to Peter, “It is the Lord!” As soon as Simon Peter heard that it was the Lord, he put on his outer garment (for he had removed it . . . ) and jumped into the sea."
+      }
+    ]
+  },
+  "counts": {
+    "BSB": {
+      "MAT": 1071,
+      "MRK": 678,
+      "LUK": 1151,
+      "JHN": 879
+    },
+    "ASV": {
+      "MAT": 1071,
+      "MRK": 678,
+      "LUK": 1151,
+      "JHN": 879
+    },
+    "SBLGNT": {
+      "MAT": 1068,
+      "MRK": 673,
+      "LUK": 1149,
+      "JHN": 878
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "datasetRevision": "2026-09-28.1",
+  "sourceCommit": "3b99aeff539f12efdc3f2aebf8b5d1795428000d",
+  "testCount": 25,
+  "testFailures": 0,
+  "typecheck": "passed",
+  "productionBuild": "passed",
+  "corpora": {
+    "BSB": {
+      "sha256": "c27898352c772bc4df5bd9587e3f1984bad0562f89823f3c1618b5ef9a437212",
+      "byteIdenticalToReviewedSource": true,
+      "byteIdenticalToPublishedBuild": true
+    },
+    "ASV": {
+      "sha256": "3d95ab15518877b340580797bddd33faf6b114612e280c5c002ff0fbc575fc55",
+      "byteIdenticalToReviewedSource": true,
+      "byteIdenticalToPublishedBuild": true
+    },
+    "SBLGNT": {
+      "sha256": "88b295adb08774ee6709d9c41d7606cd045b829a603ae4a55925ae7737197615",
+      "byteIdenticalToReviewedSource": true,
+      "byteIdenticalToPublishedBuild": true
+    }
+  },
+  "repositorySubpathHttpChecks": [
+    {
+      "path": "./favicon.svg",
+      "status": 200,
+      "bytes": 326
+    },
+    {
+      "path": "./assets/index-DJcsYItV.js",
+      "status": 200,
+      "bytes": 440259
+    },
+    {
+      "path": "./assets/index-BVbKanEE.css",
+      "status": 200,
+      "bytes": 97021
+    },
+    {
+      "path": "data/index.json",
+      "status": 200,
+      "bytes": 327427
+    },
+    {
+      "path": "data/BSB.json",
+      "status": 200,
+      "bytes": 453347
+    },
+    {
+      "path": "data/ASV.json",
+      "status": 200,
+      "bytes": 469141
+    },
+    {
+      "path": "data/SBLGNT.json",
+      "status": 200,
+      "bytes": 817213
+    },
+    {
+      "path": "data/greek-glosses.json",
+      "status": 200,
+      "bytes": 385550
+    },
+    {
+      "path": "data/statistics-BSB.json",
+      "status": 200,
+      "bytes": 29113
+    },
+    {
+      "path": "data/statistics-ASV.json",
+      "status": 200,
+      "bytes": 29159
+    },
+    {
+      "path": "data/statistics-SBLGNT.json",
+      "status": 200,
+      "bytes": 28904
+    }
+  ],
+  "scopeNote": "The shared UI was checked in a Chromium preview. The portable export passed TypeScript, production build, and HTTP asset/data checks under /gospel-atlas/. All 25 shared regression tests pass. Physical-device and assistive-technology checks remain outstanding.",
+  "lockfileInstall": "npm ci passed",
+  "releaseScan": "No private hosting identifiers, environment files, private keys, or recognizable access tokens were found.",
+  "analysisEdition": "SBLGNT",
+  "greekAnalysisVerification": {
+    "allSixPairsUseMatchingGreekDenominators": true,
+    "BSBAndASVReadingChoicesLeaveStatisticsUnchanged": true,
+    "wordingResultOpensGreekDifferencesWithNormalization": true,
+    "MatthewMarkAlignedPercentages": [
+      23.9,
+      38.9
+    ],
+    "MatthewMarkCoveragePercentages": [
+      73.9,
+      96.5
+    ],
+    "sharedUiBrowserChecks": "passed"
+  }
+}

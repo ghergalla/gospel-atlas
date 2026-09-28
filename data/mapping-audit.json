@@ -1,0 +1,4221 @@
+{
+  "sourceSha256": "eb5897a036391d1e349018718b034f736e0080b9ea9bdb7686fcf0be7241f0d1",
+  "method": "Compare each analytical-outline section with the union of its references in the separately arranged per-Gospel passage register. This is a mechanical source-reference audit, not an independent scholarly endorsement.",
+  "checked": 184,
+  "agree": 183,
+  "knownBoundaryVariations": 1,
+  "resolution": "Section 54: retain Matthew 5–7 in the book overview. The source register and detailed subsection 548 extend through Matthew 8:1; retain that explicit boundary in the detailed subsection and disclose the difference.",
+  "checks": [
+    {
+      "groupId": "r1",
+      "outline": "Luke 1:1-4.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "1",
+            "verse": "1-4",
+            "anchor": "#section1"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r2",
+      "outline": "John 1:1-18.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "1",
+            "verse": "1-18",
+            "anchor": "#section2"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r3",
+      "outline": "Matt. 1:1-17; Luke 3:23-38.",
+      "register": {
+        "MAT": [
+          {
+            "chapter": "1",
+            "verse": "1-17",
+            "anchor": "#section3"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "3",
+            "verse": "23-38",
+            "anchor": "#section3"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r4",
+      "outline": "Luke 1:5-25.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "1",
+            "verse": "5-25",
+            "anchor": "#section4"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r5",
+      "outline": "Luke 1:26-38.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "1",
+            "verse": "26-38",
+            "anchor": "#section5"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r6",
+      "outline": "Luke 1:39-45.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "1",
+            "verse": "39-45",
+            "anchor": "#section6"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r7",
+      "outline": "Luke 1:46-56.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "1",
+            "verse": "46-56",
+            "anchor": "#section7"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r8",
+      "outline": "Luke 1:57-80.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "1",
+            "verse": "57-80",
+            "anchor": "#section8"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r9",
+      "outline": "Matt. 1:18-25.",
+      "register": {
+        "MAT": [
+          {
+            "chapter": "1",
+            "verse": "18-25",
+            "anchor": "#section9"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r10",
+      "outline": "Luke 2:1-7.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "2",
+            "verse": "1-7",
+            "anchor": "#section10"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r11",
+      "outline": "Luke 2:8-20.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "2",
+            "verse": "8-20",
+            "anchor": "#section11"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r12",
+      "outline": "Luke 2:21.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "2",
+            "verse": "21",
+            "anchor": "#section12"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r13",
+      "outline": "Luke 2:22-38.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "2",
+            "verse": "22-38",
+            "anchor": "#section13"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r14",
+      "outline": "Matt. 2:1-12.",
+      "register": {
+        "MAT": [
+          {
+            "chapter": "2",
+            "verse": "1-12",
+            "anchor": "#section14"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r15",
+      "outline": "Matt. 2:13-18.",
+      "register": {
+        "MAT": [
+          {
+            "chapter": "2",
+            "verse": "13-18",
+            "anchor": "#section15"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r16",
+      "outline": "Matt. 2:19-23; Luke 2:39.",
+      "register": {
+        "MAT": [
+          {
+            "chapter": "2",
+            "verse": "19-23",
+            "anchor": "#section16"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "2",
+            "verse": "39",
+            "anchor": "#section16"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r17",
+      "outline": "Luke 2:40.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "2",
+            "verse": "40",
+            "anchor": "#section17"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r18",
+      "outline": "Luke 2:41-50.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "2",
+            "verse": "41-50",
+            "anchor": "#section18"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r19",
+      "outline": "Luke 2:51-52.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "2",
+            "verse": "51-52",
+            "anchor": "#section19"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r20",
+      "outline": "Mark 1:1; Luke 3:1-2.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "1",
+            "verse": "1",
+            "anchor": "#section20"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "3",
+            "verse": "1-2",
+            "anchor": "#section20"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r21",
+      "outline": "Mark 1:2-6; Matt. 3:1-6; Luke 3:3-6.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "1",
+            "verse": "2-6",
+            "anchor": "#section21"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "3",
+            "verse": "1-6",
+            "anchor": "#section21"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "3",
+            "verse": "3-6",
+            "anchor": "#section21"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r22",
+      "outline": "Matt. 3:7-10; Luke 3:7-14.",
+      "register": {
+        "MAT": [
+          {
+            "chapter": "3",
+            "verse": "7-10",
+            "anchor": "#section22"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "3",
+            "verse": "7-14",
+            "anchor": "#section22"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r23",
+      "outline": "Mark 1:7-8; Matt. 3:11-12; Luke 3:15-18.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "1",
+            "verse": "7-8",
+            "anchor": "#section23"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "3",
+            "verse": "11-12",
+            "anchor": "#section23"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "3",
+            "verse": "15-18",
+            "anchor": "#section23"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r24",
+      "outline": "Mark 1:9-11; Matt. 3:13-17; Luke 3:21-23.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "1",
+            "verse": "9-11",
+            "anchor": "#section24"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "3",
+            "verse": "13-17",
+            "anchor": "#section24"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "3",
+            "verse": "21-23",
+            "anchor": "#section24"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r25",
+      "outline": "Mark 1:12-13; Matt. 4:1-11; Luke 4:1-13.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "1",
+            "verse": "12-13",
+            "anchor": "#section25"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "4",
+            "verse": "1-11",
+            "anchor": "#section25"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "4",
+            "verse": "1-13",
+            "anchor": "#section25"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r26",
+      "outline": "John 1:19-28.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "1",
+            "verse": "19-28",
+            "anchor": "#section26"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r27",
+      "outline": "John 1:29-34.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "1",
+            "verse": "29-34",
+            "anchor": "#section27"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r28",
+      "outline": "John 1:35-51.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "1",
+            "verse": "35-51",
+            "anchor": "#section28"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r29",
+      "outline": "John 2:1-11.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "2",
+            "verse": "1-11",
+            "anchor": "#section29"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r30",
+      "outline": "John 2:12.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "2",
+            "verse": "12",
+            "anchor": "#section30"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r31",
+      "outline": "John 2:13-22.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "2",
+            "verse": "13-22",
+            "anchor": "#section31"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r32",
+      "outline": "John 2:23-3:21.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "2",
+            "verse": "23-3:21",
+            "anchor": "#section32"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r33",
+      "outline": "John 3:22-36.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "3",
+            "verse": "22-36",
+            "anchor": "#section33"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r34",
+      "outline": "Mark 1:14; Matt. 4:12; Luke 3:19-20; 4:14; John 4:1-4.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "1",
+            "verse": "14",
+            "anchor": "#section34"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "4",
+            "verse": "12",
+            "anchor": "#section34"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "3",
+            "verse": "19-20",
+            "anchor": "#section34"
+          },
+          {
+            "chapter": "4",
+            "verse": "14",
+            "anchor": "#section34"
+          }
+        ],
+        "JHN": [
+          {
+            "chapter": "4",
+            "verse": "1-4",
+            "anchor": "#section34"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r35",
+      "outline": "John 4:5-42.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "4",
+            "verse": "5-42",
+            "anchor": "#section35"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r36",
+      "outline": "John 4:43-45.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "4",
+            "verse": "43-45",
+            "anchor": "#section36"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r37",
+      "outline": "Mark 1:14-15; Matt. 4:17; Luke 4:14-15.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "1",
+            "verse": "14-15",
+            "anchor": "#section37"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "4",
+            "verse": "17",
+            "anchor": "#section37"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "4",
+            "verse": "14-15",
+            "anchor": "#section37"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r38",
+      "outline": "John 4:46-54.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "4",
+            "verse": "46-54",
+            "anchor": "#section38"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r39",
+      "outline": "Luke 4:16-31.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "4",
+            "verse": "16-31",
+            "anchor": "#section39"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r40",
+      "outline": "Matt. 4:13-16.",
+      "register": {
+        "MAT": [
+          {
+            "chapter": "4",
+            "verse": "13-16",
+            "anchor": "#section40"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r41",
+      "outline": "Mark 1:16-20; Matt. 4:18-22; Luke 5:1-11.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "1",
+            "verse": "16-20",
+            "anchor": "#section41"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "4",
+            "verse": "18-22",
+            "anchor": "#section41"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "5",
+            "verse": "1-11",
+            "anchor": "#section41"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r42",
+      "outline": "Mark 1:21-28; Luke 4:31-37.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "1",
+            "verse": "21-28",
+            "anchor": "#section42"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "4",
+            "verse": "31-37",
+            "anchor": "#section42"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r43",
+      "outline": "Mark 1:29-34; Matt. 8:14-17; Luke 4:38-41.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "1",
+            "verse": "29-34",
+            "anchor": "#section43"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "8",
+            "verse": "14-17",
+            "anchor": "#section43"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "4",
+            "verse": "38-41",
+            "anchor": "#section43"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r44",
+      "outline": "Mark 1:35-39; Matt. 4:23-25; Luke 4:42-44.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "1",
+            "verse": "35-39",
+            "anchor": "#section44"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "4",
+            "verse": "23-25",
+            "anchor": "#section44"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "4",
+            "verse": "42-44",
+            "anchor": "#section44"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r45",
+      "outline": "Mark 1:40-45; Matt. 8:2-4; Luke 5:12-16.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "1",
+            "verse": "40-45",
+            "anchor": "#section45"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "8",
+            "verse": "2-4",
+            "anchor": "#section45"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "5",
+            "verse": "12-16",
+            "anchor": "#section45"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r46",
+      "outline": "Mark 2:1-12; Matt. 9:1-8; Luke 5:17-26.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "2",
+            "verse": "1-12",
+            "anchor": "#section46"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "9",
+            "verse": "1-8",
+            "anchor": "#section46"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "5",
+            "verse": "17-26",
+            "anchor": "#section46"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r47",
+      "outline": "Mark 2:13-17; Matt. 9:9-13; Luke 5:27-32.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "2",
+            "verse": "13-17",
+            "anchor": "#section47"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "9",
+            "verse": "9-13",
+            "anchor": "#section47"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "5",
+            "verse": "27-32",
+            "anchor": "#section47"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r48",
+      "outline": "Mark 2:18-22; Matt. 9:14-17; Luke 5:33-39.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "2",
+            "verse": "18-22",
+            "anchor": "#section48"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "9",
+            "verse": "14-17",
+            "anchor": "#section48"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "5",
+            "verse": "33-39",
+            "anchor": "#section48"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r49",
+      "outline": "John 5:1-47.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "5",
+            "verse": "1-47",
+            "anchor": "#section49"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r50",
+      "outline": "Mark 2:23-28; Matt. 12:1-8; Luke 6:1-5.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "2",
+            "verse": "23-28",
+            "anchor": "#section50"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "12",
+            "verse": "1-8",
+            "anchor": "#section50"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "6",
+            "verse": "1-5",
+            "anchor": "#section50"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r51",
+      "outline": "Mark 3:1-6; Matt. 12:9-14; Luke 6:6-11.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "3",
+            "verse": "1-6",
+            "anchor": "#section51"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "12",
+            "verse": "9-14",
+            "anchor": "#section51"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "6",
+            "verse": "6-11",
+            "anchor": "#section51"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r52",
+      "outline": "Mark 3:7-12; Matt. 12:15-21.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "3",
+            "verse": "7-12",
+            "anchor": "#section52"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "12",
+            "verse": "15-21",
+            "anchor": "#section52"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r53",
+      "outline": "Mark 3:13-19; Luke 6:12-16.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "3",
+            "verse": "13-19",
+            "anchor": "#section53"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "6",
+            "verse": "12-16",
+            "anchor": "#section53"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r54",
+      "outline": "Matt. 5-7; Luke 6:17-49.",
+      "register": {
+        "MAT": [
+          {
+            "chapter": "5",
+            "verse": "1-2",
+            "anchor": "#section54"
+          },
+          {
+            "chapter": "5",
+            "verse": "3-12",
+            "anchor": "#section541"
+          },
+          {
+            "chapter": "5",
+            "verse": "13-20",
+            "anchor": "#section542"
+          },
+          {
+            "chapter": "5",
+            "verse": "21-48",
+            "anchor": "#section543"
+          },
+          {
+            "chapter": "6",
+            "verse": "1-18",
+            "anchor": "#section544"
+          },
+          {
+            "chapter": "6",
+            "verse": "19-34",
+            "anchor": "#section545"
+          },
+          {
+            "chapter": "7",
+            "verse": "1-6",
+            "anchor": "#section546"
+          },
+          {
+            "chapter": "7",
+            "verse": "7-12",
+            "anchor": "#section547"
+          },
+          {
+            "chapter": "7",
+            "verse": "13-8:1",
+            "anchor": "#section548"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "6",
+            "verse": "17-19",
+            "anchor": "#section54"
+          },
+          {
+            "chapter": "6",
+            "verse": "20-26",
+            "anchor": "#section541"
+          },
+          {
+            "chapter": "6",
+            "verse": "27-36",
+            "anchor": "#section543"
+          },
+          {
+            "chapter": "6",
+            "verse": "37-42",
+            "anchor": "#section546"
+          },
+          {
+            "chapter": "6",
+            "verse": "43-49",
+            "anchor": "#section548"
+          }
+        ]
+      },
+      "status": "boundary-variation",
+      "differences": {
+        "MAT": {
+          "outlineOnly": [],
+          "registerOnly": [
+            "8:1"
+          ]
+        }
+      }
+    },
+    {
+      "groupId": "r55",
+      "outline": "Matt. 8:5-13; Luke 7:1-10.",
+      "register": {
+        "MAT": [
+          {
+            "chapter": "8",
+            "verse": "5-13",
+            "anchor": "#section55"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "7",
+            "verse": "1-10",
+            "anchor": "#section55"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r56",
+      "outline": "Luke 7:11-17.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "7",
+            "verse": "11-17",
+            "anchor": "#section56"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r57",
+      "outline": "Matt. 11:2-19; Luke 7:18-35.",
+      "register": {
+        "MAT": [
+          {
+            "chapter": "11",
+            "verse": "2-19",
+            "anchor": "#section57"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "7",
+            "verse": "18-35",
+            "anchor": "#section57"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r58",
+      "outline": "Matt. 11:20-30.",
+      "register": {
+        "MAT": [
+          {
+            "chapter": "11",
+            "verse": "20-30",
+            "anchor": "#section58"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r59",
+      "outline": "Luke 7:36-50.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "7",
+            "verse": "36-50",
+            "anchor": "#section59"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r60",
+      "outline": "Luke 8:1-3.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "8",
+            "verse": "1-3",
+            "anchor": "#section60"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r61",
+      "outline": "Mark 3:19-30; Matt. 12:22-37.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "3",
+            "verse": "19-30",
+            "anchor": "#section61"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "12",
+            "verse": "22-37",
+            "anchor": "#section61"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r62",
+      "outline": "Matt. 12:38-45.",
+      "register": {
+        "MAT": [
+          {
+            "chapter": "12",
+            "verse": "38-45",
+            "anchor": "#section62"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r63",
+      "outline": "Mark 3:31-35; Matt. 12:46-50; Luke 8:19-21.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "3",
+            "verse": "31-35",
+            "anchor": "#section63"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "12",
+            "verse": "46-50",
+            "anchor": "#section63"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "8",
+            "verse": "19-21",
+            "anchor": "#section63"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r64",
+      "outline": "Mark 4:1-34; Matt. 13:1-53; Luke 8:4-18.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "4",
+            "verse": "1-2",
+            "anchor": "#section64"
+          },
+          {
+            "chapter": "4",
+            "verse": "3-25",
+            "anchor": "#section641a"
+          },
+          {
+            "chapter": "4",
+            "verse": "26-29",
+            "anchor": "#section641b"
+          },
+          {
+            "chapter": "4",
+            "verse": "30-32",
+            "anchor": "#section641d"
+          },
+          {
+            "chapter": "4",
+            "verse": "33-34",
+            "anchor": "#section641e"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "13",
+            "verse": "1-3",
+            "anchor": "#section64"
+          },
+          {
+            "chapter": "13",
+            "verse": "3-23",
+            "anchor": "#section641a"
+          },
+          {
+            "chapter": "13",
+            "verse": "24-30",
+            "anchor": "#section641c"
+          },
+          {
+            "chapter": "13",
+            "verse": "31-32",
+            "anchor": "#section641d"
+          },
+          {
+            "chapter": "13",
+            "verse": "33-35",
+            "anchor": "#section641e"
+          },
+          {
+            "chapter": "13",
+            "verse": "36-43",
+            "anchor": "#section642a"
+          },
+          {
+            "chapter": "13",
+            "verse": "44",
+            "anchor": "#section642b"
+          },
+          {
+            "chapter": "13",
+            "verse": "45-46",
+            "anchor": "#section642c"
+          },
+          {
+            "chapter": "13",
+            "verse": "47-50",
+            "anchor": "#section642d"
+          },
+          {
+            "chapter": "13",
+            "verse": "51-53",
+            "anchor": "#section642e"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "8",
+            "verse": "4",
+            "anchor": "#section64"
+          },
+          {
+            "chapter": "8",
+            "verse": "5-18",
+            "anchor": "#section641a"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r65",
+      "outline": "Mark 4:35-41; Matt. 8:18, 23-27; Luke 8:22-25.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "4",
+            "verse": "35-41",
+            "anchor": "#section65"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "8",
+            "verse": "18, 23-27",
+            "anchor": "#section65"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "8",
+            "verse": "22-25",
+            "anchor": "#section65"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r66",
+      "outline": "Mark 5:1-20; Matt. 8:28-34; Luke 8:26-39.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "5",
+            "verse": "1-20",
+            "anchor": "#section66"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "8",
+            "verse": "28-34",
+            "anchor": "#section66"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "8",
+            "verse": "26-39",
+            "anchor": "#section66"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r67",
+      "outline": "Mark 5:21-43; Matt. 9:18-26; Luke 8:40-56.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "5",
+            "verse": "21-43",
+            "anchor": "#section67"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "9",
+            "verse": "18-26",
+            "anchor": "#section67"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "8",
+            "verse": "40-56",
+            "anchor": "#section67"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r68",
+      "outline": "Matt. 9:27-34.",
+      "register": {
+        "MAT": [
+          {
+            "chapter": "9",
+            "verse": "27-34",
+            "anchor": "#section68"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r69",
+      "outline": "Mark 6:1-6; Matt. 13:54-58.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "6",
+            "verse": "1-6",
+            "anchor": "#section69"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "13",
+            "verse": "54-58",
+            "anchor": "#section69"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r70",
+      "outline": "Mark 6:6-13; Matt. 9:35-11:1; Luke 9:1-6.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "6",
+            "verse": "6-13",
+            "anchor": "#section70"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "9",
+            "verse": "35-11:1",
+            "anchor": "#section70"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "9",
+            "verse": "1-6",
+            "anchor": "#section70"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r71",
+      "outline": "Mark 6:14-29; Matt. 14:1-12; Luke 9:7-9.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "6",
+            "verse": "14-29",
+            "anchor": "#section71"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "14",
+            "verse": "1-12",
+            "anchor": "#section71"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "9",
+            "verse": "7-9",
+            "anchor": "#section71"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r72",
+      "outline": "Mark 6:30-44; Matt. 14:13-21; Luke 9:10-17; John 6:1-13.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "6",
+            "verse": "30-44",
+            "anchor": "#section72"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "14",
+            "verse": "13-21",
+            "anchor": "#section72"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "9",
+            "verse": "10-17",
+            "anchor": "#section72"
+          }
+        ],
+        "JHN": [
+          {
+            "chapter": "6",
+            "verse": "1-13",
+            "anchor": "#section72"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r73",
+      "outline": "Mark 6:45-46; Matt. 14:22-23; John 6:14-15.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "6",
+            "verse": "45-46",
+            "anchor": "#section73"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "14",
+            "verse": "22-23",
+            "anchor": "#section73"
+          }
+        ],
+        "JHN": [
+          {
+            "chapter": "6",
+            "verse": "14-15",
+            "anchor": "#section73"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r74",
+      "outline": "Mark 6:47-52; Matt. 14:24-33; John 6:16-21.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "6",
+            "verse": "47-52",
+            "anchor": "#section74"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "14",
+            "verse": "24-33",
+            "anchor": "#section74"
+          }
+        ],
+        "JHN": [
+          {
+            "chapter": "6",
+            "verse": "16-21",
+            "anchor": "#section74"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r75",
+      "outline": "Mark 6:53-56; Matt. 14:34-36.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "6",
+            "verse": "53-56",
+            "anchor": "#section75"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "14",
+            "verse": "34-36",
+            "anchor": "#section75"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r76",
+      "outline": "John 6:22-71.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "6",
+            "verse": "22-71",
+            "anchor": "#section76"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r77",
+      "outline": "Mark 7:1-23; Matt. 15:1-20; John 7:1.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "7",
+            "verse": "1-23",
+            "anchor": "#section77"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "15",
+            "verse": "1-20",
+            "anchor": "#section77"
+          }
+        ],
+        "JHN": [
+          {
+            "chapter": "7",
+            "verse": "1",
+            "anchor": "#section77"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r78",
+      "outline": "Mark 7:24-30; Matt. 15:21-28.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "7",
+            "verse": "24-30",
+            "anchor": "#section78"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "15",
+            "verse": "21-28",
+            "anchor": "#section78"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r79",
+      "outline": "Mark 7:31-8:9; Matt. 15:29-38.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "7",
+            "verse": "31-8:9",
+            "anchor": "#section79"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "15",
+            "verse": "29-38",
+            "anchor": "#section79"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r80",
+      "outline": "Mark 8:10-12; Matt. 15:39-16:4.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "8",
+            "verse": "10-12",
+            "anchor": "#section80"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "15",
+            "verse": "39-16:4",
+            "anchor": "#section80"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r81",
+      "outline": "Mark 8:13-26; Matt. 16:5-12.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "8",
+            "verse": "13-26",
+            "anchor": "#section81"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "16",
+            "verse": "5-12",
+            "anchor": "#section81"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r82",
+      "outline": "Mark 8:27-30; Matt. 16:13-20; Luke 9:18-21.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "8",
+            "verse": "27-30",
+            "anchor": "#section82"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "16",
+            "verse": "13-20",
+            "anchor": "#section82"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "9",
+            "verse": "18-21",
+            "anchor": "#section82"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r83",
+      "outline": "Mark 8:31-37; Matt. 16:21-26; Luke 9:22-25.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "8",
+            "verse": "31-37",
+            "anchor": "#section83"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "16",
+            "verse": "21-26",
+            "anchor": "#section83"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "9",
+            "verse": "22-25",
+            "anchor": "#section83"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r84",
+      "outline": "Mark 8:38-9:1; Matt. 16:27-28; Luke 9:26-27.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "8",
+            "verse": "38-9:1",
+            "anchor": "#section84"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "16",
+            "verse": "27-28",
+            "anchor": "#section84"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "9",
+            "verse": "26-27",
+            "anchor": "#section84"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r85",
+      "outline": "Mark 9:2-8; Matt. 17:1-8; Luke 9:28-36.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "9",
+            "verse": "2-8",
+            "anchor": "#section85"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "17",
+            "verse": "1-8",
+            "anchor": "#section85"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "9",
+            "verse": "28-36",
+            "anchor": "#section85"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r86",
+      "outline": "Mark 9:9-13; Matt. 17:9-13; Luke 9:36.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "9",
+            "verse": "9-13",
+            "anchor": "#section86"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "17",
+            "verse": "9-13",
+            "anchor": "#section86"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "9",
+            "verse": "36",
+            "anchor": "#section86"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r87",
+      "outline": "Mark 9:14-29; Matt. 17:14-20; Luke 9:37-43.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "9",
+            "verse": "14-29",
+            "anchor": "#section87"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "17",
+            "verse": "14-20",
+            "anchor": "#section87"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "9",
+            "verse": "37-43",
+            "anchor": "#section87"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r88",
+      "outline": "Mark 9:30-32; Matt. 17:22-23; Luke 9:43-45.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "9",
+            "verse": "30-32",
+            "anchor": "#section88"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "17",
+            "verse": "22-23",
+            "anchor": "#section88"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "9",
+            "verse": "43-45",
+            "anchor": "#section88"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r89",
+      "outline": "Matt. 17:24-27.",
+      "register": {
+        "MAT": [
+          {
+            "chapter": "17",
+            "verse": "24-27",
+            "anchor": "#section89"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r90",
+      "outline": "Mark 9:33-37; Matt. 18:1-5; Luke 9:46-48.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "9",
+            "verse": "33-37",
+            "anchor": "#section90"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "18",
+            "verse": "1-5",
+            "anchor": "#section90"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "9",
+            "verse": "46-48",
+            "anchor": "#section90"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r91",
+      "outline": "Mark 9:38-50; Matt. 18:6-14; Luke 9:49-50.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "9",
+            "verse": "38-50",
+            "anchor": "#section91"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "18",
+            "verse": "6-14",
+            "anchor": "#section91"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "9",
+            "verse": "49-50",
+            "anchor": "#section91"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r92",
+      "outline": "Matt. 18:15-35.",
+      "register": {
+        "MAT": [
+          {
+            "chapter": "18",
+            "verse": "15-35",
+            "anchor": "#section92"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r93",
+      "outline": "Matt. 8:19-22; Luke 9:57-62.",
+      "register": {
+        "MAT": [
+          {
+            "chapter": "8",
+            "verse": "19-22",
+            "anchor": "#section93"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "9",
+            "verse": "57-62",
+            "anchor": "#section93"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r94",
+      "outline": "John 7:2-9.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "7",
+            "verse": "2-9",
+            "anchor": "#section94"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r95",
+      "outline": "Luke 9:51-56; John 7:10.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "9",
+            "verse": "51-56",
+            "anchor": "#section95"
+          }
+        ],
+        "JHN": [
+          {
+            "chapter": "7",
+            "verse": "10",
+            "anchor": "#section95"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r96",
+      "outline": "John 7:11-52.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "7",
+            "verse": "11-52",
+            "anchor": "#section96"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r97",
+      "outline": "John 7:53-8:11.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "7",
+            "verse": "53-8:11",
+            "anchor": "#section97"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r98",
+      "outline": "John 8:12-20.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "8",
+            "verse": "12-20",
+            "anchor": "#section98"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r99",
+      "outline": "John 8:21-59.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "8",
+            "verse": "21-59",
+            "anchor": "#section99"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r100",
+      "outline": "John 9:1-41.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "9",
+            "verse": "1-41",
+            "anchor": "#section100"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r101",
+      "outline": "John 10:1-21.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "10",
+            "verse": "1-21",
+            "anchor": "#section101"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r102",
+      "outline": "Luke 10:1-24.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "10",
+            "verse": "1-24",
+            "anchor": "#section102"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r103",
+      "outline": "Luke 10:25-37.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "10",
+            "verse": "25-37",
+            "anchor": "#section103"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r104",
+      "outline": "Luke 10:38-42.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "10",
+            "verse": "38-42",
+            "anchor": "#section104"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r105",
+      "outline": "Luke 11:1-13.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "11",
+            "verse": "1-13",
+            "anchor": "#section105"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r106",
+      "outline": "Luke 11:14-36.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "11",
+            "verse": "14-36",
+            "anchor": "#section106"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r107",
+      "outline": "Luke 11:37-54.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "11",
+            "verse": "37-54",
+            "anchor": "#section107"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r108",
+      "outline": "Luke 12.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "12",
+            "verse": "1-59",
+            "anchor": "#section108"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r109",
+      "outline": "Luke 13:1-9.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "13",
+            "verse": "1-9",
+            "anchor": "#section109"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r110",
+      "outline": "Luke 13:10-21.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "13",
+            "verse": "10-21",
+            "anchor": "#section110"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r111",
+      "outline": "John 10:22-39.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "10",
+            "verse": "22-39",
+            "anchor": "#section111"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r112",
+      "outline": "John 10:40-42.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "10",
+            "verse": "40-42",
+            "anchor": "#section112"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r113",
+      "outline": "Luke 13:22-35.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "13",
+            "verse": "22-35",
+            "anchor": "#section113"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r114",
+      "outline": "Luke 14:1-24.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "14",
+            "verse": "1-24",
+            "anchor": "#section114"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r115",
+      "outline": "Luke 14:25-35.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "14",
+            "verse": "25-35",
+            "anchor": "#section115"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r116",
+      "outline": "Luke 15:1-32.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "15",
+            "verse": "1-32",
+            "anchor": "#section116"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r117",
+      "outline": "Luke 16:1-17:10.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "16",
+            "verse": "1-17:10",
+            "anchor": "#section117"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r118",
+      "outline": "John 11:1-44.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "11",
+            "verse": "1-44",
+            "anchor": "#section118"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r119",
+      "outline": "John 11:45-54.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "11",
+            "verse": "45-54",
+            "anchor": "#section119"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r120",
+      "outline": "Luke 17:11-37.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "17",
+            "verse": "11-37",
+            "anchor": "#section120"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r121",
+      "outline": "Luke 18:1-14.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "18",
+            "verse": "1-14",
+            "anchor": "#section121"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r122",
+      "outline": "Mark 10:1-12; Matt. 19:1-12.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "10",
+            "verse": "1-12",
+            "anchor": "#section122"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "19",
+            "verse": "1-12",
+            "anchor": "#section122"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r123",
+      "outline": "Mark 10:13-16; Matt. 19:13-15; Luke 18:15-17.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "10",
+            "verse": "13-16",
+            "anchor": "#section123"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "19",
+            "verse": "13-15",
+            "anchor": "#section123"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "18",
+            "verse": "15-17",
+            "anchor": "#section123"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r124",
+      "outline": "Mark 10:17-31; Matt. 19:16-20:16; Luke 18:18-30.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "10",
+            "verse": "17-31",
+            "anchor": "#section124"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "19",
+            "verse": "16-20:16",
+            "anchor": "#section124"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "18",
+            "verse": "18-30",
+            "anchor": "#section124"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r125",
+      "outline": "Mark 10:32-45; Matt. 20:17-28; Luke 18:31-34.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "10",
+            "verse": "32-45",
+            "anchor": "#section125"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "20",
+            "verse": "17-28",
+            "anchor": "#section125"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "18",
+            "verse": "31-34",
+            "anchor": "#section125"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r126",
+      "outline": "Mark 10:46-52; Matt. 20:29-34; Luke 18:35-43.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "10",
+            "verse": "46-52",
+            "anchor": "#section126"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "20",
+            "verse": "29-34",
+            "anchor": "#section126"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "18",
+            "verse": "35-43",
+            "anchor": "#section126"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r127",
+      "outline": "Luke 19:1-28.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "19",
+            "verse": "1-28",
+            "anchor": "#section127"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r128a",
+      "outline": "John 11:55-12:1, 9-11.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "11",
+            "verse": "55-12:1, 9-11",
+            "anchor": "#section128a"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r128b",
+      "outline": "Mark 11:1-11; Matt. 21:1-11, 14-17; Luke 19:29-44; John 12:12-19.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "11",
+            "verse": "1-11",
+            "anchor": "#section128b"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "21",
+            "verse": "1-11, 14-17",
+            "anchor": "#section128b"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "19",
+            "verse": "29-44",
+            "anchor": "#section128b"
+          }
+        ],
+        "JHN": [
+          {
+            "chapter": "12",
+            "verse": "12-19",
+            "anchor": "#section128b"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r129",
+      "outline": "Mark 11:12-18; Matt. 21:18-19, 12-13; Luke 19:45-48.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "11",
+            "verse": "12-18",
+            "anchor": "#section129"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "21",
+            "verse": "18-19, 12-13",
+            "anchor": "#section129"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "19",
+            "verse": "45-48",
+            "anchor": "#section129"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r130",
+      "outline": "John 12:20-50.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "12",
+            "verse": "20-50",
+            "anchor": "#section130"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r131",
+      "outline": "Mark 11:19-25; Matt. 21:19-22; Luke 21:37-38.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "11",
+            "verse": "19-25",
+            "anchor": "#section131"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "21",
+            "verse": "19-22",
+            "anchor": "#section131"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "21",
+            "verse": "37-38",
+            "anchor": "#section131"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r132",
+      "outline": "Mark 11:27-12:12; Matt. 21:23-22:14; Luke 20:1-19.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "11",
+            "verse": "27-12:12",
+            "anchor": "#section132"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "21",
+            "verse": "23-22:14",
+            "anchor": "#section132"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "20",
+            "verse": "1-19",
+            "anchor": "#section132"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r133",
+      "outline": "Mark 12:13-17; Matt. 22:15-22; Luke 20:20-26.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "12",
+            "verse": "13-17",
+            "anchor": "#section133"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "22",
+            "verse": "15-22",
+            "anchor": "#section133"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "20",
+            "verse": "20-26",
+            "anchor": "#section133"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r134",
+      "outline": "Mark 12:18-27; Matt. 22:23-33; Luke 20:27-40.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "12",
+            "verse": "18-27",
+            "anchor": "#section134"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "22",
+            "verse": "23-33",
+            "anchor": "#section134"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "20",
+            "verse": "27-40",
+            "anchor": "#section134"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r135",
+      "outline": "Mark 12:28-34; Matt. 22:34-40.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "12",
+            "verse": "28-34",
+            "anchor": "#section135"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "22",
+            "verse": "34-40",
+            "anchor": "#section135"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r136",
+      "outline": "Mark 12:35-37; Matt. 22:41-46; Luke 20:41-44.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "12",
+            "verse": "35-37",
+            "anchor": "#section136"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "22",
+            "verse": "41-46",
+            "anchor": "#section136"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "20",
+            "verse": "41-44",
+            "anchor": "#section136"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r137",
+      "outline": "Mark 12:38-40; Matt. 23:1-39; Luke 20:45-47.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "12",
+            "verse": "38-40",
+            "anchor": "#section137"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "23",
+            "verse": "1-39",
+            "anchor": "#section137"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "20",
+            "verse": "45-47",
+            "anchor": "#section137"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r138",
+      "outline": "Mark 12:41-44; Luke 21:1-4.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "12",
+            "verse": "41-44",
+            "anchor": "#section138"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "21",
+            "verse": "1-4",
+            "anchor": "#section138"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r139",
+      "outline": "Mark 13:1-37; Matt. 24, 25; Luke 21:5-36.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "13",
+            "verse": "1-37",
+            "anchor": "#section139"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "24, 25",
+            "verse": "...",
+            "anchor": "#section139"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "21",
+            "verse": "5-36",
+            "anchor": "#section139"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r140",
+      "outline": "Mark 14:1-2; Matt. 26:1-5; Luke 22:1-2.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "14",
+            "verse": "1-2",
+            "anchor": "#section140"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "26",
+            "verse": "1-5",
+            "anchor": "#section140"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "22",
+            "verse": "1-2",
+            "anchor": "#section140"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r141",
+      "outline": "Mark 14:3-9; Matt. 26:6-13; John 12:2-8.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "14",
+            "verse": "3-9",
+            "anchor": "#section141"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "26",
+            "verse": "6-13",
+            "anchor": "#section141"
+          }
+        ],
+        "JHN": [
+          {
+            "chapter": "12",
+            "verse": "2-8",
+            "anchor": "#section141"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r142",
+      "outline": "Mark 14:10-11; Matt. 26:14-16; Luke 22:3-6.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "14",
+            "verse": "10-11",
+            "anchor": "#section142"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "26",
+            "verse": "14-16",
+            "anchor": "#section142"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "22",
+            "verse": "3-6",
+            "anchor": "#section142"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r143",
+      "outline": "Mark 14:12-16; Matt. 26:17-19; Luke 22:7-13.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "14",
+            "verse": "12-16",
+            "anchor": "#section143"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "26",
+            "verse": "17-19",
+            "anchor": "#section143"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "22",
+            "verse": "7-13",
+            "anchor": "#section143"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r144",
+      "outline": "Mark 14:17; Matt. 26:20; Luke 22:14-16, 24-30.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "14",
+            "verse": "17",
+            "anchor": "#section144"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "26",
+            "verse": "20",
+            "anchor": "#section144"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "22",
+            "verse": "14-16, 24-30",
+            "anchor": "#section144"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r145",
+      "outline": "John 13:1-20.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "13",
+            "verse": "1-20",
+            "anchor": "#section145"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r146",
+      "outline": "Mark 14:18-21; Matt. 26:21-25; Luke 22:21-23; John 13:21-30.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "14",
+            "verse": "18-21",
+            "anchor": "#section146"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "26",
+            "verse": "21-25",
+            "anchor": "#section146"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "22",
+            "verse": "21-23",
+            "anchor": "#section146"
+          }
+        ],
+        "JHN": [
+          {
+            "chapter": "13",
+            "verse": "21-30",
+            "anchor": "#section146"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r147",
+      "outline": "Mark 14:27-31; Matt. 26:31-35; Luke 22:31-38; John 13:31-38.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "14",
+            "verse": "27-31",
+            "anchor": "#section147"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "26",
+            "verse": "31-35",
+            "anchor": "#section147"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "22",
+            "verse": "31-38",
+            "anchor": "#section147"
+          }
+        ],
+        "JHN": [
+          {
+            "chapter": "13",
+            "verse": "31-38",
+            "anchor": "#section147"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r148",
+      "outline": "Mark 14:22-25; Matt. 26:26-29; Luke 22:17-20; 1 Cor. 11:23-26.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "14",
+            "verse": "22-25",
+            "anchor": "#section148"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "26",
+            "verse": "26-29",
+            "anchor": "#section148"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "22",
+            "verse": "17-20",
+            "anchor": "#section148"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r149",
+      "outline": "John 14.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "14",
+            "verse": "...",
+            "anchor": "#section149"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r150",
+      "outline": "John 15, 16.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "15, 16",
+            "verse": "...",
+            "anchor": "#section150"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r151",
+      "outline": "John 17.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "17",
+            "verse": "...",
+            "anchor": "#section151"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r152",
+      "outline": "Mark 14:26, 32-42; Matt. 26:30, 36-46; Luke 22:39-46; John 18:1.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "14",
+            "verse": "26, 32-42",
+            "anchor": "#section152"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "26",
+            "verse": "30, 36-46",
+            "anchor": "#section152"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "22",
+            "verse": "39-46",
+            "anchor": "#section152"
+          }
+        ],
+        "JHN": [
+          {
+            "chapter": "18",
+            "verse": "1",
+            "anchor": "#section152"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r153",
+      "outline": "Mark 14:43-52; Matt. 26:47-56; Luke 22:47-53; John 18:2-12.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "14",
+            "verse": "43-52",
+            "anchor": "#section153"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "26",
+            "verse": "47-56",
+            "anchor": "#section153"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "22",
+            "verse": "47-53",
+            "anchor": "#section153"
+          }
+        ],
+        "JHN": [
+          {
+            "chapter": "18",
+            "verse": "2-12",
+            "anchor": "#section153"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r154",
+      "outline": "John 18:12-14, 19-23.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "18",
+            "verse": "12-14, 19-23",
+            "anchor": "#section154"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r155",
+      "outline": "Mark 14:53, 55-65; Matt. 26:57, 59-68; Luke 22:54, 63-65; John 18:24.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "14",
+            "verse": "53, 55-65",
+            "anchor": "#section155"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "26",
+            "verse": "57, 59-68",
+            "anchor": "#section155"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "22",
+            "verse": "54, 63-65",
+            "anchor": "#section155"
+          }
+        ],
+        "JHN": [
+          {
+            "chapter": "18",
+            "verse": "24",
+            "anchor": "#section155"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r156",
+      "outline": "Mark 14:54, 66-72; Matt. 26:58, 69-75; Luke 22:54-62; John 18:15-18, 25-27.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "14",
+            "verse": "54, 66-72",
+            "anchor": "#section156"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "26",
+            "verse": "58, 69-75",
+            "anchor": "#section156"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "22",
+            "verse": "54-62",
+            "anchor": "#section156"
+          }
+        ],
+        "JHN": [
+          {
+            "chapter": "18",
+            "verse": "15-18, 25-27",
+            "anchor": "#section156"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r157",
+      "outline": "Mark 15:1; Matt. 27:1; Luke 22:66-71.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "15",
+            "verse": "1",
+            "anchor": "#section157"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "27",
+            "verse": "1",
+            "anchor": "#section157"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "22",
+            "verse": "66-71",
+            "anchor": "#section157"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r158",
+      "outline": "Matt. 27:3-10; Acts 1:18-19.",
+      "register": {
+        "MAT": [
+          {
+            "chapter": "27",
+            "verse": "3-10",
+            "anchor": "#section158"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r159",
+      "outline": "Mark 15:1-5; Matt. 27:2, 11-14; Luke 23:1-5; John 18:28-38.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "15",
+            "verse": "1-5",
+            "anchor": "#section159"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "27",
+            "verse": "2, 11-14",
+            "anchor": "#section159"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "23",
+            "verse": "1-5",
+            "anchor": "#section159"
+          }
+        ],
+        "JHN": [
+          {
+            "chapter": "18",
+            "verse": "28-38",
+            "anchor": "#section159"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r160",
+      "outline": "Luke 23:6-12.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "23",
+            "verse": "6-12",
+            "anchor": "#section160"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r161",
+      "outline": "Mark 15:6-15; Matt. 27:15-26; Luke 23:13-25; John 18:39-19:16.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "15",
+            "verse": "6-15",
+            "anchor": "#section161"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "27",
+            "verse": "15-26",
+            "anchor": "#section161"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "23",
+            "verse": "13-25",
+            "anchor": "#section161"
+          }
+        ],
+        "JHN": [
+          {
+            "chapter": "18",
+            "verse": "39-19:16",
+            "anchor": "#section161"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r162",
+      "outline": "Mark 15:16-19; Matt. 27:27-30.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "15",
+            "verse": "16-19",
+            "anchor": "#section162"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "27",
+            "verse": "27-30",
+            "anchor": "#section162"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r163",
+      "outline": "Mark 15:20-23; Matt. 27:31-34; Luke 23:26-33; John 19:16-17.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "15",
+            "verse": "20-23",
+            "anchor": "#section163"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "27",
+            "verse": "31-34",
+            "anchor": "#section163"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "23",
+            "verse": "26-33",
+            "anchor": "#section163"
+          }
+        ],
+        "JHN": [
+          {
+            "chapter": "19",
+            "verse": "16-17",
+            "anchor": "#section163"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r164",
+      "outline": "Mark 15:24-32; Matt. 27:35-44; Luke 23:33-43; John 19:18-27.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "15",
+            "verse": "24-32",
+            "anchor": "#section164"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "27",
+            "verse": "35-44",
+            "anchor": "#section164"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "23",
+            "verse": "33-43",
+            "anchor": "#section164"
+          }
+        ],
+        "JHN": [
+          {
+            "chapter": "19",
+            "verse": "18-27",
+            "anchor": "#section164"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r165",
+      "outline": "Mark 15:33-37; Matt. 27:45-50; Luke 23:44-46; John 19:28-30.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "15",
+            "verse": "33-37",
+            "anchor": "#section165"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "27",
+            "verse": "45-50",
+            "anchor": "#section165"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "23",
+            "verse": "44-46",
+            "anchor": "#section165"
+          }
+        ],
+        "JHN": [
+          {
+            "chapter": "19",
+            "verse": "28-30",
+            "anchor": "#section165"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r166",
+      "outline": "Mark 15:38-41; Matt. 27:51-56; Luke 23:45, 47-49.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "15",
+            "verse": "38-41",
+            "anchor": "#section166"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "27",
+            "verse": "51-56",
+            "anchor": "#section166"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "23",
+            "verse": "45, 47-49",
+            "anchor": "#section166"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r167",
+      "outline": "Mark 15:42-46; Matt. 27:57-60; Luke 23:50-54; John 19:31-42.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "15",
+            "verse": "42-46",
+            "anchor": "#section167"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "27",
+            "verse": "57-60",
+            "anchor": "#section167"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "23",
+            "verse": "50-54",
+            "anchor": "#section167"
+          }
+        ],
+        "JHN": [
+          {
+            "chapter": "19",
+            "verse": "31-42",
+            "anchor": "#section167"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r168",
+      "outline": "Mark 15:47; Matt. 27:61-66; Luke 23:55-56.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "15",
+            "verse": "47",
+            "anchor": "#section168"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "27",
+            "verse": "61-66",
+            "anchor": "#section168"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "23",
+            "verse": "55-56",
+            "anchor": "#section168"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r169",
+      "outline": "Mark 16:1; Matt. 28:1.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "16",
+            "verse": "1",
+            "anchor": "#section169"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "28",
+            "verse": "1",
+            "anchor": "#section169"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r170",
+      "outline": "Matt. 28:2-4.",
+      "register": {
+        "MAT": [
+          {
+            "chapter": "28",
+            "verse": "2-4",
+            "anchor": "#section170"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r171",
+      "outline": "Mark 16:2-8; Matt. 28:5-8; Luke 24:1-8; John 20:1.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "16",
+            "verse": "2-8",
+            "anchor": "#section171"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "28",
+            "verse": "5-8",
+            "anchor": "#section171"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "24",
+            "verse": "1-8",
+            "anchor": "#section171"
+          }
+        ],
+        "JHN": [
+          {
+            "chapter": "20",
+            "verse": "1",
+            "anchor": "#section171"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r172",
+      "outline": "Luke 24:9-12; John 20:2-10.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "24",
+            "verse": "9-12",
+            "anchor": "#section172"
+          }
+        ],
+        "JHN": [
+          {
+            "chapter": "20",
+            "verse": "2-10",
+            "anchor": "#section172"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r173",
+      "outline": "Mark 16:9-11; John 20:11-18.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "16",
+            "verse": "9-11",
+            "anchor": "#section173"
+          }
+        ],
+        "JHN": [
+          {
+            "chapter": "20",
+            "verse": "11-18",
+            "anchor": "#section173"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r174",
+      "outline": "Matt. 28:9-10.",
+      "register": {
+        "MAT": [
+          {
+            "chapter": "28",
+            "verse": "9-10",
+            "anchor": "#section174"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r175",
+      "outline": "Matt. 28:11-15.",
+      "register": {
+        "MAT": [
+          {
+            "chapter": "28",
+            "verse": "11-15",
+            "anchor": "#section175"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r176",
+      "outline": "Mark 16:12-13; Luke 24:13-32.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "16",
+            "verse": "12-13",
+            "anchor": "#section176"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "24",
+            "verse": "13-32",
+            "anchor": "#section176"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r177",
+      "outline": "Luke 24:33-35; 1 Cor. 15:5.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "24",
+            "verse": "33-35",
+            "anchor": "#section177"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r178",
+      "outline": "Mark 16:14; Luke 24:36-43; John 20:19-25.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "16",
+            "verse": "14",
+            "anchor": "#section178"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "24",
+            "verse": "36-43",
+            "anchor": "#section178"
+          }
+        ],
+        "JHN": [
+          {
+            "chapter": "20",
+            "verse": "19-25",
+            "anchor": "#section178"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r179",
+      "outline": "John 20:26-31; 1 Cor. 15:5.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "20",
+            "verse": "26-31",
+            "anchor": "#section179"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r180",
+      "outline": "John 21.",
+      "register": {
+        "JHN": [
+          {
+            "chapter": "21",
+            "verse": "...",
+            "anchor": "#section180"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r181",
+      "outline": "Mark 16:15-18; Matt. 28:16-20; 1 Cor. 15:6.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "16",
+            "verse": "15-18",
+            "anchor": "#section181"
+          }
+        ],
+        "MAT": [
+          {
+            "chapter": "28",
+            "verse": "16-20",
+            "anchor": "#section181"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r183",
+      "outline": "Luke 24:44-49; Acts 1:3-8.",
+      "register": {
+        "LUK": [
+          {
+            "chapter": "24",
+            "verse": "44-49",
+            "anchor": "#section183"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    },
+    {
+      "groupId": "r184",
+      "outline": "Mark 16:19-20; Luke 24:50-53; Acts 1:9-12.",
+      "register": {
+        "MRK": [
+          {
+            "chapter": "16",
+            "verse": "19-20",
+            "anchor": "#section184"
+          }
+        ],
+        "LUK": [
+          {
+            "chapter": "24",
+            "verse": "50-53",
+            "anchor": "#section184"
+          }
+        ]
+      },
+      "status": "agreement",
+      "differences": {}
+    }
+  ]
+}

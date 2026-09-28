@@ -1,0 +1,58 @@
+[
+  {
+    "id": "lords-prayer",
+    "section": "54 / 105",
+    "title": "The Lord’s Prayer",
+    "searchTerms": "Lord's Prayer Lords Prayer Our Father Pater noster",
+    "sourceTitle": "Editorial comparison of a shared prayer across Robertson sections",
+    "sourceRefs": "Matthew 6:9–13; Luke 11:2–4",
+    "passages": [
+      {
+        "book": "MAT",
+        "refs": [
+          "6:9",
+          "6:10",
+          "6:11",
+          "6:12",
+          "6:13"
+        ]
+      },
+      {
+        "book": "LUK",
+        "refs": [
+          "11:2",
+          "11:3",
+          "11:4"
+        ]
+      }
+    ],
+    "kind": "related-teaching",
+    "status": "A shared prayer in two narrative settings",
+    "sourceLabel": "Robertson §105 · compare §54",
+    "sourceUrl": "https://www.gutenberg.org/files/36264/36264-h/36264-h.htm#section105",
+    "contextIds": [
+      "r544",
+      "r105"
+    ],
+    "notes": [
+      {
+        "label": "Why these passages are compared",
+        "text": "Robertson’s heading for §105 describes Jesus giving the model prayer again and explicitly refers back to §54. Gospel Atlas compares the wording while retaining these as two settings in Robertson’s arrangement.",
+        "source": "A. T. Robertson, Harmony (1922), §105 and §54.4",
+        "url": "https://www.gutenberg.org/files/36264/36264-h/36264-h.htm#section105"
+      },
+      {
+        "label": "Cross-reference source and reading boundaries",
+        "text": "OpenBible.info links Matthew 6:9 to Luke 11:1–4. Gospel Atlas selects Matthew 6:9–13 and Luke 11:2–4 for the prayer itself; Luke’s introductory setting remains available through Read context. OpenBible draws primarily from the Treasury of Scripture Knowledge, but its export does not identify the source of each individual link. These sources are not counted as independent endorsements.",
+        "source": "OpenBible.info · Bible Cross References · CC BY 4.0 · snapshot 21 September 2026",
+        "url": "https://www.openbible.info/labs/cross-references/search?q=Matthew+6%3A9"
+      },
+      {
+        "label": "What the wording comparison means",
+        "text": "Highlights compare the selected edition’s exact imported wording. Differences may reflect the passages and the edition’s underlying textual choices; they do not by themselves establish authorial additions or deletions. Each edition’s text and available source notes are preserved.",
+        "source": "Gospel Atlas · wording method and source audit",
+        "url": "./data/cross-reference-audit.json"
+      }
+    ]
+  }
+]

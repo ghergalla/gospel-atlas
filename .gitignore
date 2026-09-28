@@ -1,0 +1,14 @@
+node_modules/
+.vite/
+dist/
+coverage/
+*.tsbuildinfo
+*.log
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+
+# docs/ is intentionally tracked: GitHub Pages publishes its prebuilt contents.

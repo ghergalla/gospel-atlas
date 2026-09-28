@@ -1,0 +1,9834 @@
+{
+  "source": "STEP Bible TAGNT / TBESG dictionary-form glosses",
+  "url": "https://github.com/STEPBible/STEPBible-Data/tree/b99716b0cddb648ddb95cc786a197180f2f97d48",
+  "license": "CC BY 4.0",
+  "commit": "b99716b0cddb648ddb95cc786a197180f2f97d48",
+  "sha256": "ab8eaaeb68e17a1dcfa34e1e9350358f22f03bc2a97244d848750ad81044bc8e",
+  "method": "Only SBL-labelled rows. Match within the same verse by word form after case, accent, final-sigma and apostrophe normalization. Attach only when all matching rows agree on lemma, dictionary gloss and Strong identifier. No fuzzy or cross-verse fallback. Dictionary glosses are not context-specific translations.",
+  "fields": [
+    "lemma",
+    "gloss",
+    "strong"
+  ],
+  "counts": {
+    "MAT": {
+      "tokens": 18329,
+      "attached": 18077,
+      "ambiguous": 55,
+      "unavailable": 252
+    },
+    "MRK": {
+      "tokens": 11286,
+      "attached": 10943,
+      "ambiguous": 38,
+      "unavailable": 343
+    },
+    "LUK": {
+      "tokens": 19446,
+      "attached": 19129,
+      "ambiguous": 66,
+      "unavailable": 317
+    },
+    "JHN": {
+      "tokens": 15625,
+      "attached": 15138,
+      "ambiguous": 100,
+      "unavailable": 487
+    }
+  },
+  "unavailable": [
+    {
+      "book": "MAT",
+      "ref": "1:18",
+      "word": 4,
+      "form": "ἡ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "1:18",
+      "word": 16,
+      "form": "ἢ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "1:20",
+      "word": 7,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "1:23",
+      "word": 15,
+      "form": "ὅ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "1:23",
+      "word": 18,
+      "form": "Μεθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "1:23",
+      "word": 20,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "2:3",
+      "word": 9,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "2:4",
+      "word": 10,
+      "form": "παρʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "2:7",
+      "word": 7,
+      "form": "παρʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "2:12",
+      "word": 2,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "2:12",
+      "word": 8,
+      "form": "διʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "2:13",
+      "word": 7,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "2:14",
+      "word": 3,
+      "form": "παρέλαβε",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "2:16",
+      "word": 21,
+      "form": "πᾶσι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "2:19",
+      "word": 8,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "2:21",
+      "word": 3,
+      "form": "παρέλαβε",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "2:22",
+      "word": 17,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "3:6",
+      "word": 6,
+      "form": "ὑπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "3:13",
+      "word": 15,
+      "form": "ὑπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "3:16",
+      "word": 22,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "4:3",
+      "word": 6,
+      "form": "Εἰ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "4:3",
+      "word": 8,
+      "form": "εἶ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "4:4",
+      "word": 6,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "4:4",
+      "word": 12,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "4:6",
+      "word": 3,
+      "form": "Εἰ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "4:6",
+      "word": 5,
+      "form": "εἶ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "4:16",
+      "word": 5,
+      "form": "σκοτίᾳ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "5:5",
+      "word": 5,
+      "form": "κληρονομήσουσι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "5:11",
+      "word": 11,
+      "form": "καθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "5:15",
+      "word": 9,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "5:18",
+      "word": 10,
+      "form": "ἡ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "5:18",
+      "word": 14,
+      "form": "ἢ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "5:19",
+      "word": 23,
+      "form": "δʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "5:21",
+      "word": 8,
+      "form": "δʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "5:22",
+      "word": 16,
+      "form": "δʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "5:22",
+      "word": 28,
+      "form": "δʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "5:25",
+      "word": 9,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "5:39",
+      "word": 8,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "5:41",
+      "word": 7,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "6:4",
+      "word": 1,
+      "form": "ᾖ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "6:4",
+      "word": 3,
+      "form": "ἡ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "6:5",
+      "word": 28,
+      "form": "ἀπέχουσι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "6:25",
+      "word": 21,
+      "form": "ἐστι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "6:29",
+      "word": 6,
+      "form": "ἐν",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "6:29",
+      "word": 13,
+      "form": "ἓν",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "7:4",
+      "word": 0,
+      "form": "ἢ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "7:4",
+      "word": 16,
+      "form": "ἡ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "7:13",
+      "word": 23,
+      "form": "διʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "7:14",
+      "word": 0,
+      "form": "ὅτι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "7:15",
+      "word": 9,
+      "form": "ἐνδύμασι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "7:21",
+      "word": 13,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "7:23",
+      "word": 9,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "8:4",
+      "word": 3,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "8:4",
+      "word": 8,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "8:4",
+      "word": 18,
+      "form": "ὃ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "8:9",
+      "word": 8,
+      "form": "ὑπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "8:10",
+      "word": 12,
+      "form": "παρʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "8:18",
+      "word": 5,
+      "form": "ὄχλους",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "8:30",
+      "word": 3,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "9:4",
+      "word": 1,
+      "form": "εἰδὼς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "9:12",
+      "word": 10,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "9:13",
+      "word": 15,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "9:15",
+      "word": 12,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "9:15",
+      "word": 14,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "9:15",
+      "word": 24,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "9:18",
+      "word": 17,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "9:18",
+      "word": 23,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "9:19",
+      "word": 4,
+      "form": "ἠκολούθει",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "9:27",
+      "word": 14,
+      "form": "υἱὲ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "10:11",
+      "word": 2,
+      "form": "δʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "10:13",
+      "word": 3,
+      "form": "ᾖ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "10:13",
+      "word": 4,
+      "form": "ἡ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "10:13",
+      "word": 8,
+      "form": "ἡ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "10:13",
+      "word": 11,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "10:13",
+      "word": 16,
+      "form": "ᾖ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "10:13",
+      "word": 18,
+      "form": "ἡ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "10:33",
+      "word": 1,
+      "form": "δʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "11:9",
+      "word": 3,
+      "form": "προφήτην",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "11:29",
+      "word": 4,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "11:29",
+      "word": 8,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "12:3",
+      "word": 13,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "12:4",
+      "word": 21,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "12:10",
+      "word": 11,
+      "form": "ἔξεστι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "12:10",
+      "word": 14,
+      "form": "θεραπεύειν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "12:14",
+      "word": 6,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "12:18",
+      "word": 19,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "12:25",
+      "word": 10,
+      "form": "καθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "12:25",
+      "word": 19,
+      "form": "καθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "12:26",
+      "word": 7,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "12:28",
+      "word": 11,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "12:30",
+      "word": 3,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "12:30",
+      "word": 5,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "12:30",
+      "word": 12,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "12:32",
+      "word": 13,
+      "form": "δʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "12:43",
+      "word": 10,
+      "form": "διʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "12:45",
+      "word": 4,
+      "form": "μεθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "13:12",
+      "word": 15,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "13:23",
+      "word": 0,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "13:23",
+      "word": 9,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "13:23",
+      "word": 20,
+      "form": "ὃ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "13:23",
+      "word": 23,
+      "form": "ὃ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "13:23",
+      "word": 26,
+      "form": "ὃ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "13:28",
+      "word": 11,
+      "form": "αὐτῷ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "13:30",
+      "word": 3,
+      "form": "μέχρι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "13:40",
+      "word": 7,
+      "form": "καίεται",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "14:4",
+      "word": 2,
+      "form": "αὐτῷ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "14:7",
+      "word": 1,
+      "form": "μετὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "14:13",
+      "word": 11,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "14:14",
+      "word": 7,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "14:23",
+      "word": 8,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "14:27",
+      "word": 3,
+      "form": "αὐτοῖς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "14:28",
+      "word": 7,
+      "form": "εἰ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "14:28",
+      "word": 9,
+      "form": "εἶ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "14:34",
+      "word": 3,
+      "form": "ἐπὶ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "15:6",
+      "word": 0,
+      "form": "οὐ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "15:6",
+      "word": 1,
+      "form": "μὴ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "15:6",
+      "word": 2,
+      "form": "τιμήσει",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "15:6",
+      "word": 4,
+      "form": "πατέρα",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "15:6",
+      "word": 5,
+      "form": "αὐτοῦ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "15:8",
+      "word": 13,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "15:30",
+      "word": 6,
+      "form": "μεθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "15:30",
+      "word": 8,
+      "form": "κωφούς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "15:30",
+      "word": 10,
+      "form": "χωλούς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "15:30",
+      "word": 11,
+      "form": "κυλλούς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "16:8",
+      "word": 13,
+      "form": "ἐλάβετε",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "16:12",
+      "word": 11,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "16:17",
+      "word": 17,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "16:25",
+      "word": 11,
+      "form": "δʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "17:1",
+      "word": 1,
+      "form": "μεθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "17:1",
+      "word": 22,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "17:3",
+      "word": 8,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "17:12",
+      "word": 11,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "17:12",
+      "word": 25,
+      "form": "ὑπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "17:15",
+      "word": 1,
+      "form": "λέγων",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "17:17",
+      "word": 12,
+      "form": "μεθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "17:18",
+      "word": 7,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "17:19",
+      "word": 6,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "17:26",
+      "word": 9,
+      "form": "Ἄρα",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "18:6",
+      "word": 1,
+      "form": "δʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "18:7",
+      "word": 15,
+      "form": "διʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "18:8",
+      "word": 2,
+      "form": "ἡ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "18:8",
+      "word": 5,
+      "form": "ἢ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "18:8",
+      "word": 25,
+      "form": "ἢ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "18:8",
+      "word": 26,
+      "form": "χωλόν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "18:8",
+      "word": 27,
+      "form": "ἢ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "18:8",
+      "word": 30,
+      "form": "ἢ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "18:10",
+      "word": 18,
+      "form": "βλέπουσι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "18:13",
+      "word": 10,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "18:14",
+      "word": 9,
+      "form": "ἐν",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "18:14",
+      "word": 13,
+      "form": "ἓν",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "18:17",
+      "word": 4,
+      "form": "εἰπὸν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "18:22",
+      "word": 9,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "18:26",
+      "word": 8,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "18:29",
+      "word": 9,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "18:30",
+      "word": 4,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "19:4",
+      "word": 9,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "19:6",
+      "word": 7,
+      "form": "ὃ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "19:6",
+      "word": 9,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "19:8",
+      "word": 14,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "19:11",
+      "word": 6,
+      "form": "χωροῦσι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "19:11",
+      "word": 10,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "19:17",
+      "word": 10,
+      "form": "εἷς",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "19:17",
+      "word": 17,
+      "form": "εἰς",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "19:24",
+      "word": 10,
+      "form": "εἰσελθεῖν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "20:5",
+      "word": 0,
+      "form": "οἱ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "20:5",
+      "word": 1,
+      "form": "δὲ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "20:5",
+      "word": 2,
+      "form": "ἀπῆλθον",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "20:12",
+      "word": 10,
+      "form": "ἡμῖν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "20:12",
+      "word": 13,
+      "form": "βαστάσασι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "20:15",
+      "word": 3,
+      "form": "ὃ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "20:15",
+      "word": 10,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "20:17",
+      "word": 10,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "20:20",
+      "word": 16,
+      "form": "παρʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "20:22",
+      "word": 2,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "20:22",
+      "word": 13,
+      "form": "ὃ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "20:23",
+      "word": 20,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "20:26",
+      "word": 5,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "20:26",
+      "word": 7,
+      "form": "ἂν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "20:30",
+      "word": 14,
+      "form": "Κύριε",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "20:31",
+      "word": 12,
+      "form": "Κύριε",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "21:2",
+      "word": 16,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "21:7",
+      "word": 8,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "21:19",
+      "word": 8,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "21:30",
+      "word": 3,
+      "form": "δευτέρῳ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "21:43",
+      "word": 6,
+      "form": "ἀφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "21:44",
+      "word": 8,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "21:44",
+      "word": 10,
+      "form": "δʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "22:17",
+      "word": 0,
+      "form": "εἰπὸν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "22:25",
+      "word": 2,
+      "form": "παρʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "22:30",
+      "word": 8,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "22:46",
+      "word": 9,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "23:5",
+      "word": 11,
+      "form": "πλατύνουσι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "23:5",
+      "word": 17,
+      "form": "μεγαλύνουσι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "23:6",
+      "word": 0,
+      "form": "φιλοῦσι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "23:16",
+      "word": 15,
+      "form": "δʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "23:18",
+      "word": 10,
+      "form": "δʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "23:20",
+      "word": 11,
+      "form": "πᾶσι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "23:35",
+      "word": 2,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "23:39",
+      "word": 7,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "24:3",
+      "word": 12,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "24:3",
+      "word": 15,
+      "form": "Εἰπὸν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "24:6",
+      "word": 13,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "24:16",
+      "word": 6,
+      "form": "ἐπὶ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "24:21",
+      "word": 8,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "24:21",
+      "word": 14,
+      "form": "οὐδʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "24:31",
+      "word": 17,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "25:3",
+      "word": 9,
+      "form": "μεθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "25:10",
+      "word": 11,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "25:19",
+      "word": 13,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "25:28",
+      "word": 2,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "25:29",
+      "word": 15,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "25:31",
+      "word": 15,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "25:32",
+      "word": 10,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "25:40",
+      "word": 9,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "25:41",
+      "word": 7,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "25:45",
+      "word": 7,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "26:11",
+      "word": 5,
+      "form": "μεθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "26:23",
+      "word": 6,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "26:24",
+      "word": 15,
+      "form": "διʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "26:29",
+      "word": 6,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "26:29",
+      "word": 21,
+      "form": "μεθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "26:36",
+      "word": 2,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "26:38",
+      "word": 14,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "26:39",
+      "word": 16,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "26:39",
+      "word": 26,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "26:40",
+      "word": 19,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "26:47",
+      "word": 11,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "26:50",
+      "word": 0,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "26:50",
+      "word": 6,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "26:50",
+      "word": 7,
+      "form": "ὃ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "26:55",
+      "word": 19,
+      "form": "καθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "26:63",
+      "word": 19,
+      "form": "εἰ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "26:63",
+      "word": 21,
+      "form": "εἶ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "26:64",
+      "word": 9,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "27:8",
+      "word": 3,
+      "form": "ἀγρὸς",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "27:8",
+      "word": 5,
+      "form": "Ἀγρὸς",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "27:19",
+      "word": 23,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "27:19",
+      "word": 25,
+      "form": "διʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "27:25",
+      "word": 9,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "27:27",
+      "word": 12,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "27:33",
+      "word": 10,
+      "form": "λεγόμενος",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "27:40",
+      "word": 13,
+      "form": "εἰ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "27:40",
+      "word": 15,
+      "form": "εἶ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "27:42",
+      "word": 16,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "27:44",
+      "word": 1,
+      "form": "δʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "27:46",
+      "word": 15,
+      "form": "τοῦτʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "27:51",
+      "word": 7,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "27:54",
+      "word": 5,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "27:56",
+      "word": 3,
+      "form": "Μαρία",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "27:56",
+      "word": 7,
+      "form": "Μαρία",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MAT",
+      "ref": "28:2",
+      "word": 13,
+      "form": "ἀπεκύλισε",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MAT",
+      "ref": "28:20",
+      "word": 10,
+      "form": "μεθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "1:5",
+      "word": 14,
+      "form": "ὑπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "1:6",
+      "word": 15,
+      "form": "ἔσθων",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "1:13",
+      "word": 5,
+      "form": "τεσσεράκοντα",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "1:21",
+      "word": 8,
+      "form": "ἐδίδασκεν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "1:27",
+      "word": 13,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "1:27",
+      "word": 17,
+      "form": "πνεύμασι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "1:36",
+      "word": 6,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "1:41",
+      "word": 1,
+      "form": "ὀργισθεὶς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "1:42",
+      "word": 3,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "1:44",
+      "word": 7,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "1:45",
+      "word": 18,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "1:45",
+      "word": 20,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "2:1",
+      "word": 5,
+      "form": "διʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "2:4",
+      "word": 15,
+      "form": "χαλῶσι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "2:10",
+      "word": 13,
+      "form": "ἀφιέναι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "2:10",
+      "word": 14,
+      "form": "ἁμαρτίας",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "2:17",
+      "word": 13,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "2:17",
+      "word": 21,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "2:19",
+      "word": 15,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "2:19",
+      "word": 24,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "2:20",
+      "word": 5,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "2:21",
+      "word": 14,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "2:22",
+      "word": 23,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "2:25",
+      "word": 16,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "3:3",
+      "word": 8,
+      "form": "ξηράν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "3:4",
+      "word": 6,
+      "form": "ἀγαθοποιῆσαι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "3:5",
+      "word": 3,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "3:6",
+      "word": 10,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "3:11",
+      "word": 12,
+      "form": "λέγοντα",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "3:14",
+      "word": 5,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "3:20",
+      "word": 1,
+      "form": "ἔρχεται",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "3:20",
+      "word": 2,
+      "form": "εἰς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "3:20",
+      "word": 3,
+      "form": "οἶκον",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "3:21",
+      "word": 3,
+      "form": "παρʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "3:24",
+      "word": 3,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "3:25",
+      "word": 3,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "3:26",
+      "word": 5,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "3:27",
+      "word": 0,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "3:27",
+      "word": 1,
+      "form": "οὐδεὶς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "3:29",
+      "word": 1,
+      "form": "δʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "3:29",
+      "word": 15,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "3:31",
+      "word": 1,
+      "form": "ἔρχονται",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "4:12",
+      "word": 2,
+      "form": "βλέπωσι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "4:12",
+      "word": 8,
+      "form": "ἀκούωσι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "4:16",
+      "word": 4,
+      "form": "οἱ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "4:16",
+      "word": 9,
+      "form": "οἳ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "4:22",
+      "word": 11,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "4:25",
+      "word": 13,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "4:34",
+      "word": 6,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "4:36",
+      "word": 15,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "5:4",
+      "word": 6,
+      "form": "ἁλύσεσι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "5:4",
+      "word": 10,
+      "form": "ὑπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "5:6",
+      "word": 9,
+      "form": "αὐτόν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "5:18",
+      "word": 11,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "5:21",
+      "word": 14,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "5:24",
+      "word": 2,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "5:26",
+      "word": 9,
+      "form": "παρʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "5:37",
+      "word": 4,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "5:40",
+      "word": 17,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "6:9",
+      "word": 0,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "6:22",
+      "word": 4,
+      "form": "αὐτῆς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "6:22",
+      "word": 10,
+      "form": "ἀρεσάσης",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "6:22",
+      "word": 17,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "6:22",
+      "word": 23,
+      "form": "ὃ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "6:25",
+      "word": 12,
+      "form": "ἐξαυτῆς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "6:31",
+      "word": 6,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "6:32",
+      "word": 8,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "6:34",
+      "word": 7,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "6:38",
+      "word": 6,
+      "form": "ἄρτους",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "6:50",
+      "word": 10,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "6:52",
+      "word": 6,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "7:2",
+      "word": 9,
+      "form": "τοῦτʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "7:4",
+      "word": 1,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "7:6",
+      "word": 27,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "7:9",
+      "word": 13,
+      "form": "τηρήσητε",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "7:19",
+      "word": 7,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "7:25",
+      "word": 0,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "7:27",
+      "word": 11,
+      "form": "ἐστιν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "7:33",
+      "word": 6,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "8:4",
+      "word": 14,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "8:11",
+      "word": 9,
+      "form": "παρʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "8:14",
+      "word": 11,
+      "form": "μεθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "8:34",
+      "word": 15,
+      "form": "ἐλθεῖν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "8:35",
+      "word": 11,
+      "form": "δʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "9:1",
+      "word": 10,
+      "form": "ὧδε",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "9:2",
+      "word": 20,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "9:8",
+      "word": 10,
+      "form": "μεθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "9:13",
+      "word": 14,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "9:20",
+      "word": 10,
+      "form": "εὐθὺς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "9:22",
+      "word": 13,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "9:22",
+      "word": 20,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "9:28",
+      "word": 8,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "9:40",
+      "word": 4,
+      "form": "καθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "9:41",
+      "word": 9,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "9:41",
+      "word": 15,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "9:43",
+      "word": 4,
+      "form": "ἡ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "9:43",
+      "word": 17,
+      "form": "ἢ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "10:9",
+      "word": 0,
+      "form": "ὃ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "10:9",
+      "word": 2,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "10:11",
+      "word": 13,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "10:16",
+      "word": 7,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "10:17",
+      "word": 3,
+      "form": "εἰς",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "10:17",
+      "word": 6,
+      "form": "εἷς",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "10:21",
+      "word": 10,
+      "form": "Ἕν",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "10:21",
+      "word": 24,
+      "form": "ἐν",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "10:27",
+      "word": 8,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "10:38",
+      "word": 0,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "10:38",
+      "word": 13,
+      "form": "ὃ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "10:38",
+      "word": 19,
+      "form": "ὃ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "10:39",
+      "word": 5,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "10:39",
+      "word": 12,
+      "form": "ὃ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "10:39",
+      "word": 19,
+      "form": "ὃ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "10:40",
+      "word": 13,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "10:43",
+      "word": 6,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "10:49",
+      "word": 8,
+      "form": "φωνοῦσι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "11:2",
+      "word": 18,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "11:7",
+      "word": 15,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "11:11",
+      "word": 10,
+      "form": "ὀψὲ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "11:13",
+      "word": 16,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "11:32",
+      "word": 0,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "12:7",
+      "word": 6,
+      "form": "εἶπαν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "12:14",
+      "word": 21,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "12:14",
+      "word": 22,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "12:14",
+      "word": 35,
+      "form": "δῶμεν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "12:14",
+      "word": 37,
+      "form": "μὴ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "12:14",
+      "word": 38,
+      "form": "δῶμεν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "12:17",
+      "word": 17,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "12:25",
+      "word": 9,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "12:32",
+      "word": 7,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "13:3",
+      "word": 13,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "13:7",
+      "word": 11,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "13:8",
+      "word": 3,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "13:11",
+      "word": 9,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "13:15",
+      "word": 9,
+      "form": "ἆραι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "13:19",
+      "word": 10,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "13:24",
+      "word": 0,
+      "form": "Ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "13:27",
+      "word": 13,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "13:30",
+      "word": 4,
+      "form": "οὐ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "13:30",
+      "word": 11,
+      "form": "οὗ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "14:7",
+      "word": 5,
+      "form": "μεθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "14:18",
+      "word": 19,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "14:20",
+      "word": 4,
+      "form": "Εἷς",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "14:20",
+      "word": 9,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "14:20",
+      "word": 11,
+      "form": "εἰς",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "14:21",
+      "word": 16,
+      "form": "διʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "14:24",
+      "word": 11,
+      "form": "ἐκχυννόμενον",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "14:27",
+      "word": 5,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "14:27",
+      "word": 8,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "14:29",
+      "word": 9,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "14:33",
+      "word": 8,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "14:35",
+      "word": 14,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "14:36",
+      "word": 12,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "14:36",
+      "word": 14,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "14:43",
+      "word": 11,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "14:46",
+      "word": 2,
+      "form": "ἐπέβαλαν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "14:49",
+      "word": 0,
+      "form": "καθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "14:49",
+      "word": 13,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "14:56",
+      "word": 3,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "14:57",
+      "word": 4,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "15:20",
+      "word": 14,
+      "form": "ἴδια",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "15:21",
+      "word": 7,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "15:24",
+      "word": 10,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "15:33",
+      "word": 6,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "15:34",
+      "word": 5,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "15:34",
+      "word": 13,
+      "form": "ὅ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "15:34",
+      "word": 16,
+      "form": "Ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "15:34",
+      "word": 19,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "15:38",
+      "word": 8,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "15:40",
+      "word": 10,
+      "form": "Μαρία",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "15:40",
+      "word": 14,
+      "form": "Μαρία",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "15:41",
+      "word": 0,
+      "form": "αἳ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "15:41",
+      "word": 14,
+      "form": "αἱ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "15:47",
+      "word": 2,
+      "form": "Μαρία",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "15:47",
+      "word": 6,
+      "form": "Μαρία",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:1",
+      "word": 4,
+      "form": "Μαρία",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:1",
+      "word": 8,
+      "form": "Μαρία",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:7",
+      "word": 0,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:8",
+      "word": 41,
+      "form": "διʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:9",
+      "word": 0,
+      "form": "Ἀναστὰς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:9",
+      "word": 1,
+      "form": "δὲ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:9",
+      "word": 2,
+      "form": "πρωῒ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:9",
+      "word": 3,
+      "form": "πρώτῃ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:9",
+      "word": 4,
+      "form": "σαββάτου",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:9",
+      "word": 5,
+      "form": "ἐφάνη",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:9",
+      "word": 6,
+      "form": "πρῶτον",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:9",
+      "word": 7,
+      "form": "Μαρίᾳ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:9",
+      "word": 8,
+      "form": "τῇ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:9",
+      "word": 9,
+      "form": "Μαγδαληνῇ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:9",
+      "word": 10,
+      "form": "παρʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:9",
+      "word": 11,
+      "form": "ἧς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:9",
+      "word": 12,
+      "form": "ἐκβεβλήκει",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:9",
+      "word": 13,
+      "form": "ἑπτὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:9",
+      "word": 14,
+      "form": "δαιμόνια",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:10",
+      "word": 0,
+      "form": "ἐκείνη",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:10",
+      "word": 1,
+      "form": "πορευθεῖσα",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:10",
+      "word": 2,
+      "form": "ἀπήγγειλεν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:10",
+      "word": 3,
+      "form": "τοῖς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:10",
+      "word": 4,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:10",
+      "word": 5,
+      "form": "αὐτοῦ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:10",
+      "word": 6,
+      "form": "γενομένοις",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:10",
+      "word": 7,
+      "form": "πενθοῦσι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:10",
+      "word": 8,
+      "form": "καὶ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:10",
+      "word": 9,
+      "form": "κλαίουσιν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:11",
+      "word": 0,
+      "form": "κἀκεῖνοι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:11",
+      "word": 1,
+      "form": "ἀκούσαντες",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:11",
+      "word": 2,
+      "form": "ὅτι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:11",
+      "word": 3,
+      "form": "ζῇ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:11",
+      "word": 4,
+      "form": "καὶ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:11",
+      "word": 5,
+      "form": "ἐθεάθη",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:11",
+      "word": 6,
+      "form": "ὑπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:11",
+      "word": 7,
+      "form": "αὐτῆς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:11",
+      "word": 8,
+      "form": "ἠπίστησαν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:12",
+      "word": 0,
+      "form": "Μετὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:12",
+      "word": 1,
+      "form": "δὲ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:12",
+      "word": 2,
+      "form": "ταῦτα",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:12",
+      "word": 3,
+      "form": "δυσὶν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:12",
+      "word": 4,
+      "form": "ἐξ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:12",
+      "word": 5,
+      "form": "αὐτῶν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:12",
+      "word": 6,
+      "form": "περιπατοῦσιν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:12",
+      "word": 7,
+      "form": "ἐφανερώθη",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:12",
+      "word": 8,
+      "form": "ἐν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:12",
+      "word": 9,
+      "form": "ἑτέρᾳ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:12",
+      "word": 10,
+      "form": "μορφῇ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:12",
+      "word": 11,
+      "form": "πορευομένοις",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:12",
+      "word": 12,
+      "form": "εἰς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:12",
+      "word": 13,
+      "form": "ἀγρόν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:13",
+      "word": 0,
+      "form": "κἀκεῖνοι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:13",
+      "word": 1,
+      "form": "ἀπελθόντες",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:13",
+      "word": 2,
+      "form": "ἀπήγγειλαν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:13",
+      "word": 3,
+      "form": "τοῖς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:13",
+      "word": 4,
+      "form": "λοιποῖς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:13",
+      "word": 5,
+      "form": "οὐδὲ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:13",
+      "word": 6,
+      "form": "ἐκείνοις",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:13",
+      "word": 7,
+      "form": "ἐπίστευσαν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:14",
+      "word": 0,
+      "form": "Ὕστερον",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:14",
+      "word": 1,
+      "form": "δὲ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:14",
+      "word": 2,
+      "form": "ἀνακειμένοις",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:14",
+      "word": 3,
+      "form": "αὐτοῖς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:14",
+      "word": 4,
+      "form": "τοῖς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:14",
+      "word": 5,
+      "form": "ἕνδεκα",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:14",
+      "word": 6,
+      "form": "ἐφανερώθη",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:14",
+      "word": 7,
+      "form": "καὶ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:14",
+      "word": 8,
+      "form": "ὠνείδισεν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:14",
+      "word": 9,
+      "form": "τὴν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:14",
+      "word": 10,
+      "form": "ἀπιστίαν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:14",
+      "word": 11,
+      "form": "αὐτῶν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:14",
+      "word": 12,
+      "form": "καὶ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:14",
+      "word": 13,
+      "form": "σκληροκαρδίαν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:14",
+      "word": 14,
+      "form": "ὅτι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:14",
+      "word": 15,
+      "form": "τοῖς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:14",
+      "word": 16,
+      "form": "θεασαμένοις",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:14",
+      "word": 17,
+      "form": "αὐτὸν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:14",
+      "word": 18,
+      "form": "ἐγηγερμένον",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:14",
+      "word": 19,
+      "form": "οὐκ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:14",
+      "word": 20,
+      "form": "ἐπίστευσαν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:15",
+      "word": 0,
+      "form": "καὶ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:15",
+      "word": 1,
+      "form": "εἶπεν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:15",
+      "word": 2,
+      "form": "αὐτοῖς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:15",
+      "word": 3,
+      "form": "Πορευθέντες",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:15",
+      "word": 4,
+      "form": "εἰς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:15",
+      "word": 5,
+      "form": "τὸν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:15",
+      "word": 6,
+      "form": "κόσμον",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:15",
+      "word": 7,
+      "form": "ἅπαντα",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:15",
+      "word": 8,
+      "form": "κηρύξατε",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:15",
+      "word": 9,
+      "form": "τὸ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:15",
+      "word": 10,
+      "form": "εὐαγγέλιον",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:15",
+      "word": 11,
+      "form": "πάσῃ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:15",
+      "word": 12,
+      "form": "τῇ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:15",
+      "word": 13,
+      "form": "κτίσει",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:16",
+      "word": 0,
+      "form": "ὁ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:16",
+      "word": 1,
+      "form": "πιστεύσας",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:16",
+      "word": 2,
+      "form": "καὶ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:16",
+      "word": 3,
+      "form": "βαπτισθεὶς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:16",
+      "word": 4,
+      "form": "σωθήσεται",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:16",
+      "word": 5,
+      "form": "ὁ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:16",
+      "word": 6,
+      "form": "δὲ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:16",
+      "word": 7,
+      "form": "ἀπιστήσας",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:16",
+      "word": 8,
+      "form": "κατακριθήσεται",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:17",
+      "word": 0,
+      "form": "σημεῖα",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:17",
+      "word": 1,
+      "form": "δὲ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:17",
+      "word": 2,
+      "form": "τοῖς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:17",
+      "word": 3,
+      "form": "πιστεύσασιν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:17",
+      "word": 6,
+      "form": "ἐν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:17",
+      "word": 7,
+      "form": "τῷ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:17",
+      "word": 8,
+      "form": "ὀνόματί",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:17",
+      "word": 9,
+      "form": "μου",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:17",
+      "word": 10,
+      "form": "δαιμόνια",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:17",
+      "word": 11,
+      "form": "ἐκβαλοῦσιν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:17",
+      "word": 12,
+      "form": "γλώσσαις",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:17",
+      "word": 13,
+      "form": "λαλήσουσιν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:17",
+      "word": 14,
+      "form": "καιναῖς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:18",
+      "word": 0,
+      "form": "ὄφεις",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:18",
+      "word": 1,
+      "form": "ἀροῦσιν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:18",
+      "word": 2,
+      "form": "κἂν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:18",
+      "word": 3,
+      "form": "θανάσιμόν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:18",
+      "word": 4,
+      "form": "τι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:18",
+      "word": 5,
+      "form": "πίωσιν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:18",
+      "word": 6,
+      "form": "οὐ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:18",
+      "word": 7,
+      "form": "μὴ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:18",
+      "word": 8,
+      "form": "αὐτοὺς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:18",
+      "word": 9,
+      "form": "βλάψῃ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:18",
+      "word": 10,
+      "form": "ἐπὶ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:18",
+      "word": 11,
+      "form": "ἀρρώστους",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:18",
+      "word": 12,
+      "form": "χεῖρας",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:18",
+      "word": 13,
+      "form": "ἐπιθήσουσιν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:18",
+      "word": 14,
+      "form": "καὶ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:18",
+      "word": 15,
+      "form": "καλῶς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:18",
+      "word": 16,
+      "form": "ἕξουσιν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:19",
+      "word": 0,
+      "form": "Ὁ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:19",
+      "word": 1,
+      "form": "μὲν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:19",
+      "word": 2,
+      "form": "οὖν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:19",
+      "word": 3,
+      "form": "κύριος",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:19",
+      "word": 4,
+      "form": "Ἰησοῦς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:19",
+      "word": 5,
+      "form": "μετὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:19",
+      "word": 6,
+      "form": "τὸ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:19",
+      "word": 7,
+      "form": "λαλῆσαι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:19",
+      "word": 8,
+      "form": "αὐτοῖς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:19",
+      "word": 9,
+      "form": "ἀνελήμφθη",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:19",
+      "word": 10,
+      "form": "εἰς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:19",
+      "word": 11,
+      "form": "τὸν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:19",
+      "word": 12,
+      "form": "οὐρανὸν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:19",
+      "word": 13,
+      "form": "καὶ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:19",
+      "word": 14,
+      "form": "ἐκάθισεν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:19",
+      "word": 15,
+      "form": "ἐκ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:19",
+      "word": 16,
+      "form": "δεξιῶν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:19",
+      "word": 17,
+      "form": "τοῦ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:19",
+      "word": 18,
+      "form": "θεοῦ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:20",
+      "word": 0,
+      "form": "ἐκεῖνοι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:20",
+      "word": 1,
+      "form": "δὲ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:20",
+      "word": 2,
+      "form": "ἐξελθόντες",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:20",
+      "word": 3,
+      "form": "ἐκήρυξαν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:20",
+      "word": 4,
+      "form": "πανταχοῦ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:20",
+      "word": 5,
+      "form": "τοῦ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:20",
+      "word": 6,
+      "form": "κυρίου",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:20",
+      "word": 7,
+      "form": "συνεργοῦντος",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:20",
+      "word": 8,
+      "form": "καὶ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:20",
+      "word": 9,
+      "form": "τὸν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:20",
+      "word": 10,
+      "form": "λόγον",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:20",
+      "word": 11,
+      "form": "βεβαιοῦντος",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:20",
+      "word": 12,
+      "form": "διὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:20",
+      "word": 13,
+      "form": "τῶν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:20",
+      "word": 14,
+      "form": "ἐπακολουθούντων",
+      "reason": "no exact form"
+    },
+    {
+      "book": "MRK",
+      "ref": "16:20",
+      "word": 15,
+      "form": "σημείων",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "1:2",
+      "word": 4,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "1:3",
+      "word": 0,
+      "form": "ἔδοξε",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "1:9",
+      "word": 5,
+      "form": "ἔλαχε",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "1:12",
+      "word": 7,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "1:20",
+      "word": 13,
+      "form": "ἀνθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "1:38",
+      "word": 15,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "1:58",
+      "word": 14,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "1:66",
+      "word": 21,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "1:70",
+      "word": 6,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "1:73",
+      "word": 8,
+      "form": "τοῦ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "1:73",
+      "word": 9,
+      "form": "δοῦναι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "1:73",
+      "word": 10,
+      "form": "ἡμῖν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "1:80",
+      "word": 3,
+      "form": "ηὔξανε",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "2:15",
+      "word": 4,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "2:15",
+      "word": 27,
+      "form": "ὃ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "2:15",
+      "word": 28,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "2:19",
+      "word": 2,
+      "form": "Μαρία",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "2:25",
+      "word": 24,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "2:40",
+      "word": 12,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "2:41",
+      "word": 5,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "2:48",
+      "word": 21,
+      "form": "ἐγὼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "2:49",
+      "word": 5,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "2:49",
+      "word": 10,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "2:51",
+      "word": 2,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "3:7",
+      "word": 6,
+      "form": "ὑπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "3:19",
+      "word": 6,
+      "form": "ὑπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "3:22",
+      "word": 10,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "3:32",
+      "word": 3,
+      "form": "Ἰωβὴλ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "4:3",
+      "word": 5,
+      "form": "Εἰ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "4:3",
+      "word": 7,
+      "form": "εἶ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "4:4",
+      "word": 9,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "4:6",
+      "word": 20,
+      "form": "ἂν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "4:9",
+      "word": 15,
+      "form": "Εἰ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "4:9",
+      "word": 17,
+      "form": "εἶ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "4:13",
+      "word": 7,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "4:14",
+      "word": 15,
+      "form": "καθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "4:18",
+      "word": 2,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "4:25",
+      "word": 0,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "4:29",
+      "word": 14,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "4:35",
+      "word": 9,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "4:35",
+      "word": 20,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "4:41",
+      "word": 9,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "4:41",
+      "word": 22,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "4:42",
+      "word": 23,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "4:43",
+      "word": 5,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "4:43",
+      "word": 17,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "5:2",
+      "word": 11,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "5:5",
+      "word": 5,
+      "form": "διʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "5:8",
+      "word": 10,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "5:13",
+      "word": 6,
+      "form": "εἰπών",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "5:13",
+      "word": 14,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "5:14",
+      "word": 6,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "5:25",
+      "word": 6,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "5:29",
+      "word": 19,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "5:31",
+      "word": 13,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "5:32",
+      "word": 4,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "5:34",
+      "word": 15,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "5:35",
+      "word": 6,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "5:36",
+      "word": 19,
+      "form": "μήγε",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "5:37",
+      "word": 10,
+      "form": "μήγε",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "5:38",
+      "word": 0,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "6:3",
+      "word": 5,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "6:3",
+      "word": 10,
+      "form": "ὃ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "6:3",
+      "word": 13,
+      "form": "ὁπότε",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "6:3",
+      "word": 18,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "6:4",
+      "word": 17,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "6:13",
+      "word": 10,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "6:16",
+      "word": 1,
+      "form": "Ἰούδαν",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "6:16",
+      "word": 4,
+      "form": "Ἰούδαν",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "6:17",
+      "word": 2,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "6:18",
+      "word": 1,
+      "form": "ἦλθον",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "6:18",
+      "word": 2,
+      "form": "ἀκοῦσαι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "6:18",
+      "word": 3,
+      "form": "αὐτοῦ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "6:18",
+      "word": 5,
+      "form": "ἰαθῆναι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "6:18",
+      "word": 7,
+      "form": "τῶν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "6:18",
+      "word": 8,
+      "form": "νόσων",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "6:18",
+      "word": 9,
+      "form": "αὐτῶν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "6:19",
+      "word": 9,
+      "form": "παρʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "6:26",
+      "word": 3,
+      "form": "ὑμᾶς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "6:27",
+      "word": 0,
+      "form": "Ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "6:34",
+      "word": 3,
+      "form": "παρʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "7:7",
+      "word": 7,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "7:8",
+      "word": 9,
+      "form": "ὑπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "7:13",
+      "word": 6,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "7:18",
+      "word": 10,
+      "form": "προσκαλεσάμενος",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "7:18",
+      "word": 11,
+      "form": "δύο",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "7:18",
+      "word": 12,
+      "form": "τινὰς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "7:18",
+      "word": 13,
+      "form": "τῶν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "7:18",
+      "word": 14,
+      "form": "μαθητῶν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "7:18",
+      "word": 16,
+      "form": "ὁ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "7:18",
+      "word": 17,
+      "form": "Ἰωάννης",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "7:30",
+      "word": 15,
+      "form": "ὑπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "7:36",
+      "word": 8,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "7:45",
+      "word": 6,
+      "form": "ἀφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "8:2",
+      "word": 15,
+      "form": "ἀφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "8:5",
+      "word": 1,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "8:5",
+      "word": 13,
+      "form": "ὃ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "8:13",
+      "word": 0,
+      "form": "οἱ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "8:13",
+      "word": 5,
+      "form": "οἳ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "8:13",
+      "word": 18,
+      "form": "οἳ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "8:16",
+      "word": 11,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "8:18",
+      "word": 20,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "8:20",
+      "word": 14,
+      "form": "θέλοντες",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "8:27",
+      "word": 25,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "8:29",
+      "word": 0,
+      "form": "παρήγγελλεν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "8:35",
+      "word": 15,
+      "form": "ἀφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "8:37",
+      "word": 11,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "8:38",
+      "word": 5,
+      "form": "ἀφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "8:39",
+      "word": 14,
+      "form": "καθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "8:43",
+      "word": 17,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "8:46",
+      "word": 12,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "8:47",
+      "word": 12,
+      "form": "διʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "9:5",
+      "word": 20,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "9:10",
+      "word": 12,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "9:18",
+      "word": 21,
+      "form": "λέγουσιν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "9:23",
+      "word": 17,
+      "form": "καθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "9:24",
+      "word": 11,
+      "form": "δʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "9:33",
+      "word": 6,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "9:33",
+      "word": 9,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "9:33",
+      "word": 34,
+      "form": "ὃ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "9:39",
+      "word": 16,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "9:45",
+      "word": 9,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "9:47",
+      "word": 13,
+      "form": "παρʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "9:49",
+      "word": 19,
+      "form": "μεθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "9:50",
+      "word": 12,
+      "form": "καθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "9:62",
+      "word": 8,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "10:5",
+      "word": 2,
+      "form": "δʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "10:6",
+      "word": 2,
+      "form": "ᾖ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "10:6",
+      "word": 3,
+      "form": "ἐκεῖ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "10:6",
+      "word": 7,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "10:6",
+      "word": 9,
+      "form": "ἡ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "10:6",
+      "word": 14,
+      "form": "μήγε",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "10:6",
+      "word": 15,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "10:7",
+      "word": 10,
+      "form": "παρʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "10:9",
+      "word": 10,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "10:10",
+      "word": 2,
+      "form": "δʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "10:15",
+      "word": 10,
+      "form": "καταβιβασθήσῃ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "10:23",
+      "word": 5,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "10:33",
+      "word": 5,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "10:35",
+      "word": 7,
+      "form": "ἔδωκεν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "10:37",
+      "word": 7,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "10:39",
+      "word": 13,
+      "form": "Ἰησοῦ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "10:40",
+      "word": 20,
+      "form": "κατέλειπεν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "10:42",
+      "word": 4,
+      "form": "ἢ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "10:42",
+      "word": 5,
+      "form": "ἑνός",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "11:3",
+      "word": 8,
+      "form": "καθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "11:7",
+      "word": 16,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "11:16",
+      "word": 7,
+      "form": "παρʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "11:17",
+      "word": 10,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "11:18",
+      "word": 5,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "11:20",
+      "word": 10,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "11:22",
+      "word": 11,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "11:23",
+      "word": 3,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "11:23",
+      "word": 5,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "11:23",
+      "word": 12,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "11:24",
+      "word": 9,
+      "form": "διʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "11:29",
+      "word": 8,
+      "form": "αὕτη",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "11:29",
+      "word": 18,
+      "form": "αὐτῇ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "11:33",
+      "word": 10,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "11:33",
+      "word": 18,
+      "form": "φέγγος",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "11:37",
+      "word": 9,
+      "form": "παρʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "11:42",
+      "word": 0,
+      "form": "Ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "12:3",
+      "word": 0,
+      "form": "ἀνθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "12:13",
+      "word": 13,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "12:14",
+      "word": 11,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "12:27",
+      "word": 14,
+      "form": "ἐν",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "12:27",
+      "word": 21,
+      "form": "ἓν",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "12:42",
+      "word": 3,
+      "form": "κύριος",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "12:42",
+      "word": 15,
+      "form": "κύριος",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "12:48",
+      "word": 17,
+      "form": "παρʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "12:51",
+      "word": 11,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "12:56",
+      "word": 12,
+      "form": "καιρὸν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "12:57",
+      "word": 3,
+      "form": "ἀφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "12:58",
+      "word": 7,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "12:58",
+      "word": 15,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "13:2",
+      "word": 5,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "13:2",
+      "word": 15,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "13:3",
+      "word": 3,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "13:4",
+      "word": 4,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "13:5",
+      "word": 3,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "13:7",
+      "word": 8,
+      "form": "ἀφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "13:9",
+      "word": 9,
+      "form": "μήγε",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "13:14",
+      "word": 5,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "13:14",
+      "word": 14,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "13:17",
+      "word": 20,
+      "form": "ὑπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "13:21",
+      "word": 6,
+      "form": "ἔκρυψεν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "13:25",
+      "word": 0,
+      "form": "ἀφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "13:27",
+      "word": 9,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "14:8",
+      "word": 16,
+      "form": "ὑπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "14:10",
+      "word": 0,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "14:13",
+      "word": 0,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "14:22",
+      "word": 2,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "14:22",
+      "word": 6,
+      "form": "ὃ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "14:31",
+      "word": 25,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "14:32",
+      "word": 2,
+      "form": "μήγε",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "15:4",
+      "word": 11,
+      "form": "ἓν",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "15:4",
+      "word": 17,
+      "form": "ἐν",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "15:13",
+      "word": 1,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "15:16",
+      "word": 2,
+      "form": "γεμίσαι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "15:16",
+      "word": 6,
+      "form": "ἀπὸ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "15:27",
+      "word": 4,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "15:27",
+      "word": 18,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "15:31",
+      "word": 7,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "16:3",
+      "word": 15,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "16:4",
+      "word": 14,
+      "form": "ἑαυτῶν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "16:12",
+      "word": 12,
+      "form": "ὑμῖν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "16:13",
+      "word": 3,
+      "form": "δυσὶ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "16:19",
+      "word": 11,
+      "form": "καθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "16:26",
+      "word": 2,
+      "form": "πᾶσι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "16:29",
+      "word": 3,
+      "form": "Ἔχουσι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "16:30",
+      "word": 6,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "16:31",
+      "word": 10,
+      "form": "οὐδʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "17:1",
+      "word": 15,
+      "form": "διʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "17:8",
+      "word": 0,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "17:21",
+      "word": 4,
+      "form": "ἤ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "17:21",
+      "word": 8,
+      "form": "ἡ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "17:24",
+      "word": 12,
+      "form": "ὑπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "17:29",
+      "word": 11,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "17:33",
+      "word": 10,
+      "form": "δʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "18:4",
+      "word": 7,
+      "form": "δὲ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "18:7",
+      "word": 19,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "18:9",
+      "word": 7,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "18:10",
+      "word": 3,
+      "form": "εἰς",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "18:10",
+      "word": 8,
+      "form": "εἷς",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "18:13",
+      "word": 14,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "18:13",
+      "word": 15,
+      "form": "ἔτυπτε",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "18:14",
+      "word": 9,
+      "form": "παρʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "18:22",
+      "word": 7,
+      "form": "ἕν",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "18:22",
+      "word": 20,
+      "form": "ἐν",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "18:34",
+      "word": 11,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "19:14",
+      "word": 16,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "19:24",
+      "word": 5,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "19:27",
+      "word": 10,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "19:30",
+      "word": 12,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "19:36",
+      "word": 6,
+      "form": "ἑαυτῶν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "19:41",
+      "word": 7,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "19:44",
+      "word": 17,
+      "form": "ἀνθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "19:47",
+      "word": 4,
+      "form": "καθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "20:18",
+      "word": 3,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "20:18",
+      "word": 8,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "20:18",
+      "word": 10,
+      "form": "δʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "20:19",
+      "word": 8,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "20:21",
+      "word": 15,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "20:21",
+      "word": 16,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "20:24",
+      "word": 8,
+      "form": "ἀποκριθέντες",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "20:44",
+      "word": 3,
+      "form": "κύριον",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "21:3",
+      "word": 10,
+      "form": "αὕτη",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "21:9",
+      "word": 13,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "21:10",
+      "word": 5,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "21:11",
+      "word": 13,
+      "form": "σημεῖα",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "21:11",
+      "word": 14,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "21:12",
+      "word": 5,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "21:15",
+      "word": 7,
+      "form": "ᾗ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "21:15",
+      "word": 11,
+      "form": "ἢ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "21:30",
+      "word": 4,
+      "form": "ἀφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "21:34",
+      "word": 17,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "22:7",
+      "word": 2,
+      "form": "ἡ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "22:7",
+      "word": 6,
+      "form": "ᾗ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "22:15",
+      "word": 10,
+      "form": "μεθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "22:18",
+      "word": 3,
+      "form": "οὐ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "22:18",
+      "word": 15,
+      "form": "οὗ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "22:21",
+      "word": 7,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "22:22",
+      "word": 15,
+      "form": "διʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "22:26",
+      "word": 4,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "22:28",
+      "word": 5,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "22:34",
+      "word": 7,
+      "form": "φωνήσει",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "22:41",
+      "word": 3,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "22:42",
+      "word": 8,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "22:43",
+      "word": 4,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "22:52",
+      "word": 6,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "22:53",
+      "word": 0,
+      "form": "καθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "22:53",
+      "word": 4,
+      "form": "μεθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "22:53",
+      "word": 13,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "22:53",
+      "word": 15,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "22:59",
+      "word": 9,
+      "form": "Ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "22:59",
+      "word": 13,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "22:60",
+      "word": 2,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "22:60",
+      "word": 7,
+      "form": "ὃ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "22:61",
+      "word": 12,
+      "form": "λόγου",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "22:67",
+      "word": 1,
+      "form": "Εἰ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "22:67",
+      "word": 3,
+      "form": "εἶ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "23:2",
+      "word": 18,
+      "form": "αὑτὸν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "23:5",
+      "word": 9,
+      "form": "καθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "23:8",
+      "word": 26,
+      "form": "ὑπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "23:12",
+      "word": 8,
+      "form": "Πιλᾶτος",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "23:12",
+      "word": 13,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "23:12",
+      "word": 21,
+      "form": "αὑτούς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "23:14",
+      "word": 27,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "23:15",
+      "word": 0,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "23:26",
+      "word": 9,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "23:28",
+      "word": 11,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "23:28",
+      "word": 14,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "23:29",
+      "word": 8,
+      "form": "αἱ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "23:29",
+      "word": 11,
+      "form": "αἱ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "23:29",
+      "word": 13,
+      "form": "αἳ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "23:30",
+      "word": 6,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "23:37",
+      "word": 2,
+      "form": "Εἰ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "23:37",
+      "word": 4,
+      "form": "εἶ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "23:38",
+      "word": 4,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "23:42",
+      "word": 7,
+      "form": "ἐν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "23:42",
+      "word": 8,
+      "form": "τῇ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "23:42",
+      "word": 9,
+      "form": "βασιλείᾳ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "23:43",
+      "word": 7,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "23:44",
+      "word": 9,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "24:6",
+      "word": 3,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "24:10",
+      "word": 4,
+      "form": "Μαρία",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "24:10",
+      "word": 8,
+      "form": "Μαρία",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "24:12",
+      "word": 17,
+      "form": "αὑτὸν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "24:21",
+      "word": 21,
+      "form": "ἀφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "24:29",
+      "word": 5,
+      "form": "μεθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "24:30",
+      "word": 6,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "24:31",
+      "word": 12,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "24:39",
+      "word": 8,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "24:39",
+      "word": 16,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "LUK",
+      "ref": "24:49",
+      "word": 3,
+      "form": "ἐξαποστέλλω",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "24:49",
+      "word": 9,
+      "form": "ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "LUK",
+      "ref": "24:51",
+      "word": 8,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "1:3",
+      "word": 1,
+      "form": "διʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "1:7",
+      "word": 12,
+      "form": "διʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "1:8",
+      "word": 5,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "1:10",
+      "word": 7,
+      "form": "διʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "1:13",
+      "word": 12,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "1:25",
+      "word": 9,
+      "form": "εἰ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "1:25",
+      "word": 12,
+      "form": "εἶ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "1:31",
+      "word": 4,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "1:32",
+      "word": 15,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "1:33",
+      "word": 4,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "1:33",
+      "word": 14,
+      "form": "Ἐφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "1:33",
+      "word": 23,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "1:34",
+      "word": 8,
+      "form": "ἐκλεκτὸς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "1:38",
+      "word": 2,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "1:38",
+      "word": 17,
+      "form": "ὃ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "1:39",
+      "word": 12,
+      "form": "παρʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "1:42",
+      "word": 7,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "1:42",
+      "word": 13,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "1:42",
+      "word": 19,
+      "form": "ὃ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "1:50",
+      "word": 5,
+      "form": "Ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "1:50",
+      "word": 8,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "2:15",
+      "word": 21,
+      "form": "κέρματα",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "2:15",
+      "word": 25,
+      "form": "ἀνέστρεψεν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "3:2",
+      "word": 30,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "3:8",
+      "word": 10,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "3:16",
+      "word": 21,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "3:17",
+      "word": 14,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "3:17",
+      "word": 19,
+      "form": "διʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "3:19",
+      "word": 3,
+      "form": "ἡ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "3:19",
+      "word": 19,
+      "form": "ἢ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "3:22",
+      "word": 16,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "3:28",
+      "word": 4,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "3:28",
+      "word": 11,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "3:28",
+      "word": 12,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "3:36",
+      "word": 16,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "3:36",
+      "word": 22,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "4:2",
+      "word": 5,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "4:9",
+      "word": 11,
+      "form": "παρʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "4:14",
+      "word": 1,
+      "form": "δʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "4:14",
+      "word": 7,
+      "form": "οὗ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "4:14",
+      "word": 11,
+      "form": "οὐ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "4:23",
+      "word": 0,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "4:27",
+      "word": 21,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "4:29",
+      "word": 4,
+      "form": "εἶπέ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "4:40",
+      "word": 10,
+      "form": "παρʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "4:52",
+      "word": 4,
+      "form": "παρʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "4:53",
+      "word": 9,
+      "form": "ᾗ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "4:53",
+      "word": 22,
+      "form": "ἡ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "5:2",
+      "word": 12,
+      "form": "Βηθεσδά",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "5:9",
+      "word": 7,
+      "form": "ἦρε",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "5:11",
+      "word": 0,
+      "form": "ὃς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "5:18",
+      "word": 12,
+      "form": "ἔλυε",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "5:18",
+      "word": 19,
+      "form": "ἔλεγε",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "5:19",
+      "word": 16,
+      "form": "ἀφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "5:23",
+      "word": 2,
+      "form": "τιμῶσι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "5:23",
+      "word": 6,
+      "form": "τιμῶσι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "5:30",
+      "word": 4,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "5:33",
+      "word": 5,
+      "form": "μεμαρτύρηκε",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "5:42",
+      "word": 0,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "5:44",
+      "word": 5,
+      "form": "παρʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "6:14",
+      "word": 4,
+      "form": "ὃ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "6:14",
+      "word": 12,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "6:14",
+      "word": 14,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "6:22",
+      "word": 10,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "6:22",
+      "word": 20,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "6:23",
+      "word": 0,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "6:26",
+      "word": 16,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "6:32",
+      "word": 18,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "6:36",
+      "word": 0,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "6:37",
+      "word": 1,
+      "form": "ὃ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "6:37",
+      "word": 4,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "6:37",
+      "word": 13,
+      "form": "με",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "6:39",
+      "word": 17,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "6:43",
+      "word": 7,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "6:55",
+      "word": 5,
+      "form": "ἐστι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "6:55",
+      "word": 12,
+      "form": "ἐστι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "6:57",
+      "word": 17,
+      "form": "διʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "6:64",
+      "word": 0,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "6:64",
+      "word": 4,
+      "form": "τινες",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "6:64",
+      "word": 5,
+      "form": "οἳ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "6:64",
+      "word": 14,
+      "form": "τίνες",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "6:64",
+      "word": 16,
+      "form": "οἱ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "6:66",
+      "word": 13,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "7:7",
+      "word": 9,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "7:7",
+      "word": 14,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "7:10",
+      "word": 15,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "7:17",
+      "word": 18,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "7:18",
+      "word": 1,
+      "form": "ἀφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "7:22",
+      "word": 13,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "7:24",
+      "word": 2,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "7:28",
+      "word": 17,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "7:28",
+      "word": 21,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "7:29",
+      "word": 4,
+      "form": "παρʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "7:30",
+      "word": 7,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "7:33",
+      "word": 7,
+      "form": "μεθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "7:36",
+      "word": 6,
+      "form": "εἶπε",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "7:39",
+      "word": 6,
+      "form": "οὗ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "7:43",
+      "word": 6,
+      "form": "διʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "7:44",
+      "word": 7,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "7:44",
+      "word": 10,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "7:49",
+      "word": 0,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "7:51",
+      "word": 11,
+      "form": "παρʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "7:53",
+      "word": 0,
+      "form": "καὶ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "7:53",
+      "word": 1,
+      "form": "ἐπορεύθη",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "7:53",
+      "word": 2,
+      "form": "ἕκαστος",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "7:53",
+      "word": 3,
+      "form": "εἰς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "7:53",
+      "word": 4,
+      "form": "τὸν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "7:53",
+      "word": 5,
+      "form": "οἶκον",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "7:53",
+      "word": 6,
+      "form": "αὐτοῦ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:1",
+      "word": 0,
+      "form": "Ἰησοῦς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:1",
+      "word": 1,
+      "form": "δὲ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:1",
+      "word": 2,
+      "form": "ἐπορεύθη",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:1",
+      "word": 3,
+      "form": "εἰς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:1",
+      "word": 4,
+      "form": "τὸ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:1",
+      "word": 5,
+      "form": "ὄρος",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:1",
+      "word": 6,
+      "form": "τῶν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:1",
+      "word": 7,
+      "form": "Ἐλαιῶν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:2",
+      "word": 0,
+      "form": "Ὄρθρου",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:2",
+      "word": 1,
+      "form": "δὲ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:2",
+      "word": 2,
+      "form": "πάλιν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:2",
+      "word": 3,
+      "form": "παρεγένετο",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:2",
+      "word": 4,
+      "form": "εἰς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:2",
+      "word": 5,
+      "form": "τὸ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:2",
+      "word": 6,
+      "form": "ἱερόν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:2",
+      "word": 7,
+      "form": "καὶ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:2",
+      "word": 8,
+      "form": "πᾶς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:2",
+      "word": 9,
+      "form": "ὁ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:2",
+      "word": 10,
+      "form": "λαὸς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:2",
+      "word": 11,
+      "form": "ἤρχετο",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:2",
+      "word": 12,
+      "form": "καὶ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:2",
+      "word": 13,
+      "form": "καθίσας",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:2",
+      "word": 14,
+      "form": "ἐδίδασκεν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:2",
+      "word": 15,
+      "form": "αὐτούς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:3",
+      "word": 0,
+      "form": "ἄγουσιν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:3",
+      "word": 1,
+      "form": "δὲ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:3",
+      "word": 2,
+      "form": "οἱ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:3",
+      "word": 3,
+      "form": "γραμματεῖς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:3",
+      "word": 4,
+      "form": "καὶ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:3",
+      "word": 5,
+      "form": "οἱ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:3",
+      "word": 6,
+      "form": "Φαρισαῖοι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:3",
+      "word": 7,
+      "form": "πρὸς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:3",
+      "word": 8,
+      "form": "αὐτὸν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:3",
+      "word": 9,
+      "form": "γυναῖκα",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:3",
+      "word": 10,
+      "form": "ἐν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:3",
+      "word": 11,
+      "form": "μοιχείᾳ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:3",
+      "word": 12,
+      "form": "καταλήφθεισαν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:3",
+      "word": 13,
+      "form": "καὶ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:3",
+      "word": 14,
+      "form": "στήσαντες",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:3",
+      "word": 15,
+      "form": "αὐτὴν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:3",
+      "word": 16,
+      "form": "ἐν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:3",
+      "word": 17,
+      "form": "μέσῳ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:4",
+      "word": 0,
+      "form": "λέγουσιν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:4",
+      "word": 1,
+      "form": "αὐτῷ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:4",
+      "word": 2,
+      "form": "πειράζοντες",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:4",
+      "word": 3,
+      "form": "Διδάσκαλε",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:4",
+      "word": 4,
+      "form": "αὕτη",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:4",
+      "word": 5,
+      "form": "ἡ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:4",
+      "word": 6,
+      "form": "γυνὴ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:4",
+      "word": 7,
+      "form": "κατελήφθη",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:4",
+      "word": 8,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:4",
+      "word": 9,
+      "form": "αὐτοφόρῳ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:4",
+      "word": 10,
+      "form": "μοιχευομένη",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:5",
+      "word": 0,
+      "form": "ἐν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:5",
+      "word": 1,
+      "form": "δὲ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:5",
+      "word": 2,
+      "form": "τῷ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:5",
+      "word": 3,
+      "form": "νόμῳ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:5",
+      "word": 4,
+      "form": "Μωσῆς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:5",
+      "word": 5,
+      "form": "ἡμῖν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:5",
+      "word": 6,
+      "form": "ἐνετείλατο",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:5",
+      "word": 7,
+      "form": "τὰς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:5",
+      "word": 8,
+      "form": "τοιαύτας",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:5",
+      "word": 9,
+      "form": "λιθοβολεῖσθαι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:5",
+      "word": 10,
+      "form": "σὺ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:5",
+      "word": 11,
+      "form": "οὖν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:5",
+      "word": 12,
+      "form": "τί",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:5",
+      "word": 13,
+      "form": "λέγεις",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:6",
+      "word": 0,
+      "form": "τοῦτο",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:6",
+      "word": 1,
+      "form": "δὲ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:6",
+      "word": 2,
+      "form": "ἔλεγον",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:6",
+      "word": 3,
+      "form": "πειράζοντες",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:6",
+      "word": 4,
+      "form": "αὐτόν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:6",
+      "word": 5,
+      "form": "ἵνα",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:6",
+      "word": 6,
+      "form": "ἔχωσιν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:6",
+      "word": 7,
+      "form": "κατηγορεῖν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:6",
+      "word": 8,
+      "form": "αὐτοῦ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:6",
+      "word": 9,
+      "form": "ὁ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:6",
+      "word": 10,
+      "form": "δὲ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:6",
+      "word": 11,
+      "form": "Ἰησοῦς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:6",
+      "word": 12,
+      "form": "κάτω",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:6",
+      "word": 13,
+      "form": "κύψας",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:6",
+      "word": 14,
+      "form": "τῷ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:6",
+      "word": 15,
+      "form": "δακτύλῳ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:6",
+      "word": 16,
+      "form": "ἔγραφεν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:6",
+      "word": 17,
+      "form": "εἰς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:6",
+      "word": 18,
+      "form": "τὴν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:6",
+      "word": 19,
+      "form": "γῆν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:6",
+      "word": 20,
+      "form": "μὴ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:6",
+      "word": 21,
+      "form": "προσποιούμενος",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:7",
+      "word": 0,
+      "form": "ὡς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:7",
+      "word": 1,
+      "form": "δὲ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:7",
+      "word": 2,
+      "form": "ἐπέμενον",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:7",
+      "word": 3,
+      "form": "ἐρωτῶντες",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:7",
+      "word": 4,
+      "form": "αὐτόν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:7",
+      "word": 5,
+      "form": "ἀνακύψας",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:7",
+      "word": 6,
+      "form": "εἶπεν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:7",
+      "word": 7,
+      "form": "πρὸς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:7",
+      "word": 8,
+      "form": "αὐτούς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:7",
+      "word": 9,
+      "form": "Ὁ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:7",
+      "word": 10,
+      "form": "ἀναμάρτητος",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:7",
+      "word": 11,
+      "form": "ὑμῶν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:7",
+      "word": 12,
+      "form": "πρῶτον",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:7",
+      "word": 13,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:7",
+      "word": 14,
+      "form": "αὐτὴν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:7",
+      "word": 15,
+      "form": "τὸν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:7",
+      "word": 16,
+      "form": "λίθον",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:7",
+      "word": 17,
+      "form": "βαλέτω",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:8",
+      "word": 0,
+      "form": "καὶ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:8",
+      "word": 1,
+      "form": "πάλιν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:8",
+      "word": 2,
+      "form": "κάτω",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:8",
+      "word": 3,
+      "form": "κύψας",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:8",
+      "word": 4,
+      "form": "ἔγραφεν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:8",
+      "word": 5,
+      "form": "εἰς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:8",
+      "word": 6,
+      "form": "τὴν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:8",
+      "word": 7,
+      "form": "γῆν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:9",
+      "word": 0,
+      "form": "οἱ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:9",
+      "word": 1,
+      "form": "δέ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:9",
+      "word": 2,
+      "form": "ἀκούσαντες",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:9",
+      "word": 3,
+      "form": "καὶ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:9",
+      "word": 4,
+      "form": "ὑπὸ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:9",
+      "word": 5,
+      "form": "τῆς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:9",
+      "word": 6,
+      "form": "συνειδήσεως",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:9",
+      "word": 7,
+      "form": "ἐλεγχόμενοι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:9",
+      "word": 8,
+      "form": "ἐξήρχοντο",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:9",
+      "word": 9,
+      "form": "εἷς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:9",
+      "word": 10,
+      "form": "καθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:9",
+      "word": 11,
+      "form": "εἷς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:9",
+      "word": 12,
+      "form": "ἀρξάμενοι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:9",
+      "word": 13,
+      "form": "ἀπὸ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:9",
+      "word": 14,
+      "form": "τῶν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:9",
+      "word": 15,
+      "form": "πρεσβυτέρων",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:9",
+      "word": 16,
+      "form": "καὶ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:9",
+      "word": 17,
+      "form": "κατελείφθη",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:9",
+      "word": 18,
+      "form": "μόνος",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:9",
+      "word": 19,
+      "form": "ὁ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:9",
+      "word": 20,
+      "form": "Ἰησοῦς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:9",
+      "word": 21,
+      "form": "καὶ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:9",
+      "word": 22,
+      "form": "ἡ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:9",
+      "word": 23,
+      "form": "γυνὴ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:9",
+      "word": 24,
+      "form": "ἐν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:9",
+      "word": 25,
+      "form": "μέσῳ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:9",
+      "word": 26,
+      "form": "οὖσα",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:10",
+      "word": 0,
+      "form": "ἀνακύψας",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:10",
+      "word": 1,
+      "form": "δὲ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:10",
+      "word": 2,
+      "form": "ὁ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:10",
+      "word": 3,
+      "form": "Ἰησοῦς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:10",
+      "word": 4,
+      "form": "καὶ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:10",
+      "word": 5,
+      "form": "μηδένα",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:10",
+      "word": 6,
+      "form": "θεασάμενος",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:10",
+      "word": 7,
+      "form": "πλὴν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:10",
+      "word": 8,
+      "form": "τὴς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:10",
+      "word": 9,
+      "form": "γυναικός",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:10",
+      "word": 10,
+      "form": "εἶπεν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:10",
+      "word": 11,
+      "form": "αὐτῇ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:10",
+      "word": 12,
+      "form": "Ποῦ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:10",
+      "word": 13,
+      "form": "εἰσιν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:10",
+      "word": 14,
+      "form": "ἐκεῖνοι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:10",
+      "word": 15,
+      "form": "οἱ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:10",
+      "word": 16,
+      "form": "κατήγοροί",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:10",
+      "word": 17,
+      "form": "σου",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:10",
+      "word": 18,
+      "form": "Οὐδείς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:10",
+      "word": 19,
+      "form": "σε",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:10",
+      "word": 20,
+      "form": "κατέκρινεν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:11",
+      "word": 0,
+      "form": "ἡ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:11",
+      "word": 1,
+      "form": "δὲ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:11",
+      "word": 2,
+      "form": "εἶπεν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:11",
+      "word": 3,
+      "form": "Οὐδείς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:11",
+      "word": 4,
+      "form": "κύριε",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:11",
+      "word": 5,
+      "form": "εἶπεν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:11",
+      "word": 6,
+      "form": "δὲ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:11",
+      "word": 7,
+      "form": "ὁ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:11",
+      "word": 8,
+      "form": "Ἰησοῦς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:11",
+      "word": 9,
+      "form": "Οὐδὲ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:11",
+      "word": 10,
+      "form": "ἐγώ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:11",
+      "word": 11,
+      "form": "σε",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:11",
+      "word": 12,
+      "form": "κρίνω",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:11",
+      "word": 13,
+      "form": "πορεύου",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:11",
+      "word": 14,
+      "form": "καὶ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:11",
+      "word": 15,
+      "form": "μηκέτι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:11",
+      "word": 16,
+      "form": "ἁμάρτανε",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:12",
+      "word": 22,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:14",
+      "word": 12,
+      "form": "ἡ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:14",
+      "word": 28,
+      "form": "ἢ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:16",
+      "word": 15,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:25",
+      "word": 8,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:25",
+      "word": 12,
+      "form": "ὅ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:26",
+      "word": 7,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:26",
+      "word": 16,
+      "form": "παρʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:28",
+      "word": 16,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:29",
+      "word": 4,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:37",
+      "word": 1,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:37",
+      "word": 9,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:42",
+      "word": 23,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:42",
+      "word": 26,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:44",
+      "word": 18,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:55",
+      "word": 18,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "8:59",
+      "word": 5,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "9:3",
+      "word": 9,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "9:9",
+      "word": 8,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "9:17",
+      "word": 10,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "9:17",
+      "word": 18,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "9:31",
+      "word": 7,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "9:40",
+      "word": 6,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "10:1",
+      "word": 15,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "10:3",
+      "word": 16,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "10:5",
+      "word": 7,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "10:5",
+      "word": 11,
+      "form": "οἴδασι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "10:8",
+      "word": 9,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "10:9",
+      "word": 4,
+      "form": "διʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "10:14",
+      "word": 11,
+      "form": "γινώσκουσί",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "10:18",
+      "word": 3,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "10:18",
+      "word": 5,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "10:18",
+      "word": 9,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "10:24",
+      "word": 14,
+      "form": "εἰ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "10:24",
+      "word": 16,
+      "form": "εἶ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "10:26",
+      "word": 0,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "10:29",
+      "word": 0,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "10:29",
+      "word": 3,
+      "form": "ὃ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "10:29",
+      "word": 7,
+      "form": "μεῖζων",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "10:32",
+      "word": 16,
+      "form": "ἐμὲ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "10:36",
+      "word": 11,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "10:36",
+      "word": 13,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "10:39",
+      "word": 3,
+      "form": "αὐτὸν",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "11:4",
+      "word": 12,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "11:4",
+      "word": 24,
+      "form": "διʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "11:15",
+      "word": 2,
+      "form": "διʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "11:15",
+      "word": 10,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "11:16",
+      "word": 13,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "11:20",
+      "word": 10,
+      "form": "Μαρία",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "11:30",
+      "word": 8,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "11:31",
+      "word": 5,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "11:38",
+      "word": 16,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "11:51",
+      "word": 2,
+      "form": "ἀφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "11:51",
+      "word": 6,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "11:52",
+      "word": 6,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "11:53",
+      "word": 0,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "11:54",
+      "word": 9,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "11:56",
+      "word": 6,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "12:6",
+      "word": 10,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "12:8",
+      "word": 5,
+      "form": "μεθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "12:9",
+      "word": 17,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "12:11",
+      "word": 2,
+      "form": "διʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "12:14",
+      "word": 6,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "12:16",
+      "word": 8,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "12:16",
+      "word": 17,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "12:17",
+      "word": 6,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "12:30",
+      "word": 5,
+      "form": "διʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "12:30",
+      "word": 12,
+      "form": "διʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "12:36",
+      "word": 18,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "12:44",
+      "word": 13,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "12:47",
+      "word": 21,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "12:49",
+      "word": 6,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "13:2",
+      "word": 11,
+      "form": "παραδοῖ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "13:8",
+      "word": 22,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "13:10",
+      "word": 14,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "13:10",
+      "word": 22,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "13:18",
+      "word": 9,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "13:18",
+      "word": 20,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "13:19",
+      "word": 0,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "13:27",
+      "word": 8,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "13:27",
+      "word": 13,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "13:27",
+      "word": 15,
+      "form": "Ὃ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "13:33",
+      "word": 3,
+      "form": "μεθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "13:38",
+      "word": 12,
+      "form": "οὐ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "13:38",
+      "word": 17,
+      "form": "οὗ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "14:6",
+      "word": 21,
+      "form": "διʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "14:7",
+      "word": 1,
+      "form": "ἐγνώκειτέ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "14:7",
+      "word": 8,
+      "form": "ᾔδειτε",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "14:7",
+      "word": 9,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "14:9",
+      "word": 6,
+      "form": "μεθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "14:10",
+      "word": 19,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "14:13",
+      "word": 1,
+      "form": "ὅ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "14:13",
+      "word": 13,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "14:16",
+      "word": 10,
+      "form": "ᾖ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "14:16",
+      "word": 11,
+      "form": "μεθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "14:17",
+      "word": 4,
+      "form": "ὃ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "14:17",
+      "word": 5,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "14:17",
+      "word": 20,
+      "form": "παρʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "14:23",
+      "word": 25,
+      "form": "παρʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "14:25",
+      "word": 3,
+      "form": "παρʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "14:26",
+      "word": 0,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "14:26",
+      "word": 7,
+      "form": "ὃ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "14:26",
+      "word": 9,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "14:28",
+      "word": 1,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "14:28",
+      "word": 15,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "14:28",
+      "word": 20,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "14:30",
+      "word": 3,
+      "form": "μεθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "14:31",
+      "word": 0,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "15:4",
+      "word": 13,
+      "form": "ἀφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "15:11",
+      "word": 4,
+      "form": "ἡ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "15:11",
+      "word": 6,
+      "form": "ἡ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "15:11",
+      "word": 10,
+      "form": "ᾖ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "15:11",
+      "word": 12,
+      "form": "ἡ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "15:16",
+      "word": 4,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "15:16",
+      "word": 18,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "15:16",
+      "word": 23,
+      "form": "ὅ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "15:19",
+      "word": 18,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "15:25",
+      "word": 0,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "15:26",
+      "word": 2,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "15:26",
+      "word": 15,
+      "form": "ὃ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "15:27",
+      "word": 5,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "15:27",
+      "word": 7,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "16:2",
+      "word": 3,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "16:4",
+      "word": 12,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "16:4",
+      "word": 23,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "16:4",
+      "word": 24,
+      "form": "μεθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "16:6",
+      "word": 0,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "16:7",
+      "word": 0,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "16:7",
+      "word": 17,
+      "form": "οὐ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "16:7",
+      "word": 19,
+      "form": "ἔλθῃ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "16:12",
+      "word": 5,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "16:13",
+      "word": 17,
+      "form": "ἀφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "16:13",
+      "word": 19,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "16:19",
+      "word": 12,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "16:20",
+      "word": 15,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "16:21",
+      "word": 6,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "16:21",
+      "word": 23,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "16:22",
+      "word": 22,
+      "form": "ἀφʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "16:23",
+      "word": 18,
+      "form": "δώσει",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "16:24",
+      "word": 13,
+      "form": "ἡ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "16:24",
+      "word": 16,
+      "form": "ᾖ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "16:27",
+      "word": 6,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "16:27",
+      "word": 12,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "16:28",
+      "word": 1,
+      "form": "ἐκ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "16:32",
+      "word": 21,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "17:3",
+      "word": 7,
+      "form": "γινώσκωσι",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "17:8",
+      "word": 0,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "17:8",
+      "word": 14,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "17:8",
+      "word": 20,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "17:11",
+      "word": 3,
+      "form": "ἐν",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "17:11",
+      "word": 8,
+      "form": "ἐν",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "17:11",
+      "word": 20,
+      "form": "ἐν",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "17:11",
+      "word": 29,
+      "form": "ἓν",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "17:12",
+      "word": 2,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "17:15",
+      "word": 8,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "17:21",
+      "word": 2,
+      "form": "ἓν",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "17:21",
+      "word": 7,
+      "form": "ἐν",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "17:21",
+      "word": 10,
+      "form": "ἐν",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "17:21",
+      "word": 15,
+      "form": "ἐν",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "17:23",
+      "word": 1,
+      "form": "ἐν",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "17:23",
+      "word": 5,
+      "form": "ἐν",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "17:23",
+      "word": 11,
+      "form": "ἕν",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "17:24",
+      "word": 11,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "17:26",
+      "word": 9,
+      "form": "ἡ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "17:26",
+      "word": 16,
+      "form": "ᾖ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "18:2",
+      "word": 0,
+      "form": "ᾔδει",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "18:4",
+      "word": 6,
+      "form": "ἐπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "18:5",
+      "word": 16,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "18:11",
+      "word": 2,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "18:11",
+      "word": 14,
+      "form": "ὃ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "18:11",
+      "word": 17,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "18:18",
+      "word": 19,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "18:26",
+      "word": 21,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "19:11",
+      "word": 6,
+      "form": "κατʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "19:17",
+      "word": 2,
+      "form": "αὑτῷ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "19:18",
+      "word": 4,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "19:21",
+      "word": 14,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "19:21",
+      "word": 21,
+      "form": "εἰμί",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "19:22",
+      "word": 1,
+      "form": "ὁ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "19:22",
+      "word": 3,
+      "form": "Ὃ",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "19:23",
+      "word": 30,
+      "form": "διʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "19:25",
+      "word": 16,
+      "form": "Μαρία",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "19:25",
+      "word": 21,
+      "form": "Μαρία",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "19:27",
+      "word": 9,
+      "form": "ἀπʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "19:34",
+      "word": 0,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "19:35",
+      "word": 19,
+      "form": "πιστεύητε",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "20:10",
+      "word": 4,
+      "form": "αὑτοὺς",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "20:24",
+      "word": 11,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "20:26",
+      "word": 1,
+      "form": "μεθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "20:26",
+      "word": 12,
+      "form": "μετʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "20:31",
+      "word": 4,
+      "form": "πιστεύητε",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "21:8",
+      "word": 14,
+      "form": "ἀλλὰ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "21:17",
+      "word": 11,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "21:17",
+      "word": 27,
+      "form": "ὅτι",
+      "reason": "ambiguous"
+    },
+    {
+      "book": "JHN",
+      "ref": "21:23",
+      "word": 23,
+      "form": "ἀλλʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "21:25",
+      "word": 12,
+      "form": "καθʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "21:25",
+      "word": 14,
+      "form": "οὐδʼ",
+      "reason": "no exact form"
+    },
+    {
+      "book": "JHN",
+      "ref": "21:25",
+      "word": 19,
+      "form": "χωρήσειν",
+      "reason": "no exact form"
+    }
+  ]
+}

@@ -1,0 +1,971 @@
+{
+  "commit": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+  "tree": {
+    "sha": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+    "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/trees/c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+    "tree": [
+      {
+        "path": ".editorconfig",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8a42ff6bbd52e72cd5fd4e96286e17157eed440d",
+        "size": 148,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/8a42ff6bbd52e72cd5fd4e96286e17157eed440d"
+      },
+      {
+        "path": ".gitattributes",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6313b56c57848efce05faa7aa7e901ccfc2886ea",
+        "size": 19,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/6313b56c57848efce05faa7aa7e901ccfc2886ea"
+      },
+      {
+        "path": "About.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "930258324114fc7520b482fcc57786b841191759",
+        "size": 3914,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/930258324114fc7520b482fcc57786b841191759"
+      },
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2f244ac814036ecd9ba9f69782e89ce6b1dca9eb",
+        "size": 18650,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/2f244ac814036ecd9ba9f69782e89ce6b1dca9eb"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a8b5262dd238954d88bf8eefe6b0a0f7e11997d4",
+        "size": 1136,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/a8b5262dd238954d88bf8eefe6b0a0f7e11997d4"
+      },
+      {
+        "path": "data",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2b29f2c9cc298d6a190bc7a6f77112f19dc625d8",
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/trees/2b29f2c9cc298d6a190bc7a6f77112f19dc625d8"
+      },
+      {
+        "path": "data/sblgnt",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e221114de819617927049864a45bb294d68b8fbe",
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/trees/e221114de819617927049864a45bb294d68b8fbe"
+      },
+      {
+        "path": "data/sblgnt/text",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "03091d37cb8ec908c38827cd64ce56da25394b15",
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/trees/03091d37cb8ec908c38827cd64ce56da25394b15"
+      },
+      {
+        "path": "data/sblgnt/text/1Cor.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e3518b277c62f4f28c62089dffdda385fb30ed5b",
+        "size": 86178,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/e3518b277c62f4f28c62089dffdda385fb30ed5b"
+      },
+      {
+        "path": "data/sblgnt/text/1John.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e4f7c05c3e7d6afb1fceff563bc443065df586eb",
+        "size": 25135,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/e4f7c05c3e7d6afb1fceff563bc443065df586eb"
+      },
+      {
+        "path": "data/sblgnt/text/1Pet.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fe0f29aecbc8476ce87df0bf396e5e78c410491d",
+        "size": 23064,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/fe0f29aecbc8476ce87df0bf396e5e78c410491d"
+      },
+      {
+        "path": "data/sblgnt/text/1Thess.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e3d844977c70badc19c056f3728dfeafe493486f",
+        "size": 19334,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/e3d844977c70badc19c056f3728dfeafe493486f"
+      },
+      {
+        "path": "data/sblgnt/text/1Tim.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "54745ec5731df6c6f844b28a9e12d063a38cf416",
+        "size": 22409,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/54745ec5731df6c6f844b28a9e12d063a38cf416"
+      },
+      {
+        "path": "data/sblgnt/text/2Cor.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9fa2dfdaf9736f102f4377084c6176cc92ff7e89",
+        "size": 57684,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/9fa2dfdaf9736f102f4377084c6176cc92ff7e89"
+      },
+      {
+        "path": "data/sblgnt/text/2John.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "29ac357d293ef2b525f04e66ba4bef5c144e4b12",
+        "size": 3014,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/29ac357d293ef2b525f04e66ba4bef5c144e4b12"
+      },
+      {
+        "path": "data/sblgnt/text/2Pet.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4e5e26aba20f43d1509afc828e96d90134e52e00",
+        "size": 15288,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/4e5e26aba20f43d1509afc828e96d90134e52e00"
+      },
+      {
+        "path": "data/sblgnt/text/2Thess.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d73ba27f24a7d4a953242bc81d230833152c87ed",
+        "size": 10591,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/d73ba27f24a7d4a953242bc81d230833152c87ed"
+      },
+      {
+        "path": "data/sblgnt/text/2Tim.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8809e18b0f95c7e6913ea5d239f2c28eda2fffad",
+        "size": 16684,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/8809e18b0f95c7e6913ea5d239f2c28eda2fffad"
+      },
+      {
+        "path": "data/sblgnt/text/3John.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "023c167c50535f735e9b15d564f1bd83e10b7d6d",
+        "size": 2917,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/023c167c50535f735e9b15d564f1bd83e10b7d6d"
+      },
+      {
+        "path": "data/sblgnt/text/Acts.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4cdcc5176134a1b9802c87dbdf3a90ffb6c284aa",
+        "size": 244952,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/4cdcc5176134a1b9802c87dbdf3a90ffb6c284aa"
+      },
+      {
+        "path": "data/sblgnt/text/Col.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "06f9ee0bc5f86cd1f28f1e54867224f49e446380",
+        "size": 20334,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/06f9ee0bc5f86cd1f28f1e54867224f49e446380"
+      },
+      {
+        "path": "data/sblgnt/text/Eph.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a6e1ed7096486673ce3c89bb85869c8283297d5c",
+        "size": 30904,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/a6e1ed7096486673ce3c89bb85869c8283297d5c"
+      },
+      {
+        "path": "data/sblgnt/text/Gal.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f0ccf0cd88061ba2df09f88c8cc6da9101d92aa6",
+        "size": 28701,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/f0ccf0cd88061ba2df09f88c8cc6da9101d92aa6"
+      },
+      {
+        "path": "data/sblgnt/text/Heb.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3a7e9b3f7f17aaae39976aae8661bfa5dba55db2",
+        "size": 66518,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/3a7e9b3f7f17aaae39976aae8661bfa5dba55db2"
+      },
+      {
+        "path": "data/sblgnt/text/Jas.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "283a675fdfab4ca4967ca5a72500a1aff2bd07c7",
+        "size": 22732,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/283a675fdfab4ca4967ca5a72500a1aff2bd07c7"
+      },
+      {
+        "path": "data/sblgnt/text/John.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a79ae036447d48fd88c4db8e166c771b4fc57d93",
+        "size": 189793,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/a79ae036447d48fd88c4db8e166c771b4fc57d93"
+      },
+      {
+        "path": "data/sblgnt/text/Jude.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "acff675d2bda62ecbe081bb75a73788e71c521da",
+        "size": 6475,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/acff675d2bda62ecbe081bb75a73788e71c521da"
+      },
+      {
+        "path": "data/sblgnt/text/Luke.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "735aca6a87f3339d806e5330461cb4c7a7d46d9c",
+        "size": 251219,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/735aca6a87f3339d806e5330461cb4c7a7d46d9c"
+      },
+      {
+        "path": "data/sblgnt/text/Mark.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3f50fe360d1d2351db6b6c3000de47c16abccf84",
+        "size": 148655,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/3f50fe360d1d2351db6b6c3000de47c16abccf84"
+      },
+      {
+        "path": "data/sblgnt/text/Matt.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d19efbdff018c2bde83ba0fc01e0d8cb399b496b",
+        "size": 235067,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/d19efbdff018c2bde83ba0fc01e0d8cb399b496b"
+      },
+      {
+        "path": "data/sblgnt/text/Phil.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c97991ef6d1bd1f236ea4bb81dc9230df895bc7b",
+        "size": 20729,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/c97991ef6d1bd1f236ea4bb81dc9230df895bc7b"
+      },
+      {
+        "path": "data/sblgnt/text/Phlm.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7904bf8debfe51ea69e0259d214352310eebe3c2",
+        "size": 4181,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/7904bf8debfe51ea69e0259d214352310eebe3c2"
+      },
+      {
+        "path": "data/sblgnt/text/Rev.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a50a57daa6f410cccc219ac45b03f069f43baad8",
+        "size": 118255,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/a50a57daa6f410cccc219ac45b03f069f43baad8"
+      },
+      {
+        "path": "data/sblgnt/text/Rom.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9782d917928719056708db2b1849eb8cfe65a6c5",
+        "size": 88508,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/9782d917928719056708db2b1849eb8cfe65a6c5"
+      },
+      {
+        "path": "data/sblgnt/text/Titus.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "114ee929baff42f702b30553442010fe1ec84747",
+        "size": 9470,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/114ee929baff42f702b30553442010fe1ec84747"
+      },
+      {
+        "path": "data/sblgnt/xml",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "410aecda40b27f0c1f25c437dcb56d0af2920e81",
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/trees/410aecda40b27f0c1f25c437dcb56d0af2920e81"
+      },
+      {
+        "path": "data/sblgnt/xml/1Cor.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2a0c1a309626f498d6ce76626385d9c2dbf83acd",
+        "size": 342330,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/2a0c1a309626f498d6ce76626385d9c2dbf83acd"
+      },
+      {
+        "path": "data/sblgnt/xml/1John.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d664c314bdf41bcdb7cff9b31ab5799d425ab416",
+        "size": 102101,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/d664c314bdf41bcdb7cff9b31ab5799d425ab416"
+      },
+      {
+        "path": "data/sblgnt/xml/1Pet.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c97dee2ade8c537569a1929989e74863605514b0",
+        "size": 85461,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/c97dee2ade8c537569a1929989e74863605514b0"
+      },
+      {
+        "path": "data/sblgnt/xml/1Thess.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "70427d693af775c88788a446245f5eb977b70c77",
+        "size": 73887,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/70427d693af775c88788a446245f5eb977b70c77"
+      },
+      {
+        "path": "data/sblgnt/xml/1Tim.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "545fb4302fba34238a5e556ac1cd75a01b774fc8",
+        "size": 81717,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/545fb4302fba34238a5e556ac1cd75a01b774fc8"
+      },
+      {
+        "path": "data/sblgnt/xml/2Cor.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dc190c5371260c5a92be2af65385f8c84bef1e92",
+        "size": 222992,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/dc190c5371260c5a92be2af65385f8c84bef1e92"
+      },
+      {
+        "path": "data/sblgnt/xml/2John.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b50b1739d8954812524660790dc367dcd8a6c3b1",
+        "size": 12074,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/b50b1739d8954812524660790dc367dcd8a6c3b1"
+      },
+      {
+        "path": "data/sblgnt/xml/2Pet.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "412fa72bb55158b85bf2b2771b8eedede86d67ae",
+        "size": 55525,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/412fa72bb55158b85bf2b2771b8eedede86d67ae"
+      },
+      {
+        "path": "data/sblgnt/xml/2Thess.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "566699e2378988a305c5dda4e1e57bd3bb07d4a4",
+        "size": 40902,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/566699e2378988a305c5dda4e1e57bd3bb07d4a4"
+      },
+      {
+        "path": "data/sblgnt/xml/2Tim.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4832ddbb5f3715d691d96849c37f5f191fd20a39",
+        "size": 62532,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/4832ddbb5f3715d691d96849c37f5f191fd20a39"
+      },
+      {
+        "path": "data/sblgnt/xml/3John.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "308cc92e958f729caae8d6e54492d51d0b63baca",
+        "size": 11161,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/308cc92e958f729caae8d6e54492d51d0b63baca"
+      },
+      {
+        "path": "data/sblgnt/xml/Acts.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "168d2faff82b0047805703dfe1892e5655c211c8",
+        "size": 921255,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/168d2faff82b0047805703dfe1892e5655c211c8"
+      },
+      {
+        "path": "data/sblgnt/xml/Col.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c77f562d49291d07faa291cd361126535571b7e6",
+        "size": 79114,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/c77f562d49291d07faa291cd361126535571b7e6"
+      },
+      {
+        "path": "data/sblgnt/xml/Eph.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8818f2079ec8139fe930ed506b0b5fb94e80c723",
+        "size": 120457,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/8818f2079ec8139fe930ed506b0b5fb94e80c723"
+      },
+      {
+        "path": "data/sblgnt/xml/Gal.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ef1d329c5771be079ec92d42e1043e2d66d03cfe",
+        "size": 111663,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/ef1d329c5771be079ec92d42e1043e2d66d03cfe"
+      },
+      {
+        "path": "data/sblgnt/xml/Heb.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9c05ad5c9dc99a5090581a23b241c666ced10154",
+        "size": 247580,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/9c05ad5c9dc99a5090581a23b241c666ced10154"
+      },
+      {
+        "path": "data/sblgnt/xml/Jas.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c13f7154f37163cc2a5c8f93de5ff8b29df64d10",
+        "size": 87475,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/c13f7154f37163cc2a5c8f93de5ff8b29df64d10"
+      },
+      {
+        "path": "data/sblgnt/xml/John.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "11e232c7ab1b4955b6a982e9c2e7087ac7962083",
+        "size": 762321,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/11e232c7ab1b4955b6a982e9c2e7087ac7962083"
+      },
+      {
+        "path": "data/sblgnt/xml/Jude.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "205234a46d81fea141dd263359c1c8a7d3fa4577",
+        "size": 23202,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/205234a46d81fea141dd263359c1c8a7d3fa4577"
+      },
+      {
+        "path": "data/sblgnt/xml/Luke.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "89b03e63aeb75b5b58e64ae9319d3487e7a8838d",
+        "size": 970739,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/89b03e63aeb75b5b58e64ae9319d3487e7a8838d"
+      },
+      {
+        "path": "data/sblgnt/xml/Mark.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3b4246c0035cf8ab1ee02f3b29ac126785104c2b",
+        "size": 572329,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/3b4246c0035cf8ab1ee02f3b29ac126785104c2b"
+      },
+      {
+        "path": "data/sblgnt/xml/Matt.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "088ee8cd84251001c2a883e464fcdff78bfbedc8",
+        "size": 909675,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/088ee8cd84251001c2a883e464fcdff78bfbedc8"
+      },
+      {
+        "path": "data/sblgnt/xml/Phil.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b40b431df84867230984db2c694b08e457617442",
+        "size": 80931,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/b40b431df84867230984db2c694b08e457617442"
+      },
+      {
+        "path": "data/sblgnt/xml/Phlm.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ed43eed05e9488ef69dd2e69600d7d358d3910a4",
+        "size": 16865,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/ed43eed05e9488ef69dd2e69600d7d358d3910a4"
+      },
+      {
+        "path": "data/sblgnt/xml/Rev.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "db52226b1e2cdb4955cda42bf9d10b1739d37abf",
+        "size": 474728,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/db52226b1e2cdb4955cda42bf9d10b1739d37abf"
+      },
+      {
+        "path": "data/sblgnt/xml/Rom.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4ed8b74438ddf46787b06a8f6e9738e0d3e63a61",
+        "size": 347059,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/4ed8b74438ddf46787b06a8f6e9738e0d3e63a61"
+      },
+      {
+        "path": "data/sblgnt/xml/Titus.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b85039ae5fe9bc6e77293493fb473ca4a6aaa7e2",
+        "size": 33932,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/b85039ae5fe9bc6e77293493fb473ca4a6aaa7e2"
+      },
+      {
+        "path": "data/sblgnt/xml/sblgnt.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "66cfbe15bdd263fdab5f55127d83dd979d059278",
+        "size": 325,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/66cfbe15bdd263fdab5f55127d83dd979d059278"
+      },
+      {
+        "path": "data/sblgntapp",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8b0e63159726d39fbb8c6cfa020fb8cc9b100cba",
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/trees/8b0e63159726d39fbb8c6cfa020fb8cc9b100cba"
+      },
+      {
+        "path": "data/sblgntapp/text",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9322ed5736265a418149ce9e634d26c17c6271d2",
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/trees/9322ed5736265a418149ce9e634d26c17c6271d2"
+      },
+      {
+        "path": "data/sblgntapp/text/1Cor.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "267551240a76cf656bbc215701b760ec75e4947c",
+        "size": 25569,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/267551240a76cf656bbc215701b760ec75e4947c"
+      },
+      {
+        "path": "data/sblgntapp/text/1John.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3115721dfe86de219a19e2dfb029263a7683276b",
+        "size": 4643,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/3115721dfe86de219a19e2dfb029263a7683276b"
+      },
+      {
+        "path": "data/sblgntapp/text/1Pet.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7862dad8ddcc94fcb65b6799a1c1fc9ab3680795",
+        "size": 6113,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/7862dad8ddcc94fcb65b6799a1c1fc9ab3680795"
+      },
+      {
+        "path": "data/sblgntapp/text/1Thess.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bc524e804390c140274dd7af81ef7958585bd6ca",
+        "size": 3636,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/bc524e804390c140274dd7af81ef7958585bd6ca"
+      },
+      {
+        "path": "data/sblgntapp/text/1Tim.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f9a44801cf6b494a69dd9e20c65a28ec11680377",
+        "size": 3364,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/f9a44801cf6b494a69dd9e20c65a28ec11680377"
+      },
+      {
+        "path": "data/sblgntapp/text/2Cor.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9524327cb97a8c09e7e15e59d632e2c1d594d282",
+        "size": 12911,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/9524327cb97a8c09e7e15e59d632e2c1d594d282"
+      },
+      {
+        "path": "data/sblgntapp/text/2John.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9cabc199980153163f194f0f32492bfbe14e4968",
+        "size": 1049,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/9cabc199980153163f194f0f32492bfbe14e4968"
+      },
+      {
+        "path": "data/sblgntapp/text/2Pet.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7e0c29e4de994d9709602511e5b6b7bf6a2a5bbc",
+        "size": 3655,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/7e0c29e4de994d9709602511e5b6b7bf6a2a5bbc"
+      },
+      {
+        "path": "data/sblgntapp/text/2Thess.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "83b1547e71ab2e2a5eb700e401087f6d1c6d66e1",
+        "size": 2349,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/83b1547e71ab2e2a5eb700e401087f6d1c6d66e1"
+      },
+      {
+        "path": "data/sblgntapp/text/2Tim.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c4cb4fc3f5b3f3585e27d51d63193ee13d9e3587",
+        "size": 3068,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/c4cb4fc3f5b3f3585e27d51d63193ee13d9e3587"
+      },
+      {
+        "path": "data/sblgntapp/text/3John.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bccc9c2b370dd63cedd48abc1a4ae6be45946dd2",
+        "size": 633,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/bccc9c2b370dd63cedd48abc1a4ae6be45946dd2"
+      },
+      {
+        "path": "data/sblgntapp/text/Acts.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6385d866ff53efc1b912ea7f90af5682851e019d",
+        "size": 76271,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/6385d866ff53efc1b912ea7f90af5682851e019d"
+      },
+      {
+        "path": "data/sblgntapp/text/Col.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3075a567f00a4240ae877fa85970182d940b0b74",
+        "size": 4894,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/3075a567f00a4240ae877fa85970182d940b0b74"
+      },
+      {
+        "path": "data/sblgntapp/text/Eph.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cea381c65d8a34e94df8ef5247a84c4182d625e4",
+        "size": 6692,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/cea381c65d8a34e94df8ef5247a84c4182d625e4"
+      },
+      {
+        "path": "data/sblgntapp/text/Gal.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "74ee7d170c12ce4e284aac78c4525f6df867c563",
+        "size": 6356,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/74ee7d170c12ce4e284aac78c4525f6df867c563"
+      },
+      {
+        "path": "data/sblgntapp/text/Heb.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a7ae4d430814be3010b5fb3ccac74f439aa4194d",
+        "size": 11407,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/a7ae4d430814be3010b5fb3ccac74f439aa4194d"
+      },
+      {
+        "path": "data/sblgntapp/text/Jas.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ad29d50378d6ff768d69f29b39d98accee8186aa",
+        "size": 6233,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/ad29d50378d6ff768d69f29b39d98accee8186aa"
+      },
+      {
+        "path": "data/sblgntapp/text/John.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1cc4af0bdc3fca51b38be7ef100431c58f086ccd",
+        "size": 55512,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/1cc4af0bdc3fca51b38be7ef100431c58f086ccd"
+      },
+      {
+        "path": "data/sblgntapp/text/Jude.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "211ad95f895302ccc5c79475daf55ae537b262ec",
+        "size": 2054,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/211ad95f895302ccc5c79475daf55ae537b262ec"
+      },
+      {
+        "path": "data/sblgntapp/text/Luke.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "54e29f6691481619729dfcbab8591170228d0306",
+        "size": 83568,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/54e29f6691481619729dfcbab8591170228d0306"
+      },
+      {
+        "path": "data/sblgntapp/text/Mark.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "555e566073d8587959e227343ca8f55b433ccf35",
+        "size": 72456,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/555e566073d8587959e227343ca8f55b433ccf35"
+      },
+      {
+        "path": "data/sblgntapp/text/Matt.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "65e3185eae3d0a06d863f8e604c6f05578f5b374",
+        "size": 63273,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/65e3185eae3d0a06d863f8e604c6f05578f5b374"
+      },
+      {
+        "path": "data/sblgntapp/text/Phil.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a0fc928d3769e079afc71c30fdaf1a6241af3b10",
+        "size": 3925,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/a0fc928d3769e079afc71c30fdaf1a6241af3b10"
+      },
+      {
+        "path": "data/sblgntapp/text/Phlm.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a3c4d94eb7122b1b433129a1f0e5b86197bd8f20",
+        "size": 1210,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/a3c4d94eb7122b1b433129a1f0e5b86197bd8f20"
+      },
+      {
+        "path": "data/sblgntapp/text/Rev.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "231bdbe78cef3a64adbfa45be5837ee20838669f",
+        "size": 31675,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/231bdbe78cef3a64adbfa45be5837ee20838669f"
+      },
+      {
+        "path": "data/sblgntapp/text/Rom.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6d2995790a2dc438995dd865441e136ea572f360",
+        "size": 17761,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/6d2995790a2dc438995dd865441e136ea572f360"
+      },
+      {
+        "path": "data/sblgntapp/text/Titus.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b1619a60073ea2f663e6ad21f803c041dc17df6c",
+        "size": 1630,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/b1619a60073ea2f663e6ad21f803c041dc17df6c"
+      },
+      {
+        "path": "data/sblgntapp/xml",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "488eb9e7b3b77ce9daa30c14bb075ed90a8452df",
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/trees/488eb9e7b3b77ce9daa30c14bb075ed90a8452df"
+      },
+      {
+        "path": "data/sblgntapp/xml/1Cor.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9dcdb03c4e1567a1ea358ae596b05c26a01768ef",
+        "size": 33262,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/9dcdb03c4e1567a1ea358ae596b05c26a01768ef"
+      },
+      {
+        "path": "data/sblgntapp/xml/1John.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "338906bcfc66684542bfae2503f5cc71ce459b50",
+        "size": 6302,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/338906bcfc66684542bfae2503f5cc71ce459b50"
+      },
+      {
+        "path": "data/sblgntapp/xml/1Pet.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3f44f04fe67dab84446fb57a8dbc237aedd0e4dc",
+        "size": 8195,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/3f44f04fe67dab84446fb57a8dbc237aedd0e4dc"
+      },
+      {
+        "path": "data/sblgntapp/xml/1Thess.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "63918f02af811c0ac79b8ccce1ab7ae64d2a7394",
+        "size": 4920,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/63918f02af811c0ac79b8ccce1ab7ae64d2a7394"
+      },
+      {
+        "path": "data/sblgntapp/xml/1Tim.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "700f008c11c979ffe2be3ef3bc15eb178326f265",
+        "size": 4540,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/700f008c11c979ffe2be3ef3bc15eb178326f265"
+      },
+      {
+        "path": "data/sblgntapp/xml/2Cor.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "61defef8ff53ea2c2747939220dd72b7cd0ee899",
+        "size": 17050,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/61defef8ff53ea2c2747939220dd72b7cd0ee899"
+      },
+      {
+        "path": "data/sblgntapp/xml/2John.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d08d51fd44b064a3917344b019c617f3b4e01fa5",
+        "size": 1404,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/d08d51fd44b064a3917344b019c617f3b4e01fa5"
+      },
+      {
+        "path": "data/sblgntapp/xml/2Pet.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "762c656bf606ae2a97cb47acaf99a85c81255c58",
+        "size": 4797,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/762c656bf606ae2a97cb47acaf99a85c81255c58"
+      },
+      {
+        "path": "data/sblgntapp/xml/2Thess.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d020c56c0328baebbcda4ef73dd9b8686e053df6",
+        "size": 3107,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/d020c56c0328baebbcda4ef73dd9b8686e053df6"
+      },
+      {
+        "path": "data/sblgntapp/xml/2Tim.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9a24ad2288f1a4455ae114491088cd947a51abd4",
+        "size": 4093,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/9a24ad2288f1a4455ae114491088cd947a51abd4"
+      },
+      {
+        "path": "data/sblgntapp/xml/3John.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "274cc2189f8ca46deacfe202d4ade408d863cc15",
+        "size": 921,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/274cc2189f8ca46deacfe202d4ade408d863cc15"
+      },
+      {
+        "path": "data/sblgntapp/xml/Acts.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6837838bb3314942f9d63b5e1c0d8cabe305e0b4",
+        "size": 100556,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/6837838bb3314942f9d63b5e1c0d8cabe305e0b4"
+      },
+      {
+        "path": "data/sblgntapp/xml/Col.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f7e690e0b140a7abf424e9067b775ce3f6e3c9c4",
+        "size": 6618,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/f7e690e0b140a7abf424e9067b775ce3f6e3c9c4"
+      },
+      {
+        "path": "data/sblgntapp/xml/Eph.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "29c9a4b8f151eeec738b43708b8103de700c9cf3",
+        "size": 8950,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/29c9a4b8f151eeec738b43708b8103de700c9cf3"
+      },
+      {
+        "path": "data/sblgntapp/xml/Gal.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "83958ca85e77cfe7d88d2be4a62481c893c5d5aa",
+        "size": 8500,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/83958ca85e77cfe7d88d2be4a62481c893c5d5aa"
+      },
+      {
+        "path": "data/sblgntapp/xml/Heb.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9ea8de1a5dfd974080eb48e36cd41b3642bcd5b7",
+        "size": 15120,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/9ea8de1a5dfd974080eb48e36cd41b3642bcd5b7"
+      },
+      {
+        "path": "data/sblgntapp/xml/Jas.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "99f03d1d1b16c1f8ee5d2d529f59f939eca36e61",
+        "size": 8346,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/99f03d1d1b16c1f8ee5d2d529f59f939eca36e61"
+      },
+      {
+        "path": "data/sblgntapp/xml/John.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "61593f3ac9a7d8b7ebdddad5e719db0f224a09c2",
+        "size": 73234,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/61593f3ac9a7d8b7ebdddad5e719db0f224a09c2"
+      },
+      {
+        "path": "data/sblgntapp/xml/Jude.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f7e1019494f7bb45707b0d4eca6bb849a55f9ee3",
+        "size": 2547,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/f7e1019494f7bb45707b0d4eca6bb849a55f9ee3"
+      },
+      {
+        "path": "data/sblgntapp/xml/Luke.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e6b30f10d1ecb0538097e27b6b415b65d76a2234",
+        "size": 109267,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/e6b30f10d1ecb0538097e27b6b415b65d76a2234"
+      },
+      {
+        "path": "data/sblgntapp/xml/Mark.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2c0cc40dfcbc70e7a29d365aedab3b2675014d42",
+        "size": 92189,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/2c0cc40dfcbc70e7a29d365aedab3b2675014d42"
+      },
+      {
+        "path": "data/sblgntapp/xml/Matt.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e29c170ac87ede5a0c3053cb616c554bb7fa1c24",
+        "size": 82492,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/e29c170ac87ede5a0c3053cb616c554bb7fa1c24"
+      },
+      {
+        "path": "data/sblgntapp/xml/Phil.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "57f5f27832cddbe4bb02344451537fc90271c733",
+        "size": 5114,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/57f5f27832cddbe4bb02344451537fc90271c733"
+      },
+      {
+        "path": "data/sblgntapp/xml/Phlm.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3fa9ea6af76f2c27486144ddb6643b5afefc90b2",
+        "size": 1679,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/3fa9ea6af76f2c27486144ddb6643b5afefc90b2"
+      },
+      {
+        "path": "data/sblgntapp/xml/Rev.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8bfa811028d3ff22b8d7a7f97fa14856845a4224",
+        "size": 41406,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/8bfa811028d3ff22b8d7a7f97fa14856845a4224"
+      },
+      {
+        "path": "data/sblgntapp/xml/Rom.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3310e7c28f6349b6de03ba3882166c8e638dd328",
+        "size": 23221,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/3310e7c28f6349b6de03ba3882166c8e638dd328"
+      },
+      {
+        "path": "data/sblgntapp/xml/Titus.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2cac3729154e55ec6286a07da88289688b5acd00",
+        "size": 2265,
+        "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/blobs/2cac3729154e55ec6286a07da88289688b5acd00"
+      }
+    ],
+    "truncated": false
+  }
+}

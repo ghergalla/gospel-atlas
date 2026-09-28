@@ -1,0 +1,331 @@
+{
+  "source": {
+    "file": "openbible/cross-references-2026-09-21.zip",
+    "url": "https://a.openbible.info/data/cross-references.zip",
+    "page": "https://www.openbible.info/labs/cross-references/",
+    "bytes": 1983158,
+    "sha256": "83e9db0a08054ed99848531512729f0190dbbac85416f408f2362b5dc36d421d",
+    "retrieved": "2026-09-28T02:06:37.110786+00:00",
+    "snapshot": "2026-09-21",
+    "license": "CC BY (download header); site links to CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "OpenBible.info Bible Cross References; primarily derived from Treasury of Scripture Knowledge",
+    "scope": "Reference identifiers and votes only; no Bible quotations imported."
+  },
+  "baseline": {
+    "revision": "2026-09-28.1",
+    "sections": 184,
+    "sectionReferencesSha256": "5f7a4447442b45c102f3a1af5e21c4064993943198220c60fe0a9a2d8036cebb",
+    "definition": "Shared membership in a main Robertson source section, including disputed groupings. This does not assert that every verse pair is a verbal or event parallel."
+  },
+  "method": [
+    "Keep all directed source rows with both endpoints in the Gospels, regardless of votes.",
+    "Validate endpoints against the project verse index; expand target ranges inclusively, including chapter boundaries. Quarantine invalid rows.",
+    "For each cross-Gospel row, classify all, some, or none of the expanded verse pairs as sharing a main source section.",
+    "Separately collapse reciprocal and overlapping range rows to unique unordered verse pairs. Same-Gospel rows do not enter these pair totals.",
+    "Report old editorial examples separately. The new Lord’s Prayer comparison does not enter the pre-audit baseline.",
+    "Missing a common section is a review candidate, not a newly proven parallel. No automated event, thematic, or confidence classification is assigned."
+  ],
+  "counts": {
+    "totalSourceRows": 344799,
+    "gospelRows": 20193,
+    "sameGospelRows": 8658,
+    "crossGospelRows": 11535,
+    "outsideRows": 9065,
+    "crossGospelRowsWithNonpositiveVotes": 204,
+    "withinRows": 2342,
+    "partialRows": 128,
+    "invalidGospelRows": 0,
+    "uniqueCrossGospelVersePairs": 20569,
+    "uniqueVersePairsWithinBaseline": 5541,
+    "uniqueVersePairsOutsideBaseline": 15028,
+    "outsidePairsInExistingSupplementalGroups": 45,
+    "outsidePairsNotInAnyExistingGroup": 14983
+  },
+  "byGospelPair": {
+    "MAT-LUK": {
+      "outside": 2528,
+      "within": 630,
+      "partial": 28
+    },
+    "MAT-JHN": {
+      "outside": 1875,
+      "partial": 19,
+      "within": 111
+    },
+    "MAT-MRK": {
+      "outside": 1189,
+      "partial": 31,
+      "within": 817
+    },
+    "MRK-LUK": {
+      "outside": 1002,
+      "partial": 26,
+      "within": 564
+    },
+    "MRK-JHN": {
+      "outside": 865,
+      "within": 121,
+      "partial": 14
+    },
+    "LUK-JHN": {
+      "outside": 1606,
+      "within": 99,
+      "partial": 10
+    }
+  },
+  "invalidRows": [],
+  "reviewScope": "Small editorial sample of the complete mechanical reference audit; not exhaustive scholarly review.",
+  "reviewedExamples": [
+    {
+      "from": "Matt.6.9",
+      "to": "Luke.11.1-Luke.11.4",
+      "topic": "The Lord’s Prayer",
+      "disposition": "Accept a related-teaching comparison",
+      "note": "Use Matthew 6:9–13 and Luke 11:2–4 as editorial reading boundaries, retaining Luke 11:1 as context. Robertson §105 explicitly points back to §54 while presenting a later setting.",
+      "sourceRows": [
+        {
+          "sourceLine": 232750,
+          "from": "Matt.6.9",
+          "to": "Luke.11.1-Luke.11.4",
+          "votes": 67,
+          "scope": "cross-gospel",
+          "baseline": "outside",
+          "targetVerseCount": 4,
+          "coveredTargetVerses": 0,
+          "sourceGroups": "",
+          "existingSupplementalGroups": "",
+          "gospelPair": "MAT-LUK"
+        }
+      ]
+    },
+    {
+      "from": "Matt.19.9",
+      "to": "Mark.10.11-Mark.10.12",
+      "topic": "Marriage and divorce",
+      "disposition": "Already represented",
+      "note": "Main section 122 and the focused example already connect these references.",
+      "sourceRows": [
+        {
+          "sourceLine": 238878,
+          "from": "Matt.19.9",
+          "to": "Mark.10.11-Mark.10.12",
+          "votes": 11,
+          "scope": "cross-gospel",
+          "baseline": "within",
+          "targetVerseCount": 2,
+          "coveredTargetVerses": 2,
+          "sourceGroups": "r122",
+          "existingSupplementalGroups": "divorce-focus",
+          "gospelPair": "MAT-MRK"
+        }
+      ]
+    },
+    {
+      "from": "Matt.19.9",
+      "to": "Luke.16.18",
+      "topic": "Teaching about divorce",
+      "disposition": "Candidate for a related-teaching comparison",
+      "note": "A closely related saying appears in a separate Robertson section. Review full boundaries, including Matthew 5:31–32, before publication.",
+      "sourceRows": [
+        {
+          "sourceLine": 238884,
+          "from": "Matt.19.9",
+          "to": "Luke.16.18",
+          "votes": 17,
+          "scope": "cross-gospel",
+          "baseline": "outside",
+          "targetVerseCount": 1,
+          "coveredTargetVerses": 0,
+          "sourceGroups": "",
+          "existingSupplementalGroups": "",
+          "gospelPair": "MAT-LUK"
+        }
+      ]
+    },
+    {
+      "from": "Matt.13.31",
+      "to": "Luke.13.18-Luke.13.19",
+      "topic": "The mustard seed",
+      "disposition": "Candidate for a related-teaching comparison",
+      "note": "The parable occurs in separate Robertson sections. Comparing the teaching does not establish one occasion.",
+      "sourceRows": [
+        {
+          "sourceLine": 236577,
+          "from": "Matt.13.31",
+          "to": "Luke.13.18-Luke.13.19",
+          "votes": 15,
+          "scope": "cross-gospel",
+          "baseline": "outside",
+          "targetVerseCount": 2,
+          "coveredTargetVerses": 0,
+          "sourceGroups": "",
+          "existingSupplementalGroups": "",
+          "gospelPair": "MAT-LUK"
+        }
+      ]
+    },
+    {
+      "from": "Matt.13.33",
+      "to": "Luke.13.21",
+      "topic": "The leaven",
+      "disposition": "Candidate for a related-teaching comparison",
+      "note": "Outside the current shared-section baseline. Consider Luke 13:20 when reviewing context and boundaries.",
+      "sourceRows": [
+        {
+          "sourceLine": 236604,
+          "from": "Matt.13.33",
+          "to": "Luke.13.21",
+          "votes": 7,
+          "scope": "cross-gospel",
+          "baseline": "outside",
+          "targetVerseCount": 1,
+          "coveredTargetVerses": 0,
+          "sourceGroups": "",
+          "existingSupplementalGroups": "",
+          "gospelPair": "MAT-LUK"
+        }
+      ]
+    },
+    {
+      "from": "Matt.23.37",
+      "to": "Luke.13.34-Luke.13.35",
+      "topic": "Lament over Jerusalem",
+      "disposition": "Candidate needing an attributed setting note",
+      "note": "The closely corresponding lament is placed in different Robertson sections. Review interpretations of its setting before publishing a relationship label.",
+      "sourceRows": [
+        {
+          "sourceLine": 241020,
+          "from": "Matt.23.37",
+          "to": "Luke.13.34-Luke.13.35",
+          "votes": 19,
+          "scope": "cross-gospel",
+          "baseline": "outside",
+          "targetVerseCount": 2,
+          "coveredTargetVerses": 0,
+          "sourceGroups": "",
+          "existingSupplementalGroups": "",
+          "gospelPair": "MAT-LUK"
+        }
+      ]
+    },
+    {
+      "from": "Matt.22.37",
+      "to": "Luke.10.27",
+      "topic": "Love of God and neighbor",
+      "disposition": "Candidate needing speaker and context notes",
+      "note": "Matthew presents Jesus’ answer; Luke presents the lawyer’s answer before the Good Samaritan. Shared wording must not obscure who speaks or merge the settings.",
+      "sourceRows": [
+        {
+          "sourceLine": 240583,
+          "from": "Matt.22.37",
+          "to": "Luke.10.27",
+          "votes": 134,
+          "scope": "cross-gospel",
+          "baseline": "outside",
+          "targetVerseCount": 1,
+          "coveredTargetVerses": 0,
+          "sourceGroups": "",
+          "existingSupplementalGroups": "",
+          "gospelPair": "MAT-LUK"
+        }
+      ]
+    },
+    {
+      "from": "Matt.16.16",
+      "to": "John.6.69",
+      "topic": "Peter’s confessions",
+      "disposition": "Related testimony; keep out of event-parallel baseline",
+      "note": "The confessions occur in separate Robertson sections and differ in wording. A Christological connection does not establish one occasion.",
+      "sourceRows": [
+        {
+          "sourceLine": 237844,
+          "from": "Matt.16.16",
+          "to": "John.6.69",
+          "votes": 14,
+          "scope": "cross-gospel",
+          "baseline": "outside",
+          "targetVerseCount": 1,
+          "coveredTargetVerses": 0,
+          "sourceGroups": "",
+          "existingSupplementalGroups": "",
+          "gospelPair": "MAT-JHN"
+        }
+      ]
+    },
+    {
+      "from": "Matt.6.9",
+      "to": "John.20.17",
+      "topic": "God as Father",
+      "disposition": "Broad thematic link; defer from main map",
+      "note": "Father language connects different contexts; this is not another account of the Lord’s Prayer.",
+      "sourceRows": [
+        {
+          "sourceLine": 232731,
+          "from": "Matt.6.9",
+          "to": "John.20.17",
+          "votes": 9,
+          "scope": "cross-gospel",
+          "baseline": "outside",
+          "targetVerseCount": 1,
+          "coveredTargetVerses": 0,
+          "sourceGroups": "",
+          "existingSupplementalGroups": "",
+          "gospelPair": "MAT-JHN"
+        }
+      ]
+    },
+    {
+      "from": "Matt.26.7",
+      "to": "Luke.7.37-Luke.7.38",
+      "topic": "Anointing accounts",
+      "disposition": "Already available as a related-episode comparison",
+      "note": "Outside the main baseline but inside the existing editorial anointing study. Preserve its attributed distinction between person and occasion.",
+      "sourceRows": [
+        {
+          "sourceLine": 242415,
+          "from": "Matt.26.7",
+          "to": "Luke.7.37-Luke.7.38",
+          "votes": 6,
+          "scope": "cross-gospel",
+          "baseline": "outside",
+          "targetVerseCount": 2,
+          "coveredTargetVerses": 0,
+          "sourceGroups": "",
+          "existingSupplementalGroups": "anointing-related",
+          "gospelPair": "MAT-LUK"
+        }
+      ]
+    },
+    {
+      "from": "Matt.5.3",
+      "to": "Luke.6.20-Luke.6.26",
+      "topic": "Beatitudes",
+      "disposition": "Already represented; source range is broad",
+      "note": "The entire destination range shares §54 and its Beatitudes subsection. This does not make every verse an exact counterpart of Matthew 5:3.",
+      "sourceRows": [
+        {
+          "sourceLine": 231639,
+          "from": "Matt.5.3",
+          "to": "Luke.6.20-Luke.6.26",
+          "votes": 57,
+          "scope": "cross-gospel",
+          "baseline": "within",
+          "targetVerseCount": 7,
+          "coveredTargetVerses": 7,
+          "sourceGroups": "r54",
+          "existingSupplementalGroups": "r541",
+          "gospelPair": "MAT-LUK"
+        }
+      ]
+    }
+  ],
+  "rowDownload": "cross-reference-gospel-rows.csv",
+  "limitations": [
+    "OpenBible derives primarily from TSK; this audit does not independently transcribe or certify the complete TSK.",
+    "The export has no per-row source provenance or relationship types. Do not attribute an individual edge to TSK solely from its presence here.",
+    "Votes include seeded site data; they are not confidence, scholarly consensus, or event identity.",
+    "Verse pairs, directed rows, and narrative sections are different counting units.",
+    "No source Bible quotations are imported. Existing BSB, ASV, and SBLGNT corpora remain authoritative."
+  ]
+}

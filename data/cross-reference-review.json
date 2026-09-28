@@ -1,0 +1,79 @@
+[
+  {
+    "from": "Matt.6.9",
+    "to": "Luke.11.1-Luke.11.4",
+    "topic": "The Lord’s Prayer",
+    "disposition": "Accept a related-teaching comparison",
+    "note": "Use Matthew 6:9–13 and Luke 11:2–4 as editorial reading boundaries, retaining Luke 11:1 as context. Robertson §105 explicitly points back to §54 while presenting a later setting."
+  },
+  {
+    "from": "Matt.19.9",
+    "to": "Mark.10.11-Mark.10.12",
+    "topic": "Marriage and divorce",
+    "disposition": "Already represented",
+    "note": "Main section 122 and the focused example already connect these references."
+  },
+  {
+    "from": "Matt.19.9",
+    "to": "Luke.16.18",
+    "topic": "Teaching about divorce",
+    "disposition": "Candidate for a related-teaching comparison",
+    "note": "A closely related saying appears in a separate Robertson section. Review full boundaries, including Matthew 5:31–32, before publication."
+  },
+  {
+    "from": "Matt.13.31",
+    "to": "Luke.13.18-Luke.13.19",
+    "topic": "The mustard seed",
+    "disposition": "Candidate for a related-teaching comparison",
+    "note": "The parable occurs in separate Robertson sections. Comparing the teaching does not establish one occasion."
+  },
+  {
+    "from": "Matt.13.33",
+    "to": "Luke.13.21",
+    "topic": "The leaven",
+    "disposition": "Candidate for a related-teaching comparison",
+    "note": "Outside the current shared-section baseline. Consider Luke 13:20 when reviewing context and boundaries."
+  },
+  {
+    "from": "Matt.23.37",
+    "to": "Luke.13.34-Luke.13.35",
+    "topic": "Lament over Jerusalem",
+    "disposition": "Candidate needing an attributed setting note",
+    "note": "The closely corresponding lament is placed in different Robertson sections. Review interpretations of its setting before publishing a relationship label."
+  },
+  {
+    "from": "Matt.22.37",
+    "to": "Luke.10.27",
+    "topic": "Love of God and neighbor",
+    "disposition": "Candidate needing speaker and context notes",
+    "note": "Matthew presents Jesus’ answer; Luke presents the lawyer’s answer before the Good Samaritan. Shared wording must not obscure who speaks or merge the settings."
+  },
+  {
+    "from": "Matt.16.16",
+    "to": "John.6.69",
+    "topic": "Peter’s confessions",
+    "disposition": "Related testimony; keep out of event-parallel baseline",
+    "note": "The confessions occur in separate Robertson sections and differ in wording. A Christological connection does not establish one occasion."
+  },
+  {
+    "from": "Matt.6.9",
+    "to": "John.20.17",
+    "topic": "God as Father",
+    "disposition": "Broad thematic link; defer from main map",
+    "note": "Father language connects different contexts; this is not another account of the Lord’s Prayer."
+  },
+  {
+    "from": "Matt.26.7",
+    "to": "Luke.7.37-Luke.7.38",
+    "topic": "Anointing accounts",
+    "disposition": "Already available as a related-episode comparison",
+    "note": "Outside the main baseline but inside the existing editorial anointing study. Preserve its attributed distinction between person and occasion."
+  },
+  {
+    "from": "Matt.5.3",
+    "to": "Luke.6.20-Luke.6.26",
+    "topic": "Beatitudes",
+    "disposition": "Already represented; source range is broad",
+    "note": "The entire destination range shares §54 and its Beatitudes subsection. This does not make every verse an exact counterpart of Matthew 5:3."
+  }
+]

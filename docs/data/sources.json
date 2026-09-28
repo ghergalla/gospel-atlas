@@ -1,0 +1,145 @@
+[
+  {
+    "file": "bsb.txt",
+    "url": "https://bereanbible.com/bsb.txt",
+    "bytes": 4331393,
+    "sha256": "2ac3af1de52d4e68261cba91d85c320b7eadc6560e830d99e591767b8ff5ca96",
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "bsb.xlsx",
+    "url": "https://bereanbible.com/bsb.xlsx",
+    "bytes": 2395629,
+    "sha256": "6152506a21bc3dd637248474254cc19cc58841de98f98137eec68cea6a9b38a2",
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "bsb_usx.zip",
+    "url": "https://bereanbible.com/bsb_usx.zip",
+    "bytes": 1738426,
+    "sha256": "7530e07b44b11ec42a2a6148d2707031dbafe8cdd616f2c383275f8106e79e4f",
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "asv_usfm.zip",
+    "url": "https://ebible.org/Scriptures/eng-asv_usfm.zip",
+    "bytes": 2870837,
+    "sha256": "c4fbf7f9d2f98be14f45020366be41179a4dfe2338058b7f6247276d70609b46",
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "asv_usfx.zip",
+    "url": "https://ebible.org/Scriptures/eng-asv_usfx.zip",
+    "bytes": 2887114,
+    "sha256": "365da92d6d9b09260f63b4d86e867cc06a54dc67a5a6a1342de7ab8fffa57961",
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "robertson-1922.html",
+    "url": "https://www.gutenberg.org/files/36264/36264-h/36264-h.htm",
+    "bytes": 1308053,
+    "sha256": "105aac29a024f9771c1f8fe4917e668eabe5d2abe39c1afcbd67e91960a20418",
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "sblgnt/About.md",
+    "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/About.md",
+    "bytes": 3914,
+    "sha256": "4c7198fb57ce5f3b6572e856bd8b9439c9793c9d6b678e0e1ac123c887591765",
+    "retrieved": "2026-09-27",
+    "commit": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c"
+  },
+  {
+    "file": "sblgnt/LICENSE",
+    "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/LICENSE",
+    "bytes": 18650,
+    "sha256": "7e7170e3cebf88a9f60c7b8421418323c09304da1af4d5e90f4da1dc1c8a2661",
+    "retrieved": "2026-09-27",
+    "commit": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c"
+  },
+  {
+    "file": "sblgnt/README.md",
+    "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/README.md",
+    "bytes": 1136,
+    "sha256": "7ae1dc2622a8dafe55cf8b17d4935c3e39a70c46636277dd0fc46fe8b7464721",
+    "retrieved": "2026-09-27",
+    "commit": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c"
+  },
+  {
+    "file": "sblgnt/data/sblgnt/text/John.txt",
+    "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/text/John.txt",
+    "bytes": 189793,
+    "sha256": "ada9643154a990ae2725ab847c6cfb576ce2c3bcd4945d47606e8a90c8d065f5",
+    "retrieved": "2026-09-27",
+    "commit": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c"
+  },
+  {
+    "file": "sblgnt/data/sblgnt/text/Luke.txt",
+    "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/text/Luke.txt",
+    "bytes": 251219,
+    "sha256": "102d65ec7a91271777115d1a605688776adfda6a1188680ccf593e27e3e876d6",
+    "retrieved": "2026-09-27",
+    "commit": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c"
+  },
+  {
+    "file": "sblgnt/data/sblgnt/text/Mark.txt",
+    "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/text/Mark.txt",
+    "bytes": 148655,
+    "sha256": "fe1b5a4c15db71e7e30f33fb67966ca93baffae377085ece0b88f66316729638",
+    "retrieved": "2026-09-27",
+    "commit": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c"
+  },
+  {
+    "file": "sblgnt/data/sblgnt/text/Matt.txt",
+    "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/text/Matt.txt",
+    "bytes": 235067,
+    "sha256": "4fa718540cbc6330591b233c99c68bbf52b85afc90016e4188efe5cd9719eeb0",
+    "retrieved": "2026-09-27",
+    "commit": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c"
+  },
+  {
+    "file": "sblgnt/data/sblgnt/xml/John.xml",
+    "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/xml/John.xml",
+    "bytes": 762321,
+    "sha256": "11fa4ec61127f109f4582845737963dc66a532e33dca7d489875b9dd91da00e2",
+    "retrieved": "2026-09-27",
+    "commit": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c"
+  },
+  {
+    "file": "sblgnt/data/sblgnt/xml/Luke.xml",
+    "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/xml/Luke.xml",
+    "bytes": 970739,
+    "sha256": "960c0f7743f6ee68b7ee341991b76e14e83143eac4ba1f2df179327ec4bae8d5",
+    "retrieved": "2026-09-27",
+    "commit": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c"
+  },
+  {
+    "file": "sblgnt/data/sblgnt/xml/Mark.xml",
+    "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/xml/Mark.xml",
+    "bytes": 572329,
+    "sha256": "5901ccefcd7d9aedfaf228b1f99c3a13f37b4509c1b38d16123a860247a59d76",
+    "retrieved": "2026-09-27",
+    "commit": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c"
+  },
+  {
+    "file": "sblgnt/data/sblgnt/xml/Matt.xml",
+    "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/xml/Matt.xml",
+    "bytes": 909675,
+    "sha256": "98030ff7ddec7d1b89811c912b64e52a6c6a5806048e619abc708fe19a416424",
+    "retrieved": "2026-09-27",
+    "commit": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c"
+  },
+  {
+    "file": "openbible/cross-references-2026-09-21.zip",
+    "url": "https://a.openbible.info/data/cross-references.zip",
+    "page": "https://www.openbible.info/labs/cross-references/",
+    "bytes": 1983158,
+    "sha256": "83e9db0a08054ed99848531512729f0190dbbac85416f408f2362b5dc36d421d",
+    "retrieved": "2026-09-28T02:06:37.110786+00:00",
+    "snapshot": "2026-09-21",
+    "license": "CC BY (download header); site links to CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "OpenBible.info Bible Cross References; primarily derived from Treasury of Scripture Knowledge",
+    "scope": "Reference identifiers and votes only; no Bible quotations imported."
+  }
+]
