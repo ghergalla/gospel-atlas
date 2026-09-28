@@ -12,3 +12,6 @@ __pycache__/
 !.env.example
 
 # docs/ is intentionally tracked: GitHub Pages publishes its prebuilt contents.
+
+# Temporary local browser review files
+.qa-*.html

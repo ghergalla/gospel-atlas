@@ -1,4 +1,4 @@
-import {align,isSourceSection,isRelatedTeaching,tokens,passageText,supportedPhrase} from './gospel.ts';
+import {align,isSourceSection,isRelatedTeaching,tokens,passageText} from './gospel.ts';
 import type {Index,Corpus,Passage,Group} from './gospel.ts';
 
 export type WordingMatch={groupId:string;book:string;ref:string;word:number};
@@ -21,15 +21,12 @@ export function computeWordingPresence(index:Index,corpus:Corpus,passage:Passage
    if(target.book===source.book||!g.pairs.some(p=>[p.a,p.b].includes(source.book)&&[p.a,p.b].includes(target.book)))continue;
    const d=align(passageText(source,corpus),passageText(target,corpus),normalized);if(d.limited){limited++;continue;}
    const targetWords=positions(target,corpus);
-   for(let i=0;i<d.pairs.length;){
-    let end=i+1;
-    while(end<d.pairs.length&&d.pairs[end][0]===d.pairs[end-1][0]+1&&d.pairs[end][1]===d.pairs[end-1][1]+1&&sourceWords[d.pairs[end][0]].ref===sourceWords[d.pairs[end-1][0]].ref&&targetWords[d.pairs[end][1]].ref===targetWords[d.pairs[end-1][1]].ref)end++;
-    if(supportedPhrase(d.x.slice(d.pairs[i][0],d.pairs[end-1][0]+1)))for(let j=i;j<end;j++){
-     const [a,b]=d.pairs[j],pos=sourceWords[a];if(!refs.has(pos.ref))continue;
+   // align() has already validated each full phrase. A verse boundary must
+   // not turn a supported phrase's last word into an apparent difference.
+   for(const [a,b] of d.pairs){
+     const pos=sourceWords[a];if(!refs.has(pos.ref))continue;
      const key=pos.ref+':'+pos.word,match={groupId:g.id,book:target.book,...targetWords[b]};
      marks.set(key,[...(marks.get(key)||[]),match]);
-    }
-    i=end;
    }
   }
  }

@@ -20,14 +20,29 @@ test('the rendered reader preserves exact Scripture in every highlighting style 
    const corpus=read(edition),books=group.passages.map(p=>p.book).reverse().slice(0,count);
    const html=renderToStaticMarkup(createElement(Reader,{group,index,books,corpus,tab:style==='differences'?'differences':'text',setTab:noop,wide:true,settings:{pair:'',normalized:true,emphasis:'all'},setSettings:noop,onNavigate:noop,onRetryText:noop,editionForReader:edition,parallel:'',setParallel:noop,wording:style==='shared',setWording:noop,onParallel:noop}));
    const rendered=[...html.matchAll(/<div class="scripture[^\"]*"[^>]*>([\s\S]*?)<\/div>/g)].map(m=>textFromHtml(m[1]));
-   const pair=group.pairs.find(p=>books.includes(p.a)&&books.includes(p.b));
-   const expected=group.passages.filter(p=>books.includes(p.book)&&(style!=='differences'||!pair||[pair.a,pair.b].includes(p.book))).sort((a,b)=>books.indexOf(a.book)-books.indexOf(b.book)).map(p=>passageText(p,corpus));
+   const expected=group.passages.filter(p=>books.includes(p.book)).sort((a,b)=>books.indexOf(a.book)-books.indexOf(b.book)).map(p=>passageText(p,corpus));
    assert.deepEqual(rendered,expected,edition+' '+group.id+' '+count+' '+style);
    assert.equal((html.match(/role="tab"/g)||[]).length,2);
    assert.match(html,/Sources &amp; context/);
-   assert.match(html,/aria-label="Reading highlights"/);
+   assert.match(html,/Parallel wording/);
+   assert.doesNotMatch(html,/aria-label="Reading highlights"/);
    assert.match(html,/aria-label="Second Bible edition"/);
    assert.match(html,new RegExp('data-count="'+expected.length+'"'));
   }
+ }finally{await server.close()}
+});
+
+test('Greek meaning cards use the exact sourced gloss for both matched and unmatched words, and leave missing meanings unavailable',async()=>{
+ const server=await createServer({server:{middlewareMode:true,hmr:false,watch:null},appType:'custom',logLevel:'silent'});
+ try{
+  const {EnglishMeaning}=await server.ssrLoadModule('/components/reading-inspection-card.tsx');
+  const corpus=read('SBLGNT'),glosses=read('greek-glosses'),base={edition:'SBLGNT',book:'MAT',ref:'19:9',word:12};
+  const meaning=glosses.entries[glosses.books.MAT['19:9'][12]][1];
+  const without=renderToStaticMarkup(createElement(EnglishMeaning,{target:base,corpus,glosses,error:false,onRetry:noop}));
+  const withMatch=renderToStaticMarkup(createElement(EnglishMeaning,{target:{...base,run:{start:0,end:1,books:['MRK'],matches:[]}},corpus,glosses,error:false,onRetry:noop}));
+  assert.equal(withMatch,without);assert.ok(textFromHtml(without).includes(meaning));
+  const missing={...glosses,books:{MAT:{'19:9':[]}}};
+  assert.match(renderToStaticMarkup(createElement(EnglishMeaning,{target:base,corpus,glosses:missing,error:false,onRetry:noop})),/No verified English meaning/);
+  assert.match(renderToStaticMarkup(createElement(EnglishMeaning,{target:base,corpus,error:true,onRetry:noop})),/Retry meanings/);
  }finally{await server.close()}
 });
