@@ -1,7 +1,7 @@
 {
   "datasetRevision": "2026-09-28.2",
-  "repositoryBaseline": "c24705f03f7f863f33b93e2b8ad42d8cfc7fc0ca",
-  "testCount": 30,
+  "repositoryBaseline": "6a558489500dec2cc202d57779ae844e5ebaaed0",
+  "testCount": 36,
   "testFailures": 0,
   "typecheck": "passed",
   "productionBuild": "passed",
@@ -52,76 +52,40 @@
     28.8
   ],
   "passageCoverageUnchanged": true,
-  "repositorySubpathHttpChecks": [
-    {
-      "path": "index.html",
-      "status": 200,
-      "bytes": 856
-    },
-    {
-      "path": "./favicon.svg",
-      "status": 200,
-      "bytes": 326
-    },
-    {
-      "path": "./assets/index-Bh9V0tPG.js",
-      "status": 200,
-      "bytes": 444468
-    },
-    {
-      "path": "./assets/index-D_ptx6Zf.css",
-      "status": 200,
-      "bytes": 102907
-    },
-    {
-      "path": "data/index.json",
-      "status": 200,
-      "bytes": 327427
-    },
-    {
-      "path": "data/BSB.json",
-      "status": 200,
-      "bytes": 453347
-    },
-    {
-      "path": "data/ASV.json",
-      "status": 200,
-      "bytes": 469141
-    },
-    {
-      "path": "data/SBLGNT.json",
-      "status": 200,
-      "bytes": 817213
-    },
-    {
-      "path": "data/greek-glosses.json",
-      "status": 200,
-      "bytes": 385550
-    },
-    {
-      "path": "data/statistics-BSB.json",
-      "status": 200,
-      "bytes": 28881
-    },
-    {
-      "path": "data/statistics-ASV.json",
-      "status": 200,
-      "bytes": 28964
-    },
-    {
-      "path": "data/statistics-SBLGNT.json",
-      "status": 200,
-      "bytes": 28466
-    },
-    {
-      "path": "assets/statistics.worker-NPqgVVmh.js",
-      "status": 200,
-      "bytes": 3778
-    }
-  ],
   "browserReview": {
-    "status": "blocked",
-    "reason": "The session cloud-browser access policy blocked the local preview. No browser geometry or interaction pass is claimed for this revision."
+    "status": "passed within tested scope",
+    "engine": "Chromium",
+    "responsiveFrames": [
+      [
+        320,
+        568
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        844,
+        390
+      ],
+      [
+        1180,
+        768
+      ]
+    ],
+    "phoneTwoColumnsFit": true,
+    "landscapeFourColumnsFit": true,
+    "editionColumnsAlign": true,
+    "keyboardPreviewAndPin": true,
+    "explicitDismissal": true,
+    "chapterToComparison": true,
+    "physicalDevicesTested": false,
+    "nativeHoverMotionAutomated": false
   },
-  "scopeNote": "30 automated tests, TypeScript, production build, exact rendered Scripture and HTTP asset/data checks passed. Review the responsive reader in a browser before merging. Physical-device and assistive-technology checks remain outstanding."
+  "scopeNote": "36 automated tests, exact rendered Scripture, typecheck, production build, source/build byte checks and Chromium responsive interaction checks passed. Physical devices, Safari, Firefox and assistive technology remain manual review items. Publication awaits owner review.",
+  "buildAssetReferences": [
+    "./favicon.svg",
+    "./assets/index-7P8yuoij.js",
+    "./assets/index-D7RU3IV6.css"
+  ]
 }

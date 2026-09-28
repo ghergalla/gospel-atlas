@@ -8,7 +8,7 @@ Gospel Atlas is designed for study from a traditional, creedal Christian perspec
 
 - Rearrange one to four Gospels in column or circular maps, with chapter navigation, zoom, and passage locking.
 - Read the Berean Standard Bible (BSB), American Standard Version (ASV), and SBL Greek New Testament (SBLGNT), with a second edition in its own row of matching Gospel columns.
-- Choose Shared wording, Differences, or Plain text within one Read view; keep attribution in Sources & context.
+- Follow persistent Gospel underlines and hover or tap to highlight corresponding phrases in one Read view. Optionally emphasize unmatched wording for a named pair; keep attribution in Sources & context.
 - Read two Gospels side by side on a phone. Additional columns scroll horizontally; landscape provides room for more. Single-column reading remains available in Reading options.
 - Inspect parallel wording, exact source excerpts, and words unmatched within a selected comparison.
 - Explore the Lord's Prayer in Matthew 6:9–13 and Luke 11:2–4, with attribution available when selected.
@@ -21,6 +21,8 @@ Gospel Atlas is designed for study from a traditional, creedal Christian perspec
 The `docs/` folder contains a ready-built website. You do **not** need Node.js to upload this release and publish it.
 
 Follow [GITHUB_SETUP.md](GITHUB_SETUP.md). Use **Deploy from a branch → main → /docs** in the repository's Pages settings. The intended repository is `ghergalla/gospel-atlas`, giving the address `https://ghergalla.github.io/gospel-atlas/` once publishing completes.
+
+A self-contained review copy can also be generated after a build with `python3 scripts/build_review.py /absolute/path/gospel-atlas-review.html`. It embeds the exact build and source data for review without a local server; it is separate from the published `docs/` output.
 
 The site uses relative asset paths and hash-based navigation, so it also works under another repository name. It needs a web server; opening `index.html` directly from your filesystem will not load the data correctly.
 
@@ -49,13 +51,15 @@ The current corpus contains 11,326 Gospel verses across the three editions. Twel
 
 The overview and aggregate statistics use 184 main sections from A. T. Robertson's 1922 harmony. Detailed units, illustrative studies, and explicitly reviewed related teachings are separately identified. A source grouping is not a probability that passages describe the same event. Both Analysis sections use SBLGNT Greek, regardless of the reading edition. Selecting a wording result opens its normalized Greek comparison. Wording similarity is not a measure of historical certainty, theological agreement, or literary dependence. Unmatched words are not automatically authorial additions or deletions.
 
-Wording matches use a phrase-supported longest common subsequence. Only runs of at least two consecutive words on both sides, containing a word outside the declared common-connector list, remain linked. Isolated words such as a stray “and,” and fragments made entirely of common connectors, stay unlinked. Case and Greek accents can be ignored without changing the displayed source. Deterministic tie handling keeps the same word positions when Gospel columns are reordered. This is a conservative wording heuristic, not a semantic model: meaningful single-word parallels are intentionally omitted and similar phrases still require interpretation. The reader, phrase map, and wording statistics use the same matcher; verse-local underline segments additionally require phrase support after splitting at verse boundaries.
+Wording matches use a phrase-supported longest common subsequence. Only runs of at least two consecutive words on both sides, containing a word outside the declared common-connector list, remain linked. Isolated words such as a stray “and,” and fragments made entirely of common connectors, stay unlinked. Case and Greek accents can be ignored without changing the displayed source. Deterministic tie handling keeps the same word positions when Gospel columns are reordered. This is a conservative wording heuristic, not a semantic model: meaningful single-word parallels are intentionally omitted and similar phrases still require interpretation. The reader, phrase map, and wording statistics use the same matcher; underlines retain the same supported word positions when a phrase crosses a verse boundary.
 
 The OpenBible.info audit measures coverage of reference links, primarily derived from the Treasury of Scripture Knowledge. Its full reference export is retained for reproducibility; only explicitly reviewed relationships enter the viewer. The Lord's Prayer comparison has an additional direct Robertson reference. Related teachings do not change the 184-section aggregate baseline.
 
+Matched and unmatched Greek words use one meaning-first inspection card. Click or tap to hold it; Close, the held pin, or Escape clears it. Portrait phones use a compact, expandable bottom panel. Keyboard readers can Tab into a Gospel and move between words or phrases with the arrow keys.
+
 Greek lookups attach STEP dictionary fields only where the verse-local word match is unambiguous. Unavailable meanings remain unavailable. A dictionary gloss is not a context-specific phrase translation.
 
-See [the cross-reference audit](research/cross-reference-audit.md), [the usability audit](research/usability-audit.md), [the passage-reader update](research/passage-reader-update.md), and the app's **Sources & method** and **Sources & context** panels.
+See [the cross-reference audit](research/cross-reference-audit.md), [the usability audit](research/usability-audit.md), [the passage-reader update](research/passage-reader-update.md), [the unified-reader review](research/unified-reader-review.md), and the app's **Sources & method** and **Sources & context** panels.
 
 ## Data maintenance
 
