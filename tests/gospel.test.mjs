@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {align,alignmentSpans,sourceExcerpt,passageText,makeReading,parseReading,refLabel,isSourceSection} from '../lib/gospel.ts';
+import {align,alignmentSpans,sourceExcerpt,passageText,makeReading,parseReading,refLabel,isSourceSection,tokens} from '../lib/gospel.ts';
 
 const index=JSON.parse(fs.readFileSync(new URL('../public/data/index.json',import.meta.url)));
 const bsb=JSON.parse(fs.readFileSync(new URL('../public/data/BSB.json',import.meta.url)));
@@ -23,8 +23,38 @@ test('Greek normalization affects comparison without changing source tokens',()=
   assert.equal(align(a,b,true).pairs.length,3);
   assert.equal(align(a,b,false).pairs.length,0);
   assert.equal(align(a,b).x[0].text,'λόγος');
-  const d=align('one two one','one one');
-  assert.deepEqual(d.pairs,[[0,0],[2,1]]);
+});
+
+test('isolated words and connector-only fragments stay unlinked, while connectors inside phrases remain',()=>{
+  for(const [a,b] of [['one two one','one one'],['bread and wine','fish and water'],['bread and the wine','fish and the water'],['ἄρτος καὶ ὁ οἶνος','ἰχθὺς καὶ ὁ ὕδωρ']])assert.deepEqual(align(a,b).pairs,[],`${a} / ${b}`);
+  const d=align('Bread and wine.','Take bread and wine!');
+  assert.deepEqual(d.pairs,[[0,1],[1,2],[2,3]]);
+  assert.equal(d.x.map(t=>'Bread and wine.'.slice(t.start,t.end)).join(' '),'Bread and wine');
+});
+
+test('Matthew 19:12 does not acquire an incidental link to Mark 10:12',()=>{
+  const g=group('r122');
+  for(const edition of ['BSB','ASV','SBLGNT']){
+    const corpus=JSON.parse(fs.readFileSync(new URL('../public/data/'+edition+'.json',import.meta.url)));
+    const passages=['MAT','MRK'].map(book=>g.passages.find(p=>p.book===book));
+    const positions=passages.map(p=>p.refs.flatMap(ref=>tokens(corpus.books[p.book][ref]).map(t=>({ref,text:t.text}))));
+    const d=align(...passages.map(p=>passageText(p,corpus)));
+    assert.ok(!d.pairs.some(([a,b])=>positions[0][a].ref==='19:12'&&positions[1][b].ref==='10:12'),edition);
+    assert.ok(d.pairs.some(([a,b])=>positions[0][a].ref==='19:9'&&positions[1][b].ref==='10:11'),edition);
+    assert.ok(alignmentSpans(d).filter(s=>s.kind==='shared').every(s=>s.a.end-s.a.start>=2));
+  }
+});
+
+test('reordering Gospel columns preserves the same matched positions and exact source tokens',()=>{
+  for(const edition of ['BSB','ASV','SBLGNT']){
+    const corpus=JSON.parse(fs.readFileSync(new URL('../public/data/'+edition+'.json',import.meta.url)));
+    for(const id of ['r72','r122','divorce-focus']){
+      const [a,b]=group(id).passages.slice(0,2).map(p=>passageText(p,corpus));
+      const ab=align(a,b),ba=align(b,a);
+      assert.deepEqual(ab.pairs,ba.pairs.map(([x,y])=>[y,x]),edition+' '+id);
+      assert.deepEqual(ab.x,tokens(a));assert.deepEqual(ab.y,tokens(b));
+    }
+  }
 });
 
 test('chapter-spanning and chapter-list source references remain complete',()=>{

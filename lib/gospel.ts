@@ -14,7 +14,38 @@ export type Token={text:string;start:number;end:number;key:string};
 export function tokens(text:string,normalized=true):Token[]{return [...text.matchAll(/[\p{L}\p{M}\p{N}]+(?:['’ʼ][\p{L}\p{M}]+)*['’ʼ]?/gu)].map(m=>({text:m[0],start:m.index!,end:m.index!+m[0].length,key:normalized?m[0].normalize('NFD').replace(/\p{M}/gu,'').toLocaleLowerCase('el').replace(/ς/g,'σ').replace(/[’ʼ]/g,"'"):m[0]}));}
 export function passageText(p:Passage,c:Corpus){return p.refs.map(r=>c.books[p.book]?.[r]??'').filter(Boolean).join(' ');}
 export function refLabel(p:Passage){if(!p.refs.length)return NAMES[p.book];const segments:string[][]=[];for(const r of p.refs){const last=segments.at(-1);if(last){const a=last.at(-1)!.split(':').map(Number),b=r.split(':').map(Number);if(a[0]===b[0]&&b[1]===a[1]+1){last.push(r);continue;}}segments.push([r]);}return `${NAMES[p.book]} ${segments.map(s=>s.length===1?s[0]:s[0]+'–'+s.at(-1)!.split(':')[1]).join(', ')}`;}
-export function align(a:string,b:string,normalized=true){const x=tokens(a,normalized),y=tokens(b,normalized),n=x.length,m=y.length;if(n*m>3_000_000)return {x,y,pairs:[] as [number,number][],limited:true};const table=new Uint16Array((n+1)*(m+1));const stride=m+1;for(let i=n-1;i>=0;i--)for(let j=m-1;j>=0;j--)table[i*stride+j]=x[i].key===y[j].key?table[(i+1)*stride+j+1]+1:Math.max(table[(i+1)*stride+j],table[i*stride+j+1]);const pairs:[number,number][]=[];let i=0,j=0;while(i<n&&j<m){if(x[i].key===y[j].key){pairs.push([i++,j++]);}else if(table[(i+1)*stride+j]>=table[i*stride+j+1])i++;else j++;}return {x,y,pairs,limited:false};}
+export const ALIGNMENT_METHOD='phrase-supported-lcs-v1';
+// A deliberately conservative display rule, not a semantic or event-identity claim.
+// Keep common words inside supported phrases, but never link them on their own.
+const CONNECTING_WORDS=new Set(tokens(`a an the and or but if then than as at by for from in into of on onto to unto upon with without through is am are was were be been being have has had do does did shall will would should may might can could he him his she her hers it its they them their theirs you your yours thou thee thy thine ye we us our ours i me my mine this that these those which who whom whose there here so also
+ο η το οι αι τα τον την του της τω τη των τοις ταις τους τας και δε τε γαρ ουν αλλα η ει εαν οτι ως εν εις εκ εξ απο επι προς δια κατα μετα παρα περι συν υπο υπερ ανα αυτος αυτον αυτου αυτω αυτην αυτης αυτο αυτοι αυτους αυτων αυτοις εαυτου εαυτον εαυτων εαυτοις ουτος τουτο τουτον τουτου τουτω ταυτα εκεινος εκεινον εγω εμε μου μοι συ σε σου σοι ημεις ημων ημιν υμεις υμων υμιν τις τι τινα τινος εστιν εστι ην ησαν εσται ων ειναι`).map(t=>t.key));
+export function supportedPhrase(words:Token[]){
+ return words.length>=2&&words.some(t=>!CONNECTING_WORDS.has(tokens(t.text)[0]?.key));
+}
+export function align(a:string,b:string,normalized=true){
+ const inputX=tokens(a,normalized),inputY=tokens(b,normalized);
+ if(inputX.length*inputY.length>3_000_000)return {x:inputX,y:inputY,pairs:[] as [number,number][],limited:true};
+ // A canonical orientation resolves repeated-word ties identically when the
+ // reader reorders Gospel columns or inspects the opposite side of a phrase.
+ const reversed=inputX.map(t=>t.key).join('\0')>inputY.map(t=>t.key).join('\0');
+ const [x,y]=reversed?[inputY,inputX]:[inputX,inputY],n=x.length,m=y.length;
+ const table=new Uint16Array((n+1)*(m+1)),stride=m+1;
+ for(let i=n-1;i>=0;i--)for(let j=m-1;j>=0;j--)
+  table[i*stride+j]=x[i].key===y[j].key?table[(i+1)*stride+j+1]+1:Math.max(table[(i+1)*stride+j],table[i*stride+j+1]);
+ const candidates:[number,number][]=[];let i=0,j=0;
+ while(i<n&&j<m){
+  if(x[i].key===y[j].key)candidates.push([i++,j++]);
+  else if(table[(i+1)*stride+j]>=table[i*stride+j+1])i++;else j++;
+ }
+ const pairs:[number,number][]=[];
+ for(let start=0;start<candidates.length;){
+  let end=start+1;
+  while(end<candidates.length&&candidates[end][0]===candidates[end-1][0]+1&&candidates[end][1]===candidates[end-1][1]+1)end++;
+  if(supportedPhrase(x.slice(candidates[start][0],candidates[end-1][0]+1)))pairs.push(...candidates.slice(start,end));
+  start=end;
+ }
+ return {x:inputX,y:inputY,pairs:reversed?pairs.map(([i,j]):[number,number]=>[j,i]):pairs,limited:false};
+}
 export type WordRange={start:number;end:number}; // Zero-based, exclusive end.
 export type LensHighlight={key:string;a?:WordRange;b?:WordRange};
 export type AlignmentSpan={id:string;kind:'shared'|'unmatched';a?:WordRange;b?:WordRange};

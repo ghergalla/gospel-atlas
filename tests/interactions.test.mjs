@@ -51,6 +51,20 @@ test('statistics validation checks edition, revision, pair completeness, and sou
  assert.equal(validStatistics(stats,index,'BSB'),true);assert.equal(validStatistics(stats,index,'ASV'),false);
  assert.equal(validStatistics({...stats,pairs:stats.pairs.slice(1)},index,'BSB'),false);
  const bad=structuredClone(stats);bad.pairs[0].rows[0].id='invented';assert.equal(validStatistics(bad,index,'BSB'),false);
+ assert.equal(validStatistics({...stats,method:undefined},index,'BSB'),false);
+ assert.equal(validStatistics({...stats,method:'unfiltered-lcs'},index,'BSB'),false);
+});
+
+test('a focused reading only highlights the selected comparison and does not import broader section matches',()=>{
+ const corpus=read('BSB'),group=index.groups.find(g=>g.id==='divorce-focus');
+ for(const passage of group.passages){
+  const presence=computeWordingPresence(index,corpus,passage,group);
+  assert.deepEqual(presence.groups.map(g=>g.id),[group.id]);
+  for(const run of Object.values(presence.verses).flat())for(const match of run.matches){
+   assert.equal(match.groupId,group.id);
+   assert.ok(group.passages.find(p=>p.book===match.book).refs.includes(match.ref));
+  }
+ }
 });
 test('a statistics timeout aborts and exposes a retryable failure',async()=>{
  const loader=createStatisticsLoader((_url,init)=>new Promise((_resolve,reject)=>init.signal.addEventListener('abort',()=>reject(new DOMException('Aborted','AbortError')))),{timeoutMs:5,retryDelays:[]});

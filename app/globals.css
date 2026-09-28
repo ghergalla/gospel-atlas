@@ -102,3 +102,77 @@
 .teaching-shortcuts{padding-top:12px}
 
 .source-downloads{flex-wrap:wrap}
+
+/* One reading surface: compact controls, a shared Gospel grid, and edition rows. */
+.unified-reader{container-type:inline-size;--passage-gap:24px}
+.unified-reader .reader-content{padding-top:20px}
+.reading-toolbar{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:12px;margin-bottom:12px}
+.reading-control{display:flex;flex-direction:column;gap:6px;min-width:0;color:#36566c}
+.reading-control>span{font:600 11px/1.4 Arial,sans-serif;letter-spacing:.07em;text-transform:uppercase}
+.reading-control select{width:100%;min-width:0;min-height:44px;padding:9px 28px 9px 11px;border:1px solid #c6d5df;border-radius:6px;background-color:white;font:400 14px/1.4 Arial,sans-serif;color:#294c64}
+.reading-control select:focus-visible,.reading-scroll:focus-visible{outline:2px solid #377b9c;outline-offset:3px}
+.reading-toolbar .reading-control:first-child select{background-color:#eef5f8;border-color:#bdd1dc}
+.pair-control{margin:5px 0 12px;max-width:420px}
+.reading-key{display:flex;align-items:center;justify-content:space-between;gap:8px 18px;flex-wrap:wrap;margin-bottom:8px}
+.unified-reader .wording-legend,.unified-reader .diff-legend{margin:0;gap:8px 15px;font-size:12px;color:#4a6578}
+.unified-reader .wording-legend i{width:20px;flex-basis:20px}
+.reading-caption{margin:0 0 16px;font:400 12px/1.6 Arial,sans-serif;color:#607889}
+.reader-options{font:400 12px/1.6 Arial,sans-serif;color:#536f82;min-width:0}
+.reader-options>summary{display:flex;align-items:center;gap:7px;min-height:40px;list-style:none;color:#355d75;cursor:pointer}
+.reader-options>summary::-webkit-details-marker{display:none}
+.reader-options[open]{flex:1 0 100%;padding:12px 15px;margin:3px 0 8px;background:#f1f6f9;border:1px solid #d9e4eb;border-radius:7px}
+.reader-options[open]>summary{font-weight:600;min-height:28px;margin-bottom:8px}
+.reader-options-body{display:grid;gap:8px}
+.reader-options-body .reading-control{max-width:320px}
+.reader-options-body p{margin:2px 0;font-size:13px;line-height:1.75}
+.reading-check{display:flex;align-items:center;gap:9px;min-height:40px;font-size:13px;cursor:pointer}
+.reading-check input{width:17px;height:17px;accent-color:#356b88;flex-shrink:0}
+.reading-scroll{max-width:100%;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:thin;scrollbar-color:#9ab3c3 #edf3f6;padding-bottom:10px}
+.unified-reader .edition-rows{width:100%;min-width:calc(var(--passage-count)*148px + (var(--passage-count) - 1)*var(--passage-gap))}
+.unified-reader .edition-rows[data-count="1"],.unified-reader .edition-rows[data-count="2"]{min-width:0}
+.unified-reader .text-grid{display:grid;grid-template-columns:repeat(var(--passage-count),minmax(0,1fr));align-items:start;gap:var(--passage-gap)}
+.unified-reader .passage-heading{align-content:start;align-items:baseline;justify-content:flex-start;flex-direction:column;min-height:62px;gap:4px;padding-bottom:10px}
+.unified-reader .passage-heading>span{text-align:left;font-size:12px}
+.unified-reader .passage-heading strong{font-size:15px;font-weight:600}
+.unified-reader .text-passage+.text-passage{border-left:1px solid #dbe5ec;padding-left:calc(var(--passage-gap)/2);margin-left:calc(var(--passage-gap)/-2)}
+.unified-reader .scripture{font-size:19px;line-height:1.9;padding-top:13px;color:#354e61}
+.unified-reader .scripture.greek{font-size:20px}
+.unified-reader .scripture.has-wording{line-height:2.1}
+.unified-reader .word.shared{background:#e8f0f5;border-bottom-color:#9cb7c7;border-radius:2px}
+.unified-reader .word.unmatched{background:#f8ecd5;border-bottom-color:#c79b4e;border-radius:2px}
+.unified-reader .word.word-quiet{background:transparent;border-bottom-color:transparent;color:#647b8c}
+.unified-reader .word.word-active{background:#cfe4ee;outline:1px solid #5687a0;outline-offset:1px}
+.reading-scroll-hint{display:flex;gap:8px;align-items:center;font:400 12px/1.6 Arial,sans-serif;color:#416c85;margin:4px 0 12px;padding:9px 11px;background:#edf4f8;border-radius:5px}
+.reading-scroll-hint svg{flex-shrink:0}
+.unified-reader .edition-row+.edition-row{margin-top:28px;padding-top:20px;border-top:1px solid #bacdd9}
+.unified-reader .edition-row-heading{margin-bottom:14px}
+.unified-reader .related-teachings{margin-top:24px;padding-top:16px;border-top:1px solid #dbe5ec;border-bottom:0}
+.unified-reader[data-layout="stacked"] .edition-rows{min-width:0}
+.unified-reader[data-layout="stacked"] .text-grid{grid-template-columns:1fr}
+.unified-reader[data-layout="stacked"] .text-passage+.text-passage{border-left:0;padding-left:0;margin-left:0}
+@container (max-width:600px){
+ .unified-reader .reader-content{padding-left:12px;padding-right:12px}
+ .reader-wide.unified-reader .reader-content{padding-left:0;padding-right:0}
+ .reading-control select{font-size:16px;padding-left:8px;padding-right:20px}
+ .reading-toolbar{gap:10px}
+ .unified-reader .text-grid{gap:12px}
+ .unified-reader .edition-rows{--passage-gap:12px}
+ .unified-reader .scripture,.unified-reader .scripture.greek{font-size:17px;line-height:1.95}
+ .unified-reader .scripture.has-wording{line-height:2.15}
+ .unified-reader .edition-rows[data-count="1"] .scripture{font-size:20px}
+ .unified-reader .text-passage+.text-passage{padding-left:6px;margin-left:-6px}
+ .unified-reader .passage-heading>div{gap:5px}
+ .unified-reader .passage-heading strong{font-size:14px}
+ .unified-reader .edition-label{font-size:10px}
+ .unified-reader .passage-heading .book-dot{width:5px;height:5px}
+ .unified-reader .wording-legend,.unified-reader .diff-legend{gap:8px 12px}
+}
+@media(orientation:landscape) and (max-height:540px){
+ .view-compare .main-work{padding:14px 16px 0}
+ .view-compare .reader-top{padding-top:0;padding-bottom:12px}
+ .view-compare .reader-top h2{font-size:26px}
+ .view-compare .unified-reader{--passage-gap:16px}
+ .view-compare .edition-rows[data-count="3"],.view-compare .edition-rows[data-count="4"]{min-width:calc(var(--passage-count)*140px + (var(--passage-count) - 1)*var(--passage-gap))}
+ .view-compare .unified-reader .scripture,.view-compare .unified-reader .scripture.greek{font-size:17px;line-height:1.9}
+ .view-compare .unified-reader .scripture.has-wording{line-height:2.1}
+}

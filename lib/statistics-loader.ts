@@ -1,4 +1,4 @@
-import {isSourceSection} from './gospel.ts';
+import {isSourceSection,ALIGNMENT_METHOD} from './gospel.ts';
 import type {Index} from './gospel.ts';
 import type {LexicalStats} from './lexical-statistics.ts';
 type Fetcher=(url:string,init?:RequestInit)=>Promise<Response>;
@@ -7,7 +7,7 @@ export type StatisticsResult={stats:LexicalStats;calculated:boolean};
 export function validStatistics(value:unknown,index:Index,edition:string):value is LexicalStats{
  if(!value||typeof value!=='object')return false;
  const s=value as LexicalStats,ids=index.books.map(b=>b.id);
- if(s.edition!==edition||s.revision!==index.revision||s.normalized!==true||!Array.isArray(s.pairs)||s.pairs.length!==6)return false;
+ if(s.edition!==edition||s.revision!==index.revision||s.normalized!==true||s.method!==ALIGNMENT_METHOD||!Array.isArray(s.pairs)||s.pairs.length!==6)return false;
  const pairKeys=new Set<string>();
  return s.pairs.every(p=>{
   if(!ids.includes(p.a)||!ids.includes(p.b)||ids.indexOf(p.a)>=ids.indexOf(p.b)||pairKeys.has(p.a+p.b)||!Array.isArray(p.rows))return false;

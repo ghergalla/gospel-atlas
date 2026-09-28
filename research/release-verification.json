@@ -1,42 +1,77 @@
 {
-  "datasetRevision": "2026-09-28.1",
-  "sourceCommit": "3b99aeff539f12efdc3f2aebf8b5d1795428000d",
-  "testCount": 25,
+  "datasetRevision": "2026-09-28.2",
+  "repositoryBaseline": "c24705f03f7f863f33b93e2b8ad42d8cfc7fc0ca",
+  "testCount": 30,
   "testFailures": 0,
   "typecheck": "passed",
   "productionBuild": "passed",
+  "readerRendering": {
+    "method": "React server rendering; not browser layout",
+    "cases": 63,
+    "editions": [
+      "BSB",
+      "ASV",
+      "SBLGNT"
+    ],
+    "styles": [
+      "shared",
+      "plain",
+      "differences"
+    ],
+    "selectedGospelCounts": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exactScripturePreserved": true
+  },
   "corpora": {
     "BSB": {
       "sha256": "c27898352c772bc4df5bd9587e3f1984bad0562f89823f3c1618b5ef9a437212",
-      "byteIdenticalToReviewedSource": true,
-      "byteIdenticalToPublishedBuild": true
+      "byteIdenticalToRepositoryBaseline": true,
+      "byteIdenticalToProductionBuild": true
     },
     "ASV": {
       "sha256": "3d95ab15518877b340580797bddd33faf6b114612e280c5c002ff0fbc575fc55",
-      "byteIdenticalToReviewedSource": true,
-      "byteIdenticalToPublishedBuild": true
+      "byteIdenticalToRepositoryBaseline": true,
+      "byteIdenticalToProductionBuild": true
     },
     "SBLGNT": {
       "sha256": "88b295adb08774ee6709d9c41d7606cd045b829a603ae4a55925ae7737197615",
-      "byteIdenticalToReviewedSource": true,
-      "byteIdenticalToPublishedBuild": true
+      "byteIdenticalToRepositoryBaseline": true,
+      "byteIdenticalToProductionBuild": true
     }
   },
+  "referenceMappingsUnchanged": true,
+  "greekGlossesUnchanged": true,
+  "alignmentMethod": "phrase-supported-lcs-v1",
+  "analysisEdition": "SBLGNT",
+  "MatthewMarkAlignedPercentages": [
+    17.7,
+    28.8
+  ],
+  "passageCoverageUnchanged": true,
   "repositorySubpathHttpChecks": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 856
+    },
     {
       "path": "./favicon.svg",
       "status": 200,
       "bytes": 326
     },
     {
-      "path": "./assets/index-DJcsYItV.js",
+      "path": "./assets/index-Bh9V0tPG.js",
       "status": 200,
-      "bytes": 440259
+      "bytes": 444468
     },
     {
-      "path": "./assets/index-BVbKanEE.css",
+      "path": "./assets/index-D_ptx6Zf.css",
       "status": 200,
-      "bytes": 97021
+      "bytes": 102907
     },
     {
       "path": "data/index.json",
@@ -66,35 +101,27 @@
     {
       "path": "data/statistics-BSB.json",
       "status": 200,
-      "bytes": 29113
+      "bytes": 28881
     },
     {
       "path": "data/statistics-ASV.json",
       "status": 200,
-      "bytes": 29159
+      "bytes": 28964
     },
     {
       "path": "data/statistics-SBLGNT.json",
       "status": 200,
-      "bytes": 28904
+      "bytes": 28466
+    },
+    {
+      "path": "assets/statistics.worker-NPqgVVmh.js",
+      "status": 200,
+      "bytes": 3778
     }
   ],
-  "scopeNote": "The shared UI was checked in a Chromium preview. The portable export passed TypeScript, production build, and HTTP asset/data checks under /gospel-atlas/. All 25 shared regression tests pass. Physical-device and assistive-technology checks remain outstanding.",
-  "lockfileInstall": "npm ci passed",
-  "releaseScan": "No private hosting identifiers, environment files, private keys, or recognizable access tokens were found.",
-  "analysisEdition": "SBLGNT",
-  "greekAnalysisVerification": {
-    "allSixPairsUseMatchingGreekDenominators": true,
-    "BSBAndASVReadingChoicesLeaveStatisticsUnchanged": true,
-    "wordingResultOpensGreekDifferencesWithNormalization": true,
-    "MatthewMarkAlignedPercentages": [
-      23.9,
-      38.9
-    ],
-    "MatthewMarkCoveragePercentages": [
-      73.9,
-      96.5
-    ],
-    "sharedUiBrowserChecks": "passed"
-  }
+  "browserReview": {
+    "status": "blocked",
+    "reason": "The session cloud-browser access policy blocked the local preview. No browser geometry or interaction pass is claimed for this revision."
+  },
+  "scopeNote": "30 automated tests, TypeScript, production build, exact rendered Scripture and HTTP asset/data checks passed. Review the responsive reader in a browser before merging. Physical-device and assistive-technology checks remain outstanding."
 }

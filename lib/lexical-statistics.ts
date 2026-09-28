@@ -1,9 +1,9 @@
-import {align,isSourceSection,passageText,tokens} from './gospel.ts';
+import {align,isSourceSection,passageText,tokens,ALIGNMENT_METHOD} from './gospel.ts';
 import type {Index,Corpus,Passage} from './gospel.ts';
 export type LexicalRow={id:string;aWords:number;bWords:number;matched:number;score:number|null;limited:boolean};
 export type LexicalSide={total:number;grouped:number;examined:number;matched:number;unmatched:number;unexamined:number;outside:number};
 export type LexicalPair={a:string;b:string;left:LexicalSide;right:LexicalSide;rows:LexicalRow[]};
-export type LexicalStats={edition:string;revision:string;normalized:boolean;pairs:LexicalPair[]};
+export type LexicalStats={edition:string;revision:string;normalized:boolean;method:string;pairs:LexicalPair[]};
 export function computeStatistics(index:Index,corpus:Corpus):LexicalStats{
  const ids=index.books.map(b=>b.id);const result:LexicalPair[]=[];
  const wordIds=(p:Passage)=>p.refs.flatMap(ref=>tokens(corpus.books[p.book]?.[ref]||'').map((_,i)=>ref+':'+i));
@@ -23,5 +23,5 @@ export function computeStatistics(index:Index,corpus:Corpus):LexicalStats{
   const side=(book:string,s:number):LexicalSide=>{const total=Object.values(corpus.books[book]).reduce((n,t)=>n+tokens(t).length,0);return {total,grouped:grouped[s].size,examined:examined[s].size,matched:matched[s].size,unmatched:examined[s].size-matched[s].size,unexamined:grouped[s].size-examined[s].size,outside:total-grouped[s].size};};
   result.push({a,b,left:side(a,0),right:side(b,1),rows});
  }
- return {edition:corpus.edition,revision:index.revision,normalized:true,pairs:result};
+ return {edition:corpus.edition,revision:index.revision,normalized:true,method:ALIGNMENT_METHOD,pairs:result};
 }

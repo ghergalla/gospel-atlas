@@ -237,7 +237,7 @@ for g in groups:
     for p in g['passages']:
         assert all(any(r in texts[ed][p['book']] for ed in texts) for r in p['refs'])
 
-meta={'revision':'2026-09-28.1','books':book_index,'groups':groups,'sourceSections':source_count,'reviewedReferenceRows':audit['checked'],'referenceAudit':{k:audit[k] for k in ['checked','agree','knownBoundaryVariations']},'editorialUnits':len(selections),'sourceSubsections':len(subgroups),'excludedNonGospelRows':skipped,'editions':[{'id':'BSB','name':'Berean Standard Bible','license':'Public domain','url':'https://berean.bible/terms.htm'},{'id':'ASV','name':'American Standard Version (1901)','license':'Public domain','url':'https://ebible.org/eng-asv/'},{'id':'SBLGNT','name':'SBL Greek New Testament','license':'CC BY 4.0','url':'https://github.com/Faithlife/SBLGNT'}]}
+meta={'revision':'2026-09-28.2','books':book_index,'groups':groups,'sourceSections':source_count,'reviewedReferenceRows':audit['checked'],'referenceAudit':{k:audit[k] for k in ['checked','agree','knownBoundaryVariations']},'editorialUnits':len(selections),'sourceSubsections':len(subgroups),'excludedNonGospelRows':skipped,'editions':[{'id':'BSB','name':'Berean Standard Bible','license':'Public domain','url':'https://berean.bible/terms.htm'},{'id':'ASV','name':'American Standard Version (1901)','license':'Public domain','url':'https://ebible.org/eng-asv/'},{'id':'SBLGNT','name':'SBL Greek New Testament','license':'CC BY 4.0','url':'https://github.com/Faithlife/SBLGNT'}]}
 (OUT/'index.json').write_text(json.dumps(meta,ensure_ascii=False,separators=(',',':'))+'\n')
 (OUT/'validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 (OUT/'sources.json').write_text((RAW/'manifest.json').read_text())

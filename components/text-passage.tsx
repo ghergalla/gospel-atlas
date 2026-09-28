@@ -2,7 +2,7 @@
 import {useEffect,useRef,useState} from 'react';
 import {X} from 'lucide-react';
 import {Popover,PopoverAnchor,PopoverContent} from '@/components/ui/popover';
-import {NAMES,COLORS,tokens,refLabel} from '@/lib/gospel';
+import {NAMES,COLORS,tokens,refLabel,alignmentSpans} from '@/lib/gospel';
 import type {WordingPresence,WordingRun} from '@/lib/wording-presence';
 import type {Group,Passage,Corpus,align,WordRange} from '@/lib/gospel';
 import {useGlosses} from '@/lib/greek-glosses';
@@ -19,14 +19,15 @@ export function TextPassage({p,corpus,diff,side,hover,onHover,mode,range,presenc
  const cancel=()=>{if(timer.current)clearTimeout(timer.current)};
  const close=()=>{if(pinned.current)return;cancel();timer.current=setTimeout(()=>setActive(null),180)};
  useEffect(()=>{setActive(null);setPhrase(undefined);pinned.current=false;return cancel},[p,corpus]);
- const ts=side===0?diff?.x:diff?.y;let offset=0;let tokenOffset=0;const ns=corpus.notes[p.book]||{};
- const pairs=new Map(diff?.pairs.map((v,i)=>[v[side],i]));
+ let tokenOffset=0;const ns=corpus.notes[p.book]||{};
+ const pairs=new Map<number,number>();
+ if(diff)alignmentSpans(diff).forEach((span,i)=>{const range=side===0?span.a:span.b;if(span.kind==='shared'&&range)for(let word=range.start;word<range.end;word++)pairs.set(word,i)});
  const entry=active&&glosses?.entries[active.entry];
  return <Popover open={!!active} onOpenChange={open=>{if(!open){setActive(null);pinned.current=false}}}><article className="text-passage" style={{'--book-color':COLORS[p.book]} as React.CSSProperties}>
  <div className="passage-heading"><div><span className="book-dot" style={{background:COLORS[p.book]}}/><strong>{NAMES[p.book]}</strong><span className="edition-label">{corpus.edition}</span></div><span>{refLabel(p).replace(NAMES[p.book]+' ','')}</span></div>
  <div className={'scripture '+(greek?'greek ':'')+(presence?'has-wording':'')} lang={greek?'grc':'en'}>{p.refs.map(ref=>{
   const verse=corpus.books[p.book]?.[ref];if(!verse)return <p className="verse-absent" key={ref}><sup>{ref}</sup> No verse text at this reference in this source edition.</p>;
-  const start=offset;offset+=verse.length+1;const local=tokens(verse);const base=tokenOffset;tokenOffset+=local.length;
+  const local=tokens(verse);const base=tokenOffset;tokenOffset+=local.length;
   const nodes:React.ReactNode[]=[];let pos=0;
   if(!presence&&!greek&&(!diff||diff.limited))nodes.push(verse);
   else local.forEach((t,i)=>{

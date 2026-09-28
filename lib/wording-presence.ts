@@ -1,4 +1,4 @@
-import {align,isSourceSection,isRelatedTeaching,tokens,passageText} from './gospel.ts';
+import {align,isSourceSection,isRelatedTeaching,tokens,passageText,supportedPhrase} from './gospel.ts';
 import type {Index,Corpus,Passage,Group} from './gospel.ts';
 
 export type WordingMatch={groupId:string;book:string;ref:string;word:number};
@@ -6,25 +6,25 @@ export type WordingRun={start:number;end:number;books:string[];matches:WordingMa
 export type WordingPresence={verses:Record<string,WordingRun[]>;groups:Group[];limited:number};
 const positions=(p:Passage,c:Corpus)=>p.refs.flatMap(ref=>tokens(c.books[p.book]?.[ref]||'').map((_,word)=>({ref,word})));
 
-// Compare source sections and explicitly reviewed related teachings only.
-// A tint requires at least two consecutive aligned words on BOTH sides.
+// Compare the selected group, or reviewed mappings for direct chapter reading.
+// A tint requires a supported consecutive phrase on BOTH sides.
 // Offsets always point into the original edition; no text is reconstructed here.
-export function computeWordingPresence(index:Index,corpus:Corpus,passage:Passage,comparison?:Group):WordingPresence{
+export function computeWordingPresence(index:Index,corpus:Corpus,passage:Passage,comparison?:Group,normalized=true):WordingPresence{
  const refs=new Set(passage.refs),marks=new Map<string,WordingMatch[]>();let limited=0;
- // A selected related teaching compares exactly the displayed passages. Direct
+ // A selected group compares exactly its displayed passages. Direct
  // chapter reading can still discover all reviewed matches in the index.
- const candidates=comparison&&isRelatedTeaching(comparison)?[comparison]:index.groups;
- const groups=candidates.filter(g=>(isSourceSection(g)||isRelatedTeaching(g))&&g.passages.some(p=>p.book===passage.book&&p.refs.some(r=>refs.has(r)))&&g.pairs.some(p=>p.a===passage.book||p.b===passage.book));
+ const candidates=comparison&&comparison.kind!=='reading'?[comparison]:index.groups.filter(g=>isSourceSection(g)||isRelatedTeaching(g));
+ const groups=candidates.filter(g=>g.passages.some(p=>p.book===passage.book&&p.refs.some(r=>refs.has(r)))&&g.pairs.some(p=>p.a===passage.book||p.b===passage.book));
  for(const g of groups){
   const source=g.passages.find(p=>p.book===passage.book)!;const sourceWords=positions(source,corpus);
   for(const target of g.passages){
    if(target.book===source.book||!g.pairs.some(p=>[p.a,p.b].includes(source.book)&&[p.a,p.b].includes(target.book)))continue;
-   const d=align(passageText(source,corpus),passageText(target,corpus));if(d.limited){limited++;continue;}
+   const d=align(passageText(source,corpus),passageText(target,corpus),normalized);if(d.limited){limited++;continue;}
    const targetWords=positions(target,corpus);
    for(let i=0;i<d.pairs.length;){
     let end=i+1;
     while(end<d.pairs.length&&d.pairs[end][0]===d.pairs[end-1][0]+1&&d.pairs[end][1]===d.pairs[end-1][1]+1&&sourceWords[d.pairs[end][0]].ref===sourceWords[d.pairs[end-1][0]].ref&&targetWords[d.pairs[end][1]].ref===targetWords[d.pairs[end-1][1]].ref)end++;
-    if(end-i>=2)for(let j=i;j<end;j++){
+    if(supportedPhrase(d.x.slice(d.pairs[i][0],d.pairs[end-1][0]+1)))for(let j=i;j<end;j++){
      const [a,b]=d.pairs[j],pos=sourceWords[a];if(!refs.has(pos.ref))continue;
      const key=pos.ref+':'+pos.word,match={groupId:g.id,book:target.book,...targetWords[b]};
      marks.set(key,[...(marks.get(key)||[]),match]);

@@ -1,7 +1,7 @@
-"use client";
-import {Switch} from '@/components/ui/switch';
 import {NAMES} from '@/lib/gospel';
-import {WORDING_STYLES,wordingLineStyle} from '@/lib/wording-style';
-export function WordingControls({enabled,onChange,edition,alongside}:{enabled:boolean;onChange:(v:boolean)=>void;edition:string;alongside?:string}){
- return <section className="wording-controls"><label><Switch checked={enabled} onCheckedChange={onChange} aria-label="Color parallel wording"/><strong>Parallel wording</strong></label>{enabled&&<><div className="wording-legend">{Object.keys(NAMES).map(b=><span key={b} title={NAMES[b]+' · '+WORDING_STYLES[b].pattern}><i aria-hidden="true" style={wordingLineStyle([b])}/>{NAMES[b]}<span className="sr-only"> · {WORDING_STYLES[b].pattern} underline</span></span>)}</div><p>Each line’s color and pattern identifies another Gospel sharing this wording{alongside?' in the same edition':' in '+edition}. Tap a highlight to read them together.</p><details><summary>What counts as a match?</summary><p>Two or more consecutive words aligned within Robertson’s source sections or a reviewed related teaching, with case and Greek accents normalized. Several underlines mean several Gospels. Uncolored text may differ in wording, fall outside these groups, or lack a long enough match; it is not necessarily unique. See Evidence for the relationship and its sources.</p></details></>}</section>;
+import {wordingLineStyle,WORDING_STYLES} from '@/lib/wording-style';
+
+export function WordingControls({books}:{books:string[]}){
+ if(!books.length)return null;
+ return <div className="wording-legend" aria-label="Gospel underline key">{books.map(b=><span key={b} title={NAMES[b]+' · '+WORDING_STYLES[b].pattern}><i aria-hidden="true" style={wordingLineStyle([b])}/>{NAMES[b]}<span className="sr-only"> · {WORDING_STYLES[b].pattern} underline</span></span>)}</div>;
 }
