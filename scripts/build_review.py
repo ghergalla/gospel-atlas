@@ -1,17 +1,22 @@
 """Package the existing production build as a self-contained review copy.
 
-Usage: python3 scripts/build_review.py /absolute/path/gospel-atlas-review.html
+Usage: python3 scripts/build_review.py /absolute/path/gospel-atlas-review.html [--initial-hash HASH]
 Run npm run build first. The published docs/ build is never modified.
 """
 from pathlib import Path
 import base64
 import json
 import re
-import sys
+import argparse
+
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('output')
+parser.add_argument('--initial-hash', default='#view=compare&books=MAT,MRK&ed=SBLGNT&passage=divorce-focus&tab=text&explore=0', help='Use an empty string to keep the normal responsive starting view.')
+args = parser.parse_args()
 
 root = Path(__file__).resolve().parents[1]
 docs = root / 'docs'
-output = Path(sys.argv[1]).resolve()
+output = Path(args.output).resolve()
 html = (docs / 'index.html').read_text()
 script_path = re.search(r'<script[^>]+src="([^"]+)"[^>]*></script>', html).group(1)
 css_path = re.search(r'<link[^>]+rel="stylesheet"[^>]+href="([^"]+)"[^>]*>', html).group(1)
@@ -45,8 +50,9 @@ document.addEventListener('click', event => {
  const download = document.createElement('a'); download.href=url; download.download=name;
  download.click(); setTimeout(()=>URL.revokeObjectURL(url),1000);
 });
-if (!location.hash) history.replaceState(null,'','#view=compare&books=MAT,MRK&ed=SBLGNT&passage=divorce-focus&tab=text&explore=0');
-""".replace('__FILES__', json.dumps(assets))
+const initialHash = __INITIAL_HASH__;
+if (!location.hash && initialHash) history.replaceState(null,'',initialHash);
+""".replace('__FILES__', json.dumps(assets)).replace('__INITIAL_HASH__', json.dumps(args.initial_hash))
 # Script terminators are escaped without altering their evaluated string values.
 safe_script = (bootstrap + '\n' + script).replace('</script', '<\\/script')
 html = re.sub(r'<script[^>]+src="[^"]+"[^>]*></script>', lambda _: '<script type="module">' + safe_script + '</script>', html)
