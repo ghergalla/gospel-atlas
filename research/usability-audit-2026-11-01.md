@@ -37,3 +37,22 @@ Scope: mobile portrait and landscape reading, map-to-reader navigation, typograp
 ## Remaining device-specific checks
 
 A physical iPhone/iPad Safari pass remains necessary for native virtual-keyboard and safe-area behavior, touch scrubbing, pinch zoom, and VoiceOver. Desktop browser frame checks do not substitute for these. No claim of universal device or WCAG conformance is made.
+
+## Live browser review
+
+The deployed app was exercised in Chrome using the resizable review frames. Widths below refer to the frame dimensions; Chrome's non-overlay scrollbar subtracts 15 px from the content viewport.
+
+- Desktop at 1348 px content width: Scripture began at 505 px, versus approximately 807 px in the baseline screenshot. Four columns fit without page overflow.
+- Portrait at 390 × 844: compact controls fit; four columns scroll within the reader while the page stays within its viewport (375 px). The full-screen dialog is correctly positioned at x=0, y=0 with dimensions 390 × 844.
+- Landscape at 844 × 390: all four Gospel columns fit in the 797 px reading area with no horizontal scrolling at 100%.
+- Tablet at 768 × 1024: all four columns fit in the 721 px reading area with no page overflow.
+- Small phone at 320 × 568: 200% text in Single column reflowed into the 273 px reading area without horizontal overflow. Inspection caught an 11 px overflow in the default two-column layout; the final adjustment uses a 128 px minimum for pairs while retaining 136 px for three/four columns.
+- Font size 130% survived an actual reload of the enclosing review page and app, then reset to 100% through the percentage button.
+- BSB and companion SBLGNT rows had identical Gospel order and column x positions/widths.
+- Both matched and unmatched Greek words opened cards with sourced English meanings above parallel-passage information. The compact sheet stayed within the phone viewport, with Close and Expand available.
+- Circle → Search → Matthew 14 → Read opened the correct chapter; Back to map returned to Circle in full screen. Overview search for Luke 7 also opened the focused reader. Lock/unlock controls were absent from that reader.
+- Mobile Analysis loaded all six pair cards and enabled the Greek CSV export without the previous wording-statistics error.
+- Direct chapter/verse readings omit the source-sequence arrows, which would otherwise jump to an unrelated source section. Source-group readers retain previous/next navigation.
+- A second audit adjustment removed the obsolete 66 px reader scroll offset that had reserved space for the deleted lock banner. Focused reading now uses an 8 px inset.
+
+These are browser layout and interaction checks, not claims of physical mobile-device testing.

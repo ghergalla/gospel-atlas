@@ -454,7 +454,7 @@
 .rotate-reading-hint{display:none}
 .reading-layout-note{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:11px;color:#607889;margin-bottom:10px}
 .unified-reader .edition-rows{--text-base:19px;--greek-base:20px;min-width:calc(var(--passage-count)*var(--reader-column-min) + (var(--passage-count) - 1)*var(--passage-gap))}
-.unified-reader .edition-rows[data-count="2"]{min-width:calc(2*var(--reader-column-min) + var(--passage-gap))}
+.unified-reader .edition-rows[data-count="2"]{min-width:calc(2*var(--reader-pair-min) + var(--passage-gap))}
 .unified-reader .edition-rows[data-count="1"],.unified-reader[data-layout="stacked"] .edition-rows{min-width:0}
 .unified-reader .edition-rows[data-count="1"] .text-passage,.unified-reader[data-layout="stacked"] .text-passage{max-width:68ch}
 .unified-reader .scripture{font-size:calc(var(--text-base)*var(--reader-scale));line-height:1.8;padding-top:9px}
@@ -549,3 +549,10 @@
 @media(max-height:520px) and (min-width:600px){.explore-selection{height:auto}}
 @media(prefers-reduced-motion:reduce){.reading-scroll{scroll-behavior:auto}}
 @media(min-width:781px){.gospel-chip .reorder-button{width:24px;min-width:24px;height:30px}}
+/* The old offset reserved room for the removed sticky lock banner. */
+#passage-reader.reader-wide{scroll-margin-top:8px}
+@media(min-width:781px){
+ .gospel-chip{height:34px;min-height:34px}
+ .gospel-chip>button:first-child{height:32px;min-height:32px;padding-top:0;padding-bottom:0}
+ .edition-picker .picker{height:34px!important;min-height:34px}
+}
