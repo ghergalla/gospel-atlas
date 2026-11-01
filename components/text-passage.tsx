@@ -60,13 +60,13 @@ export function TextPassage({p,corpus,presence,annotations,active,unmatched,rang
     const key=wordKey(target),highlighted=active.has(key)||(range&&start+i>=range.start&&start+i<range.end);
     if(!greek&&annotations&&run&&run.start===t.start){
      const contained=words.flatMap((w,n)=>w.start>=run.start&&w.end<=run.end?[n]:[]);
-     nodes.push(<span key={i} role="button" {...interaction(target)} className="wording-phrase inspect-phrase" style={{...wordingLineStyle(run.books),paddingBottom:2+run.books.length*5}} aria-label={verse.slice(run.start,run.end)+' · inspect parallel wording'}>
+     nodes.push(<span key={i} role="button" {...interaction(target)} className="wording-phrase inspect-phrase" style={{...wordingLineStyle(run.books),paddingBottom:2+run.books.length*4}} aria-label={verse.slice(run.start,run.end)+' · inspect parallel wording'}>
       {contained.map((n,k)=>{const word=words[n],wordActive=active.has(wordKey({...target,word:n}))||(range&&start+n>=range.start&&start+n<range.end);return <span key={n}><span data-word-key={wordKey({...target,word:n})} data-highlighted={wordActive?'true':undefined} className={'reading-word'+(wordActive?' reading-word-active':'')+(unmatched?.has(start+n)?' reading-word-unmatched':'')}>{verse.slice(word.start,word.end)}</span>{k<contained.length-1?verse.slice(word.end,words[contained[k+1]].start):''}</span>})}
      </span>);position=run.end;continue;
     }
     const className='reading-word'+(highlighted?' reading-word-active':'')+(unmatched?.has(start+i)?' reading-word-unmatched':'');
     if(greek){
-     const style=annotations&&run?{...wordingLineStyle(run.books),paddingBottom:2+run.books.length*5}:undefined;
+     const style=annotations&&run?{...wordingLineStyle(run.books),paddingBottom:2+run.books.length*4}:undefined;
      nodes.push(<button type="button" key={i} {...interaction(target)} className={className+' inspect-word'+(style?' has-parallel':'')} data-highlighted={highlighted?'true':undefined} style={style} aria-label={t.text+' · English meaning and parallels'}><span className="word-ink">{verse.slice(t.start,t.end)}</span></button>);
     }else nodes.push(<span key={i} data-word-key={key} data-highlighted={highlighted?'true':undefined} className={className}>{verse.slice(t.start,t.end)}</span>);
     position=t.end;

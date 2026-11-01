@@ -1,0 +1,39 @@
+# Reading and mobile usability audit — 1 November 2026
+
+Scope: mobile portrait and landscape reading, map-to-reader navigation, typography, controls, desktop comparison, and Scripture fidelity. Baseline: `3f1a2267`.
+
+## Findings and implementation
+
+| Finding | Change | Tradeoff |
+| --- | --- | --- |
+| The four-Gospel desktop reader started Scripture about 800 px below the viewport top. Secondary settings occupied most of the first screen. | Collapse second edition, subsection, layout, normalization and unmatched-word settings into Reading options. Keep Parallel wording and text size visible. Preserve a visible badge and pair label when unmatched emphasis is enabled. | Secondary settings take an extra click. All functionality and explanatory context remain available. |
+| Mobile Read returned to the long overview and displayed map-specific locking instructions above the text. | Read opens the focused comparison reader. Back to map returns to the previous visualization and uses full-screen exploration on small screens. Keep Hold/Resume on the map. | A separate reader view is a clearer step in the flow; the desktop map inspector still remains available. |
+| Tall controls and repeated captions consumed space. | Compact Gospel chips (32 px), mobile navigation (40 px), reading controls (32–36 px), shorter headers and a smaller full-screen selection footer. Enlarge desktop reorder hit targets to at least 24 px. | Compact controls are smaller than Apple's preferred 44-point targets. They stay above WCAG's 24 CSS-pixel minimum, with spacing, visible focus and explicit labels. This is a deliberate compromise with the request for compact controls, not a blanket accessibility certification. |
+| Three/four columns on a portrait phone cannot all be comfortably readable at once. | Default to 16 px English / 16.5 px Greek in narrow multi-column readers, with a 136 px minimum column. Keep two normal-size columns visible on small phones. Show a horizontal-scroll hint and an optional portrait rotation suggestion only when columns overflow. Provide a direct Single column action and a return to comparison. | Four columns use horizontal scrolling in portrait. The app does not force landscape or shrink all four into unreadable slivers. |
+| No direct font-size preference. | Add A− / percentage reset / A+ from 85% through 200%, saved per device. Column width grows with text size. Failed/blocked local storage does not prevent reading. | Enlarged multi-column reading may require scrolling. Single-column reading reflows. The preference is intentionally independent of share URLs. |
+| Multiple underlines crowded marked phrases. | Reduce underline pitch from 5 to 4 px and thickness from 3 to 2.5 px. Adjust line height while retaining solid, dashed, dot-dash and dotted patterns. | Markings are more delicate; pattern and color still distinguish the Gospels. |
+| The mobile word sheet repeated both a held-selection control and a close control. | Keep Close and Expand in the compact sheet header; retain hold controls in the desktop popover. | Tap still holds the selection automatically. No extra pin action is needed in the sheet. |
+
+## Preservation and verification
+
+- `npm run verify`: 43 tests passed, TypeScript and production build passed.
+- Reader regression coverage compares rendered Scripture exactly against corpus passages for BSB, ASV and SBLGNT, one through four selected Gospels, reversed Gospel order, plain/shared/unmatched styles, and 85%, 100% and 200% text sizes.
+- New preference tests cover bounds, persistence, invalid saved values and unavailable storage.
+- No imported text, gloss, mapping or analysis dataset changes.
+- Bible and Greek gloss SHA-256 checksums match the baseline:
+  - BSB: `c27898352c772bc4df5bd9587e3f1984bad0562f89823f3c1618b5ef9a437212`
+  - ASV: `3d95ab15518877b340580797bddd33faf6b114612e280c5c002ff0fbc575fc55`
+  - SBLGNT: `88b295adb08774ee6709d9c41d7606cd045b829a603ae4a55925ae7737197615`
+  - Greek glosses: `88ee5fb049677c24c46ac18782dd5fbbb8774e61d39834b118c5c676b1a3d4d2`
+- An unlinked, noindex developer harness at `qa/reading.html` displays the actual app in resizable same-origin frames. It exercises media queries, orientation, scrolling, navigation and reading controls. It is not device emulation: it cannot establish iOS Safari behavior, physical touch gestures, keyboard intrusion or VoiceOver results.
+
+## Design references
+
+- [WCAG 2.2: Target Size (Minimum)](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html): target size and spacing.
+- [WCAG: Resize Text](https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html): text resizing up to 200% without losing content or controls.
+- [WCAG: Orientation](https://www.w3.org/WAI/WCAG22/Understanding/orientation.html): preserve both orientations; rotation is a suggestion, not a requirement.
+- [Apple: UI Design Dos and Don'ts](https://developer.apple.com/design/tips/): readable text, alignment, proximity and generous touch targets.
+
+## Remaining device-specific checks
+
+A physical iPhone/iPad Safari pass remains necessary for native virtual-keyboard and safe-area behavior, touch scrubbing, pinch zoom, and VoiceOver. Desktop browser frame checks do not substitute for these. No claim of universal device or WCAG conformance is made.

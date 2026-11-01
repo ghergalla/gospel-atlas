@@ -18,13 +18,15 @@ test('the rendered reader preserves exact Scripture in every highlighting style 
   groups.push(index.groups.find(g=>g.kind==='related-teaching'));
   for(const edition of ['BSB','ASV','SBLGNT'])for(const group of groups)for(const count of group.id==='r72'?[1,2,3,4]:[group.passages.length])for(const style of ['shared','plain','differences']){
    const corpus=read(edition),books=group.passages.map(p=>p.book).reverse().slice(0,count);
-   const html=renderToStaticMarkup(createElement(Reader,{group,index,books,corpus,tab:style==='differences'?'differences':'text',setTab:noop,wide:true,settings:{pair:'',normalized:true,emphasis:'all'},setSettings:noop,onNavigate:noop,onRetryText:noop,editionForReader:edition,parallel:'',setParallel:noop,wording:style==='shared',setWording:noop,onParallel:noop}));
+   const html=renderToStaticMarkup(createElement(Reader,{group,index,books,corpus,tab:style==='differences'?'differences':'text',setTab:noop,wide:true,textSize:style==='differences'?200:style==='plain'?85:100,setTextSize:noop,settings:{pair:'',normalized:true,emphasis:'all'},setSettings:noop,onNavigate:noop,onRetryText:noop,editionForReader:edition,parallel:'',setParallel:noop,wording:style==='shared',setWording:noop,onParallel:noop}));
    const rendered=[...html.matchAll(/<div class="scripture[^\"]*"[^>]*>([\s\S]*?)<\/div>/g)].map(m=>textFromHtml(m[1]));
    const expected=group.passages.filter(p=>books.includes(p.book)).sort((a,b)=>books.indexOf(a.book)-books.indexOf(b.book)).map(p=>passageText(p,corpus));
    assert.deepEqual(rendered,expected,edition+' '+group.id+' '+count+' '+style);
    assert.equal((html.match(/role="tab"/g)||[]).length,2);
    assert.match(html,/Sources &amp; context/);
    assert.match(html,/Parallel wording/);
+   assert.match(html,/aria-label="Increase text size"/);
+   assert.doesNotMatch(html,/Passage locked|Unlock passage/);
    assert.doesNotMatch(html,/aria-label="Reading highlights"/);
    assert.match(html,/aria-label="Second Bible edition"/);
    assert.match(html,new RegExp('data-count="'+expected.length+'"'));
