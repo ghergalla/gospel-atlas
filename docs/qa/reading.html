@@ -14,6 +14,6 @@
 <script>
 const byId=id=>document.getElementById(id),frame=byId('site');
 function resize(){const w=Math.max(280,Math.min(1920,Number(byId('width').value)||390)),h=Math.max(320,Math.min(1400,Number(byId('height').value)||844));frame.style.width=w+'px';frame.style.height=h+'px';byId('dimensions').textContent=w+' × '+h+' CSS pixels';}
-function load(){const view=byId('view').value,url=new URL('../',location.href);url.hash=new URLSearchParams({view:view==='overview'?'columns':view,explore:view==='columns'||view==='circle'?'1':'0',passage:'r72',books:['MAT','MRK','LUK','JHN'].slice(0,Number(byId('count').value)).join(','),ed:byId('edition').value});frame.src=url.href;byId('open').href=url.href;}
+function load(){const view=byId('view').value,url=new URL('../',location.href);url.searchParams.set('review',String(Date.now()));url.hash=new URLSearchParams({view:view==='overview'?'columns':view,explore:view==='columns'||view==='circle'?'1':'0',passage:'r72',books:['MAT','MRK','LUK','JHN'].slice(0,Number(byId('count').value)).join(','),ed:byId('edition').value});frame.src=url.href;byId('open').href=url.href;}
 byId('preset').addEventListener('change',()=>{const [w,h]=byId('preset').value.split(',');byId('width').value=w;byId('height').value=h;resize()});byId('resize').addEventListener('click',resize);byId('rotate').addEventListener('click',()=>{const w=byId('width').value;byId('width').value=byId('height').value;byId('height').value=w;resize()});byId('load').addEventListener('click',load);resize();load();
 </script></body></html>
