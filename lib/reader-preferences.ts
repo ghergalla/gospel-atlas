@@ -1,4 +1,4 @@
-export const TEXT_SIZES = [85, 100, 115, 130, 150, 175, 200] as const;
+export const TEXT_SIZES = [60, 65, 75, 85, 100, 115, 130, 150, 175, 200] as const;
 export const TEXT_SIZE_KEY = 'gospel-atlas:text-size';
 
 export function parseTextSize(value: string | null): number {

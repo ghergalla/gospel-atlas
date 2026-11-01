@@ -113,6 +113,6 @@ export function PassageMap({index,books,group,groups,onSelect,onRead,onPreview,v
     </g>)}
    </>}
   </svg>
- </div>{!immersive&&<div className="map-caption"><span>{selected.title}</span><span>{view==='circle'&&chapterHover?`${NAMES[chapterHover.book]} ${chapterHover.chapter} · click or tap to read`:locked?'Passage held · Resume scrubbing above or press Esc':'Hover to preview · click or tap to lock'}</span></div>}</div>
+ </div>{!immersive&&<div className="map-caption"><span>{selected.title}</span><span data-map-hint={view==='circle'&&chapterHover?'chapter':'interaction'}>{view==='circle'&&chapterHover?`${NAMES[chapterHover.book]} ${chapterHover.chapter} · click or tap to read`:locked?'Passage held · Resume scrubbing above or press Esc':'Hover to preview · click or tap to lock'}</span></div>}</div>
 }
 

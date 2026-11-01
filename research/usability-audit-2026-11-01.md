@@ -56,3 +56,15 @@ The deployed app was exercised in Chrome using the resizable review frames. Widt
 - A second audit adjustment removed the obsolete 66 px reader scroll offset that had reserved space for the deleted lock banner. Focused reading now uses an 8 px inset.
 
 These are browser layout and interaction checks, not claims of physical mobile-device testing.
+
+## Follow-up: annotated iPhone spacing feedback
+
+The subsequent screenshot identified excess space between the map and reader, particularly the example links. This update extends the saved text-size steps to 60, 65, 75, 85, 100, 115, 130, 150, 175 and 200 percent.
+
+- Replace the three-row example/section area with a compact navigation row: Examples, Sermon, Parables and Jericho. Keep wrapping available for enlarged interface text. Opening Examples scrolls and focuses its navigation panel.
+- Hide the redundant mobile scrubbing-status sentence; the sticky Resume/Hold control remains. Keep chapter-hover feedback. Put the map explanation in Map options on mobile, while retaining the visible line-style key.
+- Reduce mobile map and Read actions to 30 px, Gospel chips to 28 px, reader tabs to 30 px, and text-size controls to 28 px including their border. Preserve control labels, focus indicators and the existing default font size.
+- Tighten caption, shortcut, heading and hint margins. Before this follow-up, the phone-width map-caption-to-reader distance was 374 px, including a 162 px example-links area (390 px frame, 375 px content viewport).
+- The existing 43-test verification now includes the 60% bound, preference persistence at 60%, and exact rendered Scripture at 60%, 100% and 200%. Biblical datasets are unchanged.
+
+These dimensions and the new 60% lower bound supersede the corresponding earlier implementation notes above.
